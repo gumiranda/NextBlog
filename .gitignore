@@ -39,3 +39,5 @@ yarn.lock
 .vercel
 public/sw.js
 public/workbox-21b21c9a.js
+
+.vercel
