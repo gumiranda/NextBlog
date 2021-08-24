@@ -19,7 +19,7 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>Dev Doido</title>
+          <title>Blog</title>
           <meta
             name="description"
             content="Programador é tudo doido! E eu não sou diferente, confira meus posts e aprenda React Native e NodeJs"
