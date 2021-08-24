@@ -10,7 +10,5 @@ module.exports = withPWA({
   images: {
     domains: ['storage.googleapis.com']
   },
-  future: {
-    webpack5: true
-  }
+  webpack5: true
 });
