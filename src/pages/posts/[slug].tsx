@@ -11,6 +11,7 @@ import Head from "next/head";
 import { CMS_NAME } from "lib/constants";
 import markdownToHtml from "lib/markdownToHtml";
 import PostType from "types/post";
+import { useFetch } from "lib/fetcher";
 
 type Props = {
   post: PostType;
@@ -23,6 +24,9 @@ const Post = ({ post, morePosts, preview }: Props) => {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
+
+  const { data } = useFetch(`/api/page-views?id=${post.slug}`);
+
   return (
     <Layout preview={preview}>
       <Container>
@@ -43,6 +47,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
+                views={data?.total}
               />
               <PostBody content={post.content} />
             </article>
@@ -87,10 +92,10 @@ export async function getStaticPaths() {
   const posts = getAllPosts(["slug"]);
 
   return {
-    paths: posts.map((post) => {
+    paths: posts.map((posts) => {
       return {
         params: {
-          slug: post.slug,
+          slug: posts.slug,
         },
       };
     }),
