@@ -7,21 +7,18 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (!slug) return res.json("Página não encontrada!");
 
   const { db, client } = await connectToDatabase();
+  const pageViewBySlug = await db.collection("pageviews").findOne({ slug });
 
-  if (client.isConnected()) {
-    const pageViewBySlug = await db.collection("pageviews").findOne({ slug });
-
-    let total = 0;
-    if (pageViewBySlug) {
-      total = pageViewBySlug.total + 1;
-      await db.collection("pageviews").updateOne({ slug }, { $set: { total } });
-    } else {
-      total = 1;
-      await db.collection("pageviews").insertOne({ slug, total });
-    }
-
-    return res.status(200).json({ total });
+  let total = 0;
+  if (pageViewBySlug) {
+    total = pageViewBySlug.total + 1;
+    await db.collection("pageviews").updateOne({ slug }, { $set: { total } });
+  } else {
+    total = 1;
+    await db.collection("pageviews").insertOne({ slug, total });
   }
+  client.close();
+  return res.status(200).json({ total });
 
   return res.status(500).json({ error: "client DB is not connected" });
 };
