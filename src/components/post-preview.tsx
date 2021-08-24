@@ -1,6 +1,6 @@
 import Avatar from "./avatar";
 import DateFormatter from "./date-formatter";
-import CoverImage from "./cover-image";
+//import CoverImage from "./cover-image";
 import Link from "next/link";
 import Author from "../types/author";
 import PostViews from "components/post-views";
@@ -22,9 +22,9 @@ const PostPreview = ({ title, coverImage, date, excerpt, author, slug }: Props) 
 
   return (
     <div>
-      <div className="mb-5">
+      {/* <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} />
-      </div>
+      </div> */}
       <h3 className="text-3xl mb-3 leading-snug">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a className="hover:underline">{title}</a>

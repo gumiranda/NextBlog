@@ -7,7 +7,7 @@ const Intro = () => {
         Laritcha UI/UX Designer Thinker
       </h1>
       <h2 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Confira seus projetos e portfólios e {CMS_NAME}.
+        Confira seus projetos e portfólios.
       </h2>
     </section>
   );
