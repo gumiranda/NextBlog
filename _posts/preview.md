@@ -5,7 +5,7 @@ coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-09-16T05:35:07.322Z'
 author:
   name: Gustavo Miranda
-  picture: '/assets/blog/authors/joe.jpeg'
+  picture: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---
@@ -137,3 +137,4 @@ function Posts() {
   // ...
 }
 ```
+Conforme demonstrado, não há problema em pré-carregar algumas queries e permitir que outras consultem essas mesmas queries no `queryClient` novamente. Isso significa que você pode controlar qual conteudo o servidor irá renderizar ou não, adicionando ou removendo o `prefetchQuery` na query.
