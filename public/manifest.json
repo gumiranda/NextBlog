@@ -13,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "background_color": "#fff",
+  "background_color": "#7159c1",
   "description": "Programador é tudo doido! E eu não sou diferente, confira meus posts e aprenda React Native e NodeJs",
   "display": "fullscreen",
   "start_url": "/",
-  "theme_color": "#fff"
+  "theme_color": "#7159c1"
 }
