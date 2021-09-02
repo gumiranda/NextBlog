@@ -2,7 +2,7 @@
 title: 'React Query no Next.js'
 excerpt: 'Nesse post você vai ver como funciona SSR usando a lib React Query para gerenciamento de estado tanto no lado do cliente quando no lado do servidor.'
 coverImage: '/assets/blog/preview/cover.jpg'
-date: '2020-09-02T05:35:07.322Z'
+date: '2021-09-02T05:35:07.322Z'
 author:
   name: Gustavo Miranda
   picture: 'https://avatars.githubusercontent.com/u/13774579?v=4'
