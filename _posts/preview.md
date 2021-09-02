@@ -64,20 +64,15 @@ No Next.js você pode passar os dados que você quer pré-carregar no `useQuery`
 
   
 
-```
+```javascript
 
 export async function getStaticProps() {
-
 const posts = await getPosts();
-
 return { props: { posts } }
-
 }
 
 function Posts(props) {
-
 const { data } = useQuery('posts', getPosts,{ initialData: props.posts });
-
 }
 
 ```
@@ -95,14 +90,13 @@ Para essas querys suportarem esse cache inteligente no servidor devemos:
  - Criar uma nova instância da classe `QueryClient` e uma instância do componente usando o useRef ou mesmo um state no React. Isso garante que os dados não sejam compartilhados entre diferentes usuários e solicitações, enquanto ainda cria o QueryClient apenas uma vez por ciclo de vida do componente.
  - Envolva seu componente dentro de um `<QueryClientProvider>` e passe nele a instância de `QueryClient` que você criou no passo anterior.
  - Envolva seu componente dentro de um `<Hydrate>` e passe o campo `dehydratedState`  de `pageProps` dentro dele.
-```
+```javascript
 // _app.jsx
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Hydrate } from 'react-query/hydration';
 
 export default function MyApp({ Component, pageProps }) {
   const [queryClient] = React.useState(() => new QueryClient());
-
   return (
     <QueryClientProvider client={queryClient}>
       <Hydrate state={pageProps.dehydratedState}>
@@ -118,16 +112,14 @@ Agora você é capaz de carregar os dados na suas páginas usando tanto o `getSt
  - Crie uma instância de `QueryClient` **pra cada page request. Isso garante que os dados não serão compartilhados entre usuários e requests.**
  - Carregue os dados usando o método do lado do cliente chamado `prefetchQuery` e espere ele completar.
  - Use o `dehydrate` pra invalidar o cache da consulta e passar ele pra página através da prop `dehydratedState`. Essa é a mesma prop que o cache vai estar localizado em `_app.js` 
-```
+```javascript
 // pages/posts.jsx
 import { QueryClient, useQuery } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
 
 export async function getStaticProps() {
   const queryClient = new QueryClient();
-
   await queryClient.prefetchQuery('posts', getPosts);
-
   return {
     props: {
       dehydratedState: dehydrate(queryClient)
@@ -136,14 +128,12 @@ export async function getStaticProps() {
 }
 
 function Posts() {
-  // This useQuery could just as well happen in some deeper child to
-  // the "Posts"-page, data will be available immediately either way
+  // Esse useQuery poderia muito bem acontecer em algum filho mais profundo da página
+  //"Posts", os dados estarão disponíveis imediatamente de qualquer forma.
   const { data } = useQuery('posts', getPosts);
-
-  // This query was not prefetched on the server and will not start
-  // fetching until on the client, both patterns are fine to mix
+  // Esta consulta não foi pré-carregada no servidor e não começará a buscar no 
+  // cliente, ambos os padrões podem ser combinados
   const { data: otherData } = useQuery('posts-2', getPosts);
-
   // ...
 }
 ```
