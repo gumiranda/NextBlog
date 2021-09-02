@@ -5,7 +5,6 @@ import Intro from "components/intro";
 import Layout from "components/layout";
 import { getAllPosts } from "lib/api";
 import Head from "next/head";
-import { CMS_NAME } from "lib/constants";
 import Post from "types/post";
 
 type Props = {
@@ -19,7 +18,7 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>Blog</title>
+          <title>Dev Doido</title>
           <meta
             name="description"
             content="Programador é tudo doido! E eu não sou diferente, confira meus posts e aprenda React Native e NodeJs"
