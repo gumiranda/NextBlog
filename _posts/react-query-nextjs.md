@@ -112,13 +112,13 @@ Agora você é capaz de carregar os dados na suas páginas usando tanto o `getSt
  - Use o `dehydrate` pra invalidar o cache da consulta e passar ele pra página através da prop `dehydratedState`. Essa é a mesma prop que o cache vai estar localizado em `_app.js` 
 
  ```javascript
-// pages/pokemons.jsx
 import { QueryClient, useQuery } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
-
+import axios from 'axios';
 export async function getStaticProps() {
   const queryClient = new QueryClient();
   await queryClient.prefetchQuery('pokemons', getPokemons);
+
   return {
     props: {
       dehydratedState: dehydrate(queryClient)
@@ -126,15 +126,28 @@ export async function getStaticProps() {
   };
 }
 
-function Pokemons() {
-  // Esse useQuery poderia muito bem acontecer em algum filho mais profundo da página
-  //"Pokemons", os dados estarão disponíveis imediatamente de qualquer forma.
-  const { data } = useQuery('pokemons', getPokemons);
-  // Esta consulta não foi pré-carregada no servidor e não começará a buscar no 
-  // cliente, ambos os padrões podem ser combinados
-  const { data: otherData } = useQuery('pokemons-2', getPokemons);
-  // ...
+export default function Pokemons() {
+  const { data, status } = useQuery('pokemons', getPokemons);
+  const { data: otherData, status: otherStatus } = useQuery('pokemons-2', getPokemons);
+  return (
+    <>
+      <div>
+        {status === 'loading' && <div>Loading...</div>}
+        {status === 'error' && <div>Error fetching pokemons</div>}
+        {status === 'success' && <div>Main Data: {JSON.stringify(data)}</div>}
+      </div>
+      <div>
+        {otherStatus === 'loading' && <div>Loading...</div>}
+        {otherStatus === 'error' && <div>Error fetching pokemons</div>}
+        {otherStatus === 'success' && <div>Other data:{JSON.stringify(otherData)}</div>}
+      </div>
+    </>
+  );
 }
+const getPokemons = async () => {
+  const { data } = await axios.get('https://pokeapi.co/api/v2/pokemon/?limit=50');
+  return data;
+};
 ```
 
 Conforme demonstrado, não há problema em pré-carregar algumas queries e permitir que outras consultem essas mesmas queries no `queryClient` novamente. Isso significa que você pode controlar qual conteudo o servidor irá renderizar ou não, adicionando ou removendo o `prefetchQuery` na query.

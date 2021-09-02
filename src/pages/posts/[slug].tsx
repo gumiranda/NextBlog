@@ -35,7 +35,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32 bg-purple-800">
+            <article className="bg-purple-800">
               <Head>
                 <title>{post.title} | DevDoido</title>
                 <meta property="og:image" content={post.ogImage.url} />
