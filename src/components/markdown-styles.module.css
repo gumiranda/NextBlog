@@ -5,10 +5,19 @@
 .markdown p,
 .markdown ul,
 .markdown ol,
+.markdown code,
+.markdown span,
 .markdown blockquote {
   @apply my-6;
 }
-
+.markdown pre {
+  white-space: pre;
+  overflow-x: scroll;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: #fff;
+  background: #000;
+}
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }

@@ -1,6 +1,6 @@
 ---
 title: 'React Query no Next.js'
-excerpt: 'Nesse post você vai ver como funciona SSR usando a lib React Query para gerenciamento de estado tanto no lado do cliente quando no lado do servidor.'
+excerpt: 'Nesse pokemon você vai ver como funciona SSR usando a lib React Query para gerenciamento de estado tanto no lado do cliente quando no lado do servidor.'
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2021-09-02T05:35:07.322Z'
 author:
@@ -10,9 +10,9 @@ ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---
 
-  
 
-Fala Dev Doido!! Hoje falarei sobre como integrar a lib React Query com SSR no Next.js.
+
+Fala Dev Doido!! Hoje falarei sobre como integrar a lib React Query com SSR no Next.js usando de exemplo a API pública mais xarope do planeta, que é a API do Pokemón!!
 
   
 
@@ -62,19 +62,18 @@ O React Query suporta essas duas formas independentemente da plataforma que voc�
 
 No Next.js você pode passar os dados que você quer pré-carregar no `useQuery` do React Query tanto na função `getStaticProps` (responsável pelo pré-carregamento usando SSG), quanto na função `getServerSideProps` (responsável pelo pré-carregamento usando SSR). A integração nas duas funções usando React Query é a mesma, veja abaixo:
 
-  
-
-```javascript
-export async function getStaticProps() {
-const posts = await getPosts();
-return { props: { posts } }
+ ```javascript
+ export async function getStaticProps() {
+const pokemons = await getPokemons();
+return { props: { pokemons } }
 }
 
-function Posts(props) {
-const { data } = useQuery('posts', getPosts,{ initialData: props.posts });
+function Pokemons(props) {
+const { data } = useQuery('pokemons', getPokemons,{ initialData: props.pokemons });
 }
-
 ```
+
+
 
 O setup disso é realmente simples e pode ser uma solução rápida para a maioria dos casos, mas existem certos **tradeoffs a serem levados em conta** quando comparados a uma abordagem mais aprofundada:
 
@@ -89,8 +88,9 @@ Para essas querys suportarem esse cache inteligente no servidor devemos:
  - Criar uma nova instância da classe `QueryClient` e uma instância do componente usando o useRef ou mesmo um state no React. Isso garante que os dados não sejam compartilhados entre diferentes usuários e solicitações, enquanto ainda cria o QueryClient apenas uma vez por ciclo de vida do componente.
  - Envolva seu componente dentro de um `<QueryClientProvider>` e passe nele a instância de `QueryClient` que você criou no passo anterior.
  - Envolva seu componente dentro de um `<Hydrate>` e passe o campo `dehydratedState`  de `pageProps` dentro dele.
-```javascript
-// _app.jsx
+
+ ```javascript
+  // _app.jsx
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Hydrate } from 'react-query/hydration';
 
@@ -103,22 +103,22 @@ export default function MyApp({ Component, pageProps }) {
       </Hydrate>
     </QueryClientProvider>
   );
-}
-
+}`}
 ```
 Agora você é capaz de carregar os dados na suas páginas usando tanto o `getStaticProps` (para SSG) quanto o `getServerSideProps` (para SSR). Da perspectiva do React Query, essa integração no `getStaticProps` é feita da seguinte forma:
 
  - Crie uma instância de `QueryClient` **pra cada page request. Isso garante que os dados não serão compartilhados entre usuários e requests.**
  - Carregue os dados usando o método do lado do cliente chamado `prefetchQuery` e espere ele completar.
  - Use o `dehydrate` pra invalidar o cache da consulta e passar ele pra página através da prop `dehydratedState`. Essa é a mesma prop que o cache vai estar localizado em `_app.js` 
-```javascript
-// pages/posts.jsx
+
+ ```javascript
+// pages/pokemons.jsx
 import { QueryClient, useQuery } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
 
 export async function getStaticProps() {
   const queryClient = new QueryClient();
-  await queryClient.prefetchQuery('posts', getPosts);
+  await queryClient.prefetchQuery('pokemons', getPokemons);
   return {
     props: {
       dehydratedState: dehydrate(queryClient)
@@ -126,16 +126,17 @@ export async function getStaticProps() {
   };
 }
 
-function Posts() {
+function Pokemons() {
   // Esse useQuery poderia muito bem acontecer em algum filho mais profundo da página
-  //"Posts", os dados estarão disponíveis imediatamente de qualquer forma.
-  const { data } = useQuery('posts', getPosts);
+  //"Pokemons", os dados estarão disponíveis imediatamente de qualquer forma.
+  const { data } = useQuery('pokemons', getPokemons);
   // Esta consulta não foi pré-carregada no servidor e não começará a buscar no 
   // cliente, ambos os padrões podem ser combinados
-  const { data: otherData } = useQuery('posts-2', getPosts);
+  const { data: otherData } = useQuery('pokemons-2', getPokemons);
   // ...
 }
 ```
+
 Conforme demonstrado, não há problema em pré-carregar algumas queries e permitir que outras consultem essas mesmas queries no `queryClient` novamente. Isso significa que você pode controlar qual conteudo o servidor irá renderizar ou não, adicionando ou removendo o `prefetchQuery` na query.
 
 
