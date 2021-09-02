@@ -32,7 +32,7 @@ Essa abordagem é de rápida implementação e ideal para casos de uso simples.
 
   
 
-Essa abordagem requer um nível de configuração maior. ~~Mas isso não é obstáculo nenhum pra devs doidos como nós não é mesmo?~~
+Essa abordagem requer um nível de configuração maior. Mas isso não é obstáculo nenhum pra devs doidos como nós não é mesmo?
 
   
 
@@ -65,7 +65,6 @@ No Next.js você pode passar os dados que você quer pré-carregar no `useQuery`
   
 
 ```javascript
-
 export async function getStaticProps() {
 const posts = await getPosts();
 return { props: { posts } }
@@ -138,3 +137,18 @@ function Posts() {
 }
 ```
 Conforme demonstrado, não há problema em pré-carregar algumas queries e permitir que outras consultem essas mesmas queries no `queryClient` novamente. Isso significa que você pode controlar qual conteudo o servidor irá renderizar ou não, adicionando ou removendo o `prefetchQuery` na query.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -26,7 +26,7 @@ const PostHeader = ({ title, coverImage, date, author, views }: Props) => {
         </div>
         <div className="mb-6 text-lg">
           <DateFormatter dateString={date} /> -{" "}
-          <PostViews>{`${views >= 0 ? views : "..."} views`}</PostViews>
+          <PostViews>{`${views >= 0 ? views : "..."} visualizações`}</PostViews>
         </div>
       </div>
     </>

@@ -35,11 +35,9 @@ const Post = ({ post, morePosts, preview }: Props) => {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            <article className="mb-32 bg-purple-800">
               <Head>
-                <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
-                </title>
+                <title>{post.title} | DevDoido</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
