@@ -21,7 +21,7 @@ const HeroPost = ({ title, coverImage, date, excerpt, author, slug }: Props) => 
 
   return (
     <section>
-      <div className="bg-purple-800 md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-20 md:mb-28">
+      <div className="bg-purple-800 md:grid md:grid-cols-2 md:col-gap-16 lg:col-gap-8 mb-0 md:mb-28">
         <div>
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
             <Link as={`/posts/${slug}`} href="/posts/[slug]">
@@ -30,7 +30,7 @@ const HeroPost = ({ title, coverImage, date, excerpt, author, slug }: Props) => 
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
             <DateFormatter dateString={date} /> -{" "}
-            <PostViews>{`${views >= 0 ? views : "..."} views`}</PostViews>
+            <PostViews>{`${views >= 0 ? views : "..."} visualizações`}</PostViews>
           </div>
         </div>
         <div>

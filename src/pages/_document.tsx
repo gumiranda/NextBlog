@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
           <link rel="apple-touch-icon" href="/favicon.ico" />
           <link rel="manifest" href="/manifest.json" />
         </Head>
-        <body>
+        <body className={"bg-purple-800"}>
           <Main />
           <NextScript />
         </body>

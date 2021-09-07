@@ -15,31 +15,29 @@ const Index = ({ allPosts }: Props) => {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>Dev Doido</title>
-          <meta
-            name="description"
-            content="Programador é tudo doido! E eu não sou diferente, confira meus posts e aprenda React Native e NodeJs"
+    <Layout>
+      <Head>
+        <title>Dev Doido</title>
+        <meta
+          name="description"
+          content="Programador é tudo doido! E eu não sou diferente, confira meus posts e aprenda React Native e NodeJs"
+        />
+      </Head>
+      <Container>
+        <Intro />
+        {heroPost && (
+          <HeroPost
+            title={heroPost.title}
+            coverImage={heroPost.coverImage}
+            date={heroPost.date}
+            author={heroPost.author}
+            slug={heroPost.slug}
+            excerpt={heroPost.excerpt}
           />
-        </Head>
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout>
-    </>
+        )}
+        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+      </Container>
+    </Layout>
   );
 };
 
