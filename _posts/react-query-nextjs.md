@@ -83,7 +83,7 @@ Se você ficar chamando o <b>useQuery</b> com a mesma consulta em múltiplos lug
  ## E o que faremos agora Dev Doido?
 
  <img src="https://c.tenor.com/9ud1r4sc-QQAAAAM/confused-john-travolta.gif" width="260.5" height="252.21136363636364" alt="Confused John Travolta GIF - Confused John Travolta What GIFs" style="background-color: rgb(170, 164, 164);">
- 
+
 O React Query suporta o pré-carregamento de múltiplas querys no servidor no Next.js, então ele é capaz de invalidar essas consultas para o objeto `queryClient`. Isso significa que o servidor pode pré-renderizar o código HTML + CSS que está imediatamente disponível no carregamento da página e, assim que o JS estiver disponível, o React Query pode atualizar essas consultas com a funcionalidade completa da biblioteca. Isso quer dizer que ele é capaz de disparar novamente essas querys no lado do cliente se elas se tornarem obsoletas (invalidadas) desde o momento em que foram renderizadas no servidor.
 
 Para essas querys suportarem esse cache inteligente no servidor devemos:
@@ -163,7 +163,7 @@ const getPokemons = async () => {
 
 Conforme demonstrado, não há problema em pré-carregar algumas queries e permitir que outras consultem essas mesmas queries no `queryClient` novamente. Isso significa que você pode controlar qual conteudo o servidor irá renderizar ou não, adicionando ou removendo o `prefetchQuery` na query.
 
-
+Fonte: <a href="https://react-query.tanstack.com/guides/ssr#_top">Documentação oficial do React Query</a>
 
 
 
