@@ -152,4 +152,4 @@ Neste exemplo podemos ver uma API pública, em que retornamos os dados e na prop
 Bom por hoje é só pessoal, até mais!
 
 Fonte:
-[Documentação oficial do React Query](https://react-query.tanstack.com/guides)
+[Documentação oficial do React Query](https://react-query.tanstack.com/guides/infinite-queries)

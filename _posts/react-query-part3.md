@@ -109,4 +109,4 @@ const result = useQuery('todos', fetchTodoList, {
 Por hoje é só, me siga para mais dicas!!
 
 Fonte:
-[Documentação oficial do React Query](https://react-query.tanstack.com/guides)
+[Documentação oficial do React Query](https://react-query.tanstack.com/guides/disabling-queries)
