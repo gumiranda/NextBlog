@@ -160,7 +160,7 @@ function getPokemonById({pokemonId}){
 }
 ```
 
-<h1>Query functions</h1>
+## Query functions
 Uma query function pode ser literalmente qualquer função que **retorne uma promise**.
 A promise que for retornada deve necessariamente **retornar com sucesso os dados** ou **disparar uma exceção de erro**.
 
@@ -223,7 +223,7 @@ Qualquer assinatura do tipo ``[queryKey,queryFn,config]`` é suportada pela API 
  })
 ```
 
-<h1>Queries paralelas</h1>
+## Queries paralelas
 Quando você precisa executar várias queries em paralelo para maximizar a concorrência você tem várias opções a seguir. Veremos uma a uma:
 
 ## Queries paralelas manuais
@@ -255,7 +255,7 @@ function App({ users }) {
  }
 ```
 
-<h1>Queries dependentes</h1>
+## Queries dependentes
 E quando você precisa esperar uma query pra disparar outra? O que fazemos?
 Dentro da assinatura aceita pela hook ``useQuery`` temos o terceiro cavaleiro do apocalipse chamado ``config``. Esse objeto tem uma propriedade chamada ``enabled`` que serve para lidar com essa situação. Veja o exemplo:
 
@@ -279,3 +279,5 @@ Dentro da assinatura aceita pela hook ``useQuery`` temos o terceiro cavaleiro do
  // Então vai pro estágio de `isLoading` true e se tudo der certo vai pro
  // estágio`isSuccess`  :)
 ```
+
+Bom por hoje é isso garotinhos, se inscreva no canal do Dev Doido no Youtube e me siga para mais dicas valeu!
