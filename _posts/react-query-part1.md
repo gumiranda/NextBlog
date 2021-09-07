@@ -23,8 +23,8 @@ Para fazer um subscribe de uma query nos seus componentes ou hooks, chame a hook
    
 1. Uma **chave única que identifique essa query**
 2. Uma função ou arrow function que:
-3. Retorne os dados em caso de sucesso, ou
-4. Dispare uma exceção em caso de erro
+- Retorne os dados em caso de sucesso, ou
+- Dispare uma exceção em caso de erro
          
 ```javascript
 import { useQuery } from "react-query";
