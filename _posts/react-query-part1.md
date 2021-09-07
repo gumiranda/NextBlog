@@ -131,9 +131,9 @@ Quando uma query necessita de mais informações do que uma única string pra de
 
 
 1. Recursos aninhados ou hierárquicos
-1.1 É comum passar algum ID, índice ou qualquer outro meio primitivo de identificar esse item.
+- É comum passar algum ID, índice ou qualquer outro meio primitivo de identificar esse item.
 2. Queries com parâmetros adicionais
-2.1 É comum passar um objeto com outros atributos extras.
+- É comum passar um objeto com outros atributos extras.
 
 
 ```javascript
