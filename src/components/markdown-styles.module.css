@@ -9,6 +9,12 @@
 .markdown span,
 .markdown blockquote {
   @apply my-6;
+  
+  list-style-type: disc;
+}
+.markdown ul,
+.markdown li {
+  @apply mx-6;
 }
 .markdown pre {
   white-space: pre;
@@ -17,6 +23,9 @@
   margin: 0rem;
   color: #000;
   background-color: #dfe6e9;
+}
+.markdown img {
+  margin-left:5rem;
 }
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
