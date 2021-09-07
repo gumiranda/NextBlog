@@ -132,8 +132,8 @@ const getPokemons = async () => {
 
 Conforme demonstrado, não há problema em pré-carregar algumas queries e permitir que outras consultem essas mesmas queries no `queryClient` novamente. Isso significa que você pode controlar qual conteudo o servidor irá renderizar ou não, adicionando ou removendo o `prefetchQuery` na query.
 
-Fonte: <a href="https://react-query.tanstack.com/guides/ssr#_top">Documentação oficial do React Query</a>
-
+Fonte:
+[Documentação oficial do React Query](https://react-query.tanstack.com/guides/ssr#_top)
 
 
 

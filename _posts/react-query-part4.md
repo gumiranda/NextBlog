@@ -150,3 +150,6 @@ export default function PageExample() {
 Neste exemplo podemos ver uma API pública, em que retornamos os dados e na propriedade ``next`` indicamos se temos mais dados a serem carregados, incrementando sempre o número da página. Mesma coisa vemos na propriedade ``prev`` pra indicar se existe uma página anterior.
 
 Bom por hoje é só pessoal, até mais!
+
+Fonte:
+[Documentação oficial do React Query](https://react-query.tanstack.com/guides)

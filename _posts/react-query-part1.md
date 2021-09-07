@@ -281,3 +281,7 @@ Dentro da assinatura aceita pela hook ``useQuery`` temos o terceiro cavaleiro do
 ```
 
 Bom por hoje é isso garotinhos, se inscreva no canal do Dev Doido no Youtube e me siga para mais dicas valeu!
+
+Fonte:
+[Documentação oficial do React Query](https://react-query.tanstack.com/guides)
+

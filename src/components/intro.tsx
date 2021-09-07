@@ -5,7 +5,7 @@ const Intro = () => {
         Dev Doido
       </h1>
       <h2 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Programador é tudo doido! E eu não sou diferente, bora aprender React!
+        Programador é tudo doido! E eu não sou diferente, bora aprender Javascript!
       </h2>
     </section>
   );

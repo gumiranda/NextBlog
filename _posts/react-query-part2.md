@@ -109,3 +109,6 @@ Basta seguir o exemplo meu caro seguidor:
 ```
 
 Por hoje é só garotinho, se inscreva no canal do Dev Doido e é nois!!
+
+Fonte:
+[Documentação oficial do React Query](https://react-query.tanstack.com/guides)
