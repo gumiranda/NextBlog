@@ -101,7 +101,7 @@ Basta seguir o exemplo meu caro seguidor:
 ```javascript
  import { focusManager } from 'react-query'
  
- // Override the default focus state
+ // Sobrescreve o state focus padrão
  focusManager.setFocused(true)
  
  // Fallback to the default focus check

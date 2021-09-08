@@ -238,6 +238,114 @@ Para persistir os resultados das mutations em algum storage, basta usarmos algum
  // Resume the paused mutations:
  queryClient.resumePausedMutations()
 ```
+## Invalidando mutations
+Invalidar queries já é um trabalho enorme. Saber **quando** invalidar essas queries é outro parto. Geralmente, quando uma mutação no seu app acontece, é MUITO provável que existam queries relacionadas que precisam ser invalidadas e chamadas novamente para as novas modificações causadas pela sua mutation.
+Por exemplo, vamos supor que fizemos uma mutation post:
+```javascript
+ const mutation = useMutation(postTodo)
+```
+Pra invalidar as queries relacionadas a essa mutation e chamá-las novamente fazemos:
+
+```javascript
+ import { useMutation, useQueryClient } from 'react-query'
+ 
+ const queryClient = useQueryClient()
+ 
+ // When this mutation succeeds, invalidate any queries with the `todos` or `reminders` query key
+ const mutation = useMutation(addTodo, {
+   onSuccess: () => {
+     queryClient.invalidateQueries('todos')
+     queryClient.invalidateQueries('reminders')
+   },
+ })
+```
+
+Simples não?
+
+## Objetos atualizados
+
+Quando lidamos com mutações que atualizam objetos no servidor, é comum retornarmos o novo objeto na resposta vinda da API. Ao invés de recarregar quaisquer queries de busca para esse item e gastar mais uma chamada na rede nós já temos esse dado conosco, e com o React Query é possível fazer atualização do dado através do método ``setQueryData``. Veja:
+```javascript
+ const queryClient = useQueryClient()
+ const mutation = useMutation(editTodo, {
+   onSuccess: (data,variables) => {
+     queryClient.setQueryData(['todo', { id: variables.id }], data)
+   }
+ })
+ mutation.mutate({
+   id: 5,
+   name: 'Do the laundry',
+ })
+ // The query below will be updated with the response from the
+ // successful mutation
+ const { status, data, error } = useQuery(['todo', { id: 5 }], fetchTodoById)
+```
+## E quando uma mutation de update falha no servidor?
+Queremos atualizar a lista depois de atualizar um elemento. Pra esse caso nós usamos o método ``onMutate`` dentro de ``useMutation`` da seguinte forma:
+```javascript
+const queryClient = useQueryClient()
+ useMutation(updateTodo, {
+   // When mutate is called:
+   onMutate: async newTodo => {
+     // Cancel any outgoing refetches (so they don't overwrite our optimistic update)
+     await queryClient.cancelQueries('todos')
+     // Snapshot the previous value
+     const previousTodos = queryClient.getQueryData('todos')
+     // Optimistically update to the new value
+     queryClient.setQueryData('todos', old => [...old, newTodo])
+     // Return a context object with the snapshotted value
+     return { previousTodos }
+   },
+   // If the mutation fails, use the context returned from onMutate to roll back
+   onError: (err, newTodo, context) => {
+     queryClient.setQueryData('todos', context.previousTodos)
+   },
+   // Always refetch after error or success:
+   onSettled: () => {
+     queryClient.invalidateQueries('todos')
+   },
+ })
+```
+## Atualizando um objeto só
+Basta buscar pelo id e guardar a informação antiga. Veja:
+
+```javascript
+ useMutation(updateTodo, {
+   // When mutate is called:
+   onMutate: async newTodo => {
+     // Cancel any outgoing refetches (so they don't overwrite our optimistic update)
+     await queryClient.cancelQueries(['todos', newTodo.id])
+     // Snapshot the previous value
+     const previousTodo = queryClient.getQueryData(['todos', newTodo.id])
+     // Optimistically update to the new value
+     queryClient.setQueryData(['todos', newTodo.id], newTodo)
+     // Return a context with the previous and new todo
+     return { previousTodo, newTodo }
+   },
+   // If the mutation fails, use the context we returned above
+   onError: (err, newTodo, context) => {
+     queryClient.setQueryData(
+       ['todos', context.newTodo.id],
+       context.previousTodo
+     )
+   },
+   // Always refetch after error or success:
+   onSettled: newTodo => {
+     queryClient.invalidateQueries(['todos', newTodo.id])
+   },
+ })
+```
+Se você gosta de resolver tudo numa função só a biblioteca te dá a opção de enfiar toda a lógica dentro a função ``onSettled``, fica feio mas funciona. Veja:
+```javascript
+useMutation(updateTodo, {
+   // ...
+   onSettled: (newTodo, error, variables, context) => {
+     if (error) {
+       // do something
+     }
+   },
+ })
+```
 
 Por hoje é só pessoal, até a próxima!
 
