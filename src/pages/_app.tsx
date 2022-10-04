@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Hydrate state={pageProps.dehydratedState}>
+      <Hydrate state={pageProps?.dehydratedState as any}>
         <Component {...pageProps} />
       </Hydrate>
     </QueryClientProvider>
