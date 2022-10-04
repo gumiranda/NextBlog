@@ -3,7 +3,7 @@ import "styles/index.css";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";
 import { useState } from "react";
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: any) {
   const [queryClient] = useState(() => new QueryClient());
 
   return (
