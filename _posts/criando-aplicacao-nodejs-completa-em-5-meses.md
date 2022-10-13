@@ -39,5 +39,4 @@ Viaje nessa loucura!!
 
 Aproveite o cupom de lançamento DEVDOIDO60OFF e tenha 60% de desconto.
 
-
-https://hotmart.com/pt-br/marketplace/produtos/aprenda-nodejs-e-react-native-do-zero-ao-infinito/P34477060
+[CLIQUE AQUI](https://hotmart.com/pt-br/marketplace/produtos/aprenda-nodejs-e-react-native-do-zero-ao-infinito/P34477060)

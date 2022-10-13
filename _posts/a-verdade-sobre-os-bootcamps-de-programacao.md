@@ -49,4 +49,4 @@ Como o número de alunos é ilimitado e eu sou uma pessoa só, não irei promete
 O projeto é um sistema de agendamentos online focado em serviços de beleza, mas que pode ser utilizado pra qualquer domínio de negócio que tenha agendamento como uma das funcionalidades principais. Como tecnologia iremos utilizar Nodejs(MongoDb), React (Next.js) e React Native (Expo). Não irei engrandecê-las dizendo que essas tecnologias são utilizadas em big techs como Facebook, Airbnb, Nubank, Instagram e outras. Na minha opinião tecnologia é só um meio de entregar valor pro usuário final. Existem inúmeras por ai que resolvem os mais diversos problemas, se empresa x ou y usa tal stack não importa. Até porque o curso não vai ensinar você a levantar um unicórnio do dia pra noite com o projeto ensinado.
 
 ## O CrazyStack já está disponível ?
-Por enquanto não, estou trabalhando nele. Mas enquanto ele não sai eu fico aqui no blog descendo a lenha nos meus concorrentes.
+SIM, [CLIQUE AQUI](https://hotmart.com/pt-br/marketplace/produtos/aprenda-nodejs-e-react-native-do-zero-ao-infinito/P34477060)
