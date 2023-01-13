@@ -15,7 +15,6 @@ Você já procurou saber como iniciar no desenvolvimento backend com Javascript 
 Provavelmente dois caminhos foram-lhe apresentados, Fastify e Express. Mas o que são esses frameworks? E qual a diferença entre eles?
 
 Fastify é um framework web minimalista para Node.js que se concentra em velocidade e facilidade de uso. Ele é projetado para ser rápido e simples de configurar, e inclui recursos como suporte para rotas, plugins e middlewares.
-Desempenho: O Fastify é projetado para ser mais rápido e eficiente do que o Express. Isso é devido ao uso de um mecanismo de roteamento interno e às opções de configuração avançadas.
 
 Já o Express é um framework web popular para Node.js que oferece uma série de recursos para desenvolvimento de aplicações web e APIs. Ele oferece suporte para rotas, middlewares, e muitos outros recursos como o suporte para várias views engines, e é considerado uma das opções mais consolidadas no mundo javascript.
 
@@ -30,7 +29,9 @@ Analisando ponto a ponto podemos tirar algumas conclusões:
 
 4. Segurança: O Fastify tem opções de segurança embutidas, como proteção contra ataques de negação de serviço (DoS) e verificação de tipo de conteúdo. Ponto pro Fastify
 
-5. Documentação e comunidade: O Express é uma biblioteca mais antiga e bem estabelecida, com uma grande comunidade e uma vasta quantidade de documentação e exemplos disponíveis. Ponto pro Express
+5. Desempenho: O Fastify é projetado para ser mais rápido e eficiente do que o Express. Isso é devido ao uso de um mecanismo de roteamento interno e às opções de configuração avançadas.
+
+6. Documentação e comunidade: O Express é uma biblioteca mais antiga e bem estabelecida, com uma grande comunidade e uma vasta quantidade de documentação e exemplos disponíveis. Ponto pro Express
 
 ## Conclusão
 
