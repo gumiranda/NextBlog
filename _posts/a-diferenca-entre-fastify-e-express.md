@@ -2,7 +2,7 @@
 title: 'Express vs Fastify | Qual é o melhor?'
 excerpt: 'Nesse post vamos falar sobre as diferenças entre os frameworks Node.js mais utilizados pelos devs.'
 coverImage: 'https://avatars.githubusercontent.com/u/13774579?v=4'
-date: '2022-01-13T09:35:07.322Z'
+date: '2023-01-13T09:35:07.322Z'
 author:
   name: Gustavo Miranda
   picture: 'https://avatars.githubusercontent.com/u/13774579?v=4'
