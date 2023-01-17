@@ -19,7 +19,7 @@ Isso é apenas um exemplo de como usar a configuração "edge" do Next.js, exist
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E ele faz o que? Otimiza imagens somente?
 Sim, o pacote next-optimized-images que foi incluído no exemplo anterior é uma ferramenta para otimizar imagens automaticamente em seu projeto Next.js. Ele se encarrega de fazer o seguinte:
 

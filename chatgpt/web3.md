@@ -16,7 +16,7 @@ Esses são os passos gerais para implementar smart contracts e web3 com Node.js 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me mostra um exemplo no node com fastify e mongo
 Aqui está um exemplo simples de como você poderia usar o Fastify e o MongoDB para criar uma API simples com Node.js:
 
@@ -34,7 +34,7 @@ fastify.get('/
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Usando esses smart contracts junto
 Aqui está um exemplo de como você poderia usar o Truffle, o web3.js e o Fastify para criar uma API que interage com seus contratos inteligentes e o MongoDB:
 
@@ -92,7 +92,7 @@ Espero que isso te ajude a entender como combinar essas tecnologias.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E como ficaria no react
 Aqui está um exemplo de como você poderia usar o web3.js e o React para criar uma interface do usuário que interage com seus contratos inteligentes:
 
@@ -146,7 +146,7 @@ Espero que isso te ajude a entender como usar o web3.js e o React para criar int
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem algum framework que abstrai isso?
 Sim, existem vários frameworks e bibliotecas que podem ajudar a abstrair alguns dos detalhes de trabalhar com contratos inteligentes e web3.js, tornando mais fácil interagir com a blockchain Ethereum. Alguns exemplos incluem:
 
@@ -161,7 +161,7 @@ Esses frameworks e bibliotecas fornecem uma camada de abstração que pode ajuda
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Detalha cada uma usando exemplos de código
 Claro, aqui estão alguns exemplos de como você poderia usar algumas das ferramentas mencionadas anteriormente para interagir com contratos inteligentes e a blockchain Ethereum:
 
@@ -239,7 +239,7 @@ const MyComponent = () => {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua da ultima linha
 Data from contract: {data}</h1>
 </div>
@@ -258,7 +258,7 @@ const deployer = dapphub.createDeployer(web3);
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua sem perder formataçao
 const MyContractJSON = require('./contracts/MyContract.json');
 

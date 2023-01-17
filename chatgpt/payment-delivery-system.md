@@ -14,7 +14,7 @@ Implementar qualquer outra funcionalidade adicional, como autenticação e autor
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E O que eu devo gerenciar num sistema de pedidos online baseado em prestaçao de serviços
 Em um sistema de pedidos online baseado em prestação de serviços, você deve gerenciar as seguintes coisas:
 
@@ -39,7 +39,7 @@ Esses são alguns exemplos de coisas que você deve gerenciar em um sistema de p
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem algum exemplo do item 4 usando stripe e fastify?
 Sim, você pode usar o Stripe para gerenciar pagamentos em um sistema de pedidos online baseado em prestação de serviços usando o Fastify. Aqui está um exemplo de como você pode implementar isso:
 

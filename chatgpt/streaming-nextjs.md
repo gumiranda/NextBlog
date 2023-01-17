@@ -4,7 +4,7 @@ O Next.js suporta streaming de resposta nativamente através da função getServ
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem algum exemplo mais complexo e avançado? Integrando com uma api externa
 Sim, aqui está um exemplo de como você pode usar o streaming com uma API externa em um getServerSideProps do Next.js:
 
@@ -39,7 +39,7 @@ Neste exemplo, estamos usando o axios para fazer uma solicitação à uma API ex
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Se a api externa for em nodejs com fastify tem algum exemplo dela?
 Sim, aqui está um exemplo de como você pode configurar uma API externa usando o Fastify no Node.js para retornar um stream de resposta:
 

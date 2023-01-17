@@ -8,7 +8,7 @@ Em resumo, usar streams no Node.js em sua API de agendamento online pode ajudar 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem algum exemplo de como lidar com fluxos de dados em eventos em tempo real usando streams e fastify?
 Sim, é possível lidar com fluxos de dados de eventos em tempo real usando streams e o framework web Fastify. Aqui está um exemplo de como isso pode ser feito:
 
@@ -44,7 +44,7 @@ Neste exemplo, usamos o plugin fastify-websocket para gerenciar conexões WebSoc
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E usando streams nativas do node.js como ficaria
 Aqui está um exemplo de como lidar com fluxos de dados de eventos em tempo real usando streams nativos do Node.js e o framework web Fastify:
 
@@ -85,7 +85,7 @@ Neste exemplo, usamos o plugin fastify-websocket para gerenciar conexões WebSoc
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como eu integro isso com nextjs usando o streaming dele
 Integrar o streaming de dados em tempo real com o Next.js pode ser feito usando o módulo next-connect. Ele é um middleware Express para o Next.js que permite adicionar suporte a WebSockets e outras funcionalidades de rede ao seu aplicativo.
 

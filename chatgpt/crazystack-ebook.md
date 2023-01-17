@@ -18,7 +18,7 @@ Lembre-se de incluir códigos e capturas de tela ilustrativas para ajudar os lei
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve a introduçao falando que eu usei node fastify typescript jest e mongodb e no react native usei expo
 Introdução:
 
@@ -35,7 +35,7 @@ Este ebook irá mostrar como essas tecnologias foram utilizadas para criar o Bel
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 No capitulo 2 desenvolve falando do uso do fastify e seus plugins. Alem de jest pro testes unitarios e do mongodb
 Capítulo 2: Desenvolvimento do Back-end
 
@@ -52,7 +52,7 @@ Em resumo, no desenvolvimento do back-end do Belezix, optamos por usar o framewo
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve o capitulo do front end com react native e expo
 Capítulo 3: Desenvolvimento do Front-end
 
@@ -71,7 +71,7 @@ Em resumo, no desenvolvimento do front-end do Belezix, optamos por usar React Na
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve o capitulo 4 destacando os desafios em lista horarios de cada profissional de acordo com horario de funcionamento e duraçao do serviço
 Capítulo 4: Desafios e Soluções
 
@@ -92,7 +92,7 @@ Esses desafios foram superados com a implementação de lógicas específicas e 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva o capitulo 5 falando do deploy continuo da api no oracle cloud e do ci cd com eas build no expo
 Capítulo 5: Deployment e Manutenção
 
@@ -111,7 +111,7 @@ Em resumo, para o deploy e manutenção do Belezix, optamos por usar o Oracle Cl
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve a conclusao falando do desafio em gerenciar horarios, pedidos, sistema de fidelidade com pontos e geolocalizaçao de usuarios e estabelecimentos no mongodb
 Conclusão:
 
@@ -128,21 +128,21 @@ Eu espero que
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Finaliza
 este ebook tenha sido útil para você e que você tenha aprendido sobre como desenvolvi o Belezix usando Node.js, Fastify, TypeScript, Jest, MongoDB, React Native e Expo. Eu gostaria de agradecer pela oportunidade de compartilhar minha experiência e espero que esteja inspirado para iniciar seu próprio projeto de desenvolvimento de software.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Fala que esse sistema serviu de base pro meu curso de nodejs chamado crazystack
 Eu gostaria de mencionar que o Belezix também serviu como base para o meu curso de Node.js chamado "Crazystack". O curso é projetado para ensinar outros desenvolvedores como desenvolver sistemas web e mobile usando as tecnologias mencionadas neste ebook. O curso inclui lições práticas e exemplos reais baseados no desenvolvimento do Belezix, tornando-o uma ótima opção para aqueles que desejam aprender sobre essas tecnologias.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Reescreve tudo mr
 Este ebook foi escrito para compartilhar minha experiência no desenvolvimento do sistema de agendamentos online Belezix. Este sistema foi construído usando Node.js, Fastify, TypeScript, Jest, MongoDB, React Native e Expo.
 
@@ -155,7 +155,7 @@ O Belezix foi implementado com sucesso e está sendo usado por muitos estabeleci
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 O capítulo 2 deste ebook aborda o uso do Fastify e seus plugins, juntamente com Jest para testes unitários e MongoDB para gerenciamento de dados. O capítulo 3 aborda o desenvolvimento do front-end usando React Native e Expo, incluindo a estrutura do aplicativo, a comunicação com a API, a exibição de calendários e eventos e recursos adicionais como notificações e acesso à câmera e galeria.
 
@@ -166,14 +166,14 @@ Em resumo, o Belezix é um sistema de agendamentos online desenvolvido usando No
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Formata pra twitter
 "Acabei de escrever um ebook sobre como desenvolvi o sistema de agendamentos online Belezix usando #Nodejs #Fastify #Typescript #Jest #MongoDB #ReactNative e #Expo. Inclui desafios e soluções, além de como foi usado como base para meu curso #Crazystack. Baixe agora! #desenvolvimento #agendamentosonline"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria a ementa do curso
 Ementa do Curso "Crazystack":
 
@@ -209,7 +209,7 @@ Este curso é projetado para ensinar outros desenvolvedores como desenvolver sis
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria uma descriçao dessas aulas Configuração inicial do projeto e criação do primeiro teste unitário
 Configuração de Eslint e Prettier
 Criação da primeira entidade do projeto
@@ -233,7 +233,7 @@ Nesta aula, os alunos aprenderão a usar a ferramenta Plop para automatizar a cr
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria descriçao das aulas: Página inicial
 
 
@@ -308,7 +308,7 @@ Criando useCase updateService
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria descriçao das aulas: Criando contract addCategoryRepository
 Gerador de teste genérico
 Criando useCase addCategory
@@ -340,7 +340,7 @@ Criando useCase loadCategoryByPage: Nesta aula, os alunos aprenderão a criar a 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Finalize
 Criando useCase loadCategoryByPage: Nesta aula, os alunos aprenderão a criar a useCase de carregamento de categorias por página. Eles aprenderão sobre a importância de seguir uma arquitetura baseada em useCases e como isso facilita a manutenção e extensão do projeto.
 
@@ -355,7 +355,7 @@ Criando useCase updateCategory: Nesta aula, os alunos aprenderão a criar a useC
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 a importância de seguir uma arquitetura baseada em useCases e como isso facilita a manutenção e extensão do projeto. Além disso, eles aprenderão sobre as boas práticas para garantir que as atualizações sejam realizadas de forma segura e precisa, garantindo a integridade dos dados.
 
@@ -364,7 +364,7 @@ Este curso de CrazyStack - O Bootcamp do Dev Doido, vai oferecer uma abordagem p
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 O curso tem essas aulas tbm Página inicial
 
 
@@ -434,7 +434,7 @@ Página inicial: Nesta aula, os alunos aprenderão sobre a página in
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 O curso tem as aulas Geração dinâmica de UseCases
 Gerando CRUD para User
 Gerando CRUD para Service
@@ -461,7 +461,7 @@ Gerando CRUD para Service: Nesta aula, os alunos aprenderão a gerar CRUD para a
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua o 16
 Gerando CRUD para Client e Product: Nesta aula, os alunos aprenderão a gerar CRUD para as entidades Client e Product. Eles verão como usar o gerador de arquivo personalizado para criar as useCases de adição, carregamento, deleção e atualização de clientes e produtos. Eles também aprenderão sobre as boas práticas para garantir que essas operações sejam realizadas de forma segura e precisa, garantindo a integridade dos dados.
 
@@ -472,7 +472,7 @@ Gerando CRUD para Account e Appointment: Nesta aula, os alunos aprenderão a ger
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 ões sejam realizadas de forma segura e precisa, garantindo a integridade dos dados.
 

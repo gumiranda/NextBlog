@@ -10,7 +10,7 @@ Essas são apenas algumas das abordagens possíveis para aplicar streaming para 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me traz um exemplo usando a segunda abordagem
 Claro, aqui está um exemplo de como você poderia usar o MongoDB para monitorar o status de login de usuários em sua aplicação usando Node.js e Next.js:
 
@@ -48,7 +48,7 @@ Esse é apenas um exemplo básico, e você pode precisar adaptá-lo de acordo co
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E como eu coloco isso num hook do fastify
 Aqui está um exemplo de como você poderia usar o código anterior para monitorar o status de login de usuários em uma aplicação usando o framework Fastify e o MongoDB:
 
@@ -101,7 +101,7 @@ e é apenas um exemplo básico e pode ser necessário adaptá-lo para atender à
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como eu faria isso usando o orm prisma
 Aqui está um exemplo de como você poderia usar o ORM Prisma para monitorar o status de login de usuários em sua aplicação:
 
@@ -146,7 +146,7 @@ Essa abordagem usa o método $subscribe do Prisma para se inscrever em eventos d
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E como seria a mudança desse status no react native? Com ele enviando essa mudança pra essa api
 Aqui está um exemplo de como você poderia fazer o gerenciamento do status de login de usuários em um aplicativo React Native:
 
@@ -190,7 +190,7 @@ Lembre-se de que essas são apenas sugestões gerais e pode ser necessário adap
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E como eu chamo esse logout com o app em background
 Existem várias maneiras de fazer logout de um usuário quando o aplicativo está em segundo plano. Algumas das abordagens mais comuns são:
 
@@ -260,7 +260,7 @@ BackgroundFetch.status((status) => {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua o codigo
 Copy code
 import BackgroundFetch from 'react-native-background-fetch';

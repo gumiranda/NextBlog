@@ -54,7 +54,7 @@ Neste exemplo, a função useCachedApi
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 é criada com um argumento apiFunc, que é uma função que faz a chamada da API. Dentro da função useCachedApi, nós estamos criando um objeto de referência chamado cache usando o hook useRef. Este objeto de referência é inicializado como um objeto vazio e é usado como um cache para armazenar os resultados das chamadas da API.
 

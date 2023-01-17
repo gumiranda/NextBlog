@@ -11,7 +11,7 @@ Adicione a funcionalidade de mostrar os botões de ação (como "enviar mensagem
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria um exemplo de codigo ai
 Eu posso fornecer um exemplo de código que mostra como criar um componente de histórias básico usando o pacote 'react-native-snap-carousel' e a biblioteca 'react-native-swipeable' no React Native. Este exemplo mostra como exibir uma lista de histórias como um carrossel horizontal e permitir que o usuário deslize para mudar de história.
 
@@ -68,7 +68,7 @@ Este é um exemplo básico, você precisaria adicionar mais funcionalidades e es
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E aquela top bar com bolinha clicavel
 Você pode adicionar uma barra de navegação superior com bolinhas clicáveis para indicar o progresso das histórias usando o componente View e TouchableOpacity do React Native.
 
@@ -147,7 +147,7 @@ Este código cria uma barra de navegação superior usando um View e adiciona um
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E um componente de card deslizavel
 Para criar um componente de card deslizável no React Native, você pode usar a biblioteca react-native-gesture-handler para detectar gestos de toque e deslizamento.
 
@@ -219,7 +219,7 @@ Este código cria um componente de card que pode ser deslizado para a esquerda o
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Adiciona nesse código aqueles botoes do tinder de coraçao e x
 Para adicionar os botões de "coração" e "x" semelhantes ao Tinder ao seu componente de card deslizável, você pode adicionar dois botões TouchableOpacity com os ícones de coração e x dentro do componente Animated.View.
 
@@ -304,7 +304,7 @@ const styles = {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 finish
 color: '#00ff00',
 borderRadius: 30,

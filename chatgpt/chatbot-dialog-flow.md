@@ -14,7 +14,7 @@ Este é um exemplo geral de como criar um chatbot usando Node.js, Fastify e Dial
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria um exemplo
 Claro, aqui está um exemplo simples de como criar um chatbot usando Node.js, Fastify e Dialogflow:
 
@@ -23,7 +23,7 @@ Instale as dependências Fastify e Dial
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Codigo do topico 6
 Aqui está um exemplo de como importar as credenciais do Dialogflow e usá-las para processar as mensagens recebidas no arquivo "app.js":
 

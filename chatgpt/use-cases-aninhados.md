@@ -4,7 +4,7 @@ A melhor maneira de implementar use cases aninhados seguindo a arquitetura limpa
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me ajuda a escrever um artigo explicando como eu aninhei 2 use cases de listagem e validaçao de horarios de uma api de agendamento
 A aninhamento de use cases é uma técnica comum na arquitetura limpa para organizar e escalar aplicações. Neste artigo, vamos explorar como implementamos dois use cases de listagem e validação de horários de uma API de agendamento.
 
@@ -19,21 +19,21 @@ Em resumo, o aninhamento de use cases é uma técnica eficaz para organizar e es
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Conclui falando que se o leitor quiser saber como funciona na pratica compra meu curso de nodejs
 Este artigo apresentou uma visão geral de como implementamos dois use cases de listagem e validação de horários de uma API de agendamento usando a técnica de aninhamento de use cases seguindo a arquitetura limpa. No entanto, para entender completamente como essa técnica funciona na prática e como aplicá-la em sua própria aplicação, recomendamos o nosso curso de Node.js. Nele, você aprenderá como implementar a arquitetura limpa com Node.js e como aplicar as técnicas de aninhamento de use cases em sua própria aplicação. Se você estiver interessado em saber mais sobre essas técnicas e como aplicá-las em sua própria aplicação, não hesite em se inscrever
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria um texto curto de divulgaçao do link do artigo
 Acabamos de publicar um novo artigo sobre como implementar use cases aninhados seguindo a arquitetura limpa. Neste artigo, mostramos como usamos essa técnica para organizar e escalar uma API de agendamento, usando dois use cases de listagem e validação de horários como exemplo. Se você estiver interessado em saber mais sobre como aplicar a arquitetura limpa em sua própria aplicação, não perca essa leitura! confira em [link do artigo]
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Mostra um exemplo de código desse aninhamento de use cases
 Este é um exemplo hipotético de como o aninhamento de use cases pode ser implementado em uma aplicação Node.js usando a biblioteca "inversify" para injeção de dependência.
 

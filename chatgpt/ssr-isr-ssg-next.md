@@ -12,7 +12,7 @@ Em resumo, SSG é útil para sites estáticos sem necessidade de atualização d
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Mostra o exemplo de cada um pra listar categorias vindo de uma api externa
 SSG (Static Site Generation):
 
@@ -85,7 +85,7 @@ export default function Categories() {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 O exemplo de Ssr ta errado
 Desculpe, você está correto. No modo SSR, o código para obter as categorias da API externa deve ser executado no lado do servidor, e não no lado do cliente como eu mencionei anteriormente. Aqui está um exemplo corrigido:
 
@@ -111,7 +111,7 @@ Neste exemplo, a função getServerSideProps é usada para obter as categorias d
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem como usar react query com getserversideprops?
 Sim, é possível usar o React Query com getServerSideProps para gerenciar requisições de dados no lado do servidor. Aqui está um exemplo de como isso poderia ser feito:
 

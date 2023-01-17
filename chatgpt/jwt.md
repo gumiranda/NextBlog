@@ -12,7 +12,7 @@ Em resumo, usar tokens de atualização JWT em sua API Node melhora a segurança
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Exemplo de revogar token
 Revogar um token de atualização JWT pode ser feito de várias maneiras, dependendo da sua implementação. Algumas possíveis abordagens incluem:
 

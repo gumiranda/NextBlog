@@ -12,7 +12,7 @@ Nota: Certifique-se de ter as credenciais corretas para acessar o banco de dados
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Mostra exemplo de codigo do topico 2 em diante
 Aqui está um exemplo de como adicionar o plugin fastify-cron ao seu projeto fastify e criar uma função que será chamada pelo cron para verificar se há alterações no campo de status da coleção de solicitações:
 
@@ -83,7 +83,7 @@ function sendPushNotification(updatedRequests) {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E se eu nao usar cron pra monitorar essa collection, e sim o proprio mongodb pra monitorar alteraçoes
 Se você não quiser usar o cron para monitorar alterações em uma coleção do MongoDB, você pode usar o recurso de "change streams" do MongoDB. Change streams permitem que você escute por alterações em uma coleção, incluindo inserções, atualizações e remoções, e reaja a essas alterações. Aqui está um exemplo de como escutar por alterações no campo de status de uma coleção de solicitações e enviar notificações push para os usuários que fizeram as solicitações com status alterado:
 
@@ -111,7 +111,7 @@ Também, você pode querer adicionar uma condição de verificação para verifi
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem como criar um plugin do fastify disso
 Sim, é possível criar um plugin do fastify para monitorar alterações em uma coleção do MongoDB usando change streams. Aqui está um exemplo de como criar um plugin que adiciona uma rota para escutar por alterações em uma coleção de solicitações e envia notificações push para os usuários que fizeram as solicitações com status alterado:
 
@@ -155,7 +155,7 @@ Nota: Certifique-se de adicionar verificações para garantir que o change strea
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como fechar esse change stream 
 Para fechar um change stream, você pode chamar o método close() na instância do change stream. Por exemplo:
 

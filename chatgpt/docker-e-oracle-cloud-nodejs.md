@@ -36,7 +36,7 @@ Note that this will only work if your API runs on port 3000 and it does not requ
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria um dockerfile mais avançado que rode yarn build e de start na pasta dist
 Dockerfile:
 
@@ -73,7 +73,7 @@ It is important to notice that, this would work if the command "yarn build" gene
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Refatora o dockerfile considerando 3 variaveis de ambiente do arquivo .env
 Dockerfile:
 
@@ -121,7 +121,7 @@ Also, you should update the .env file accordingly in case you decide to use the 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E o docker compose como ficaria nesse caso? Em portugues por favor
 docker-compose.yml
 
@@ -152,7 +152,7 @@ Observe que neste caso, não é necessário colocar o arquivo .env no compose, e
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Qual é a forma mais segura?
 A forma mais segura de gerenciar as variáveis de ambiente em um container é usando arquivos externos e não incluindo-as no próprio Dockerfile ou no arquivo docker-compose.yml. Isto permitirá que você gerencie essas variáveis de forma independente do seu código-fonte e das configurações do container, e evitará que essas informações sensíveis sejam expostas publicamente.
 
@@ -167,7 +167,7 @@ Em resumo, a forma mais segura de gerenciar variáveis de ambiente em um contain
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Entao muda esse dockerfile fazendo uso de um .env da raiz do projeto
 Dockerfile:
 
@@ -218,7 +218,7 @@ This way, you're allowing the container to access the .env file in the host mach
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E como eu subo esse container num free tier da oracle cloud ? 
 Para subir um container no Oracle Cloud, você precisará seguir os seguintes passos gerais:
 
@@ -241,7 +241,7 @@ Tenha em mente que se você estiver usando o free tier, pode haver limitações 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tem algum exemplo disso?
 Sim, existe uma documentação detalhada e exemplos de como seguir cada passo do processo de implantação de contêineres no Oracle Cloud na documentação oficial da Oracle. Aqui estão alguns exemplos de como cada passo pode ser realizado usando a Oracle Cloud CLI:
 
@@ -264,7 +264,7 @@ oci network security rule create -c ocid1.vcn.oc1.phx.abuwcljrqmqw5j5k5vn2x2u2i6
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 7t6d6jvx7n6xjt6y7d6lq5f5v5mq --direction INGRESS --protocol TCP --src-ip-address 0.0.0.0/0 --tcp-options "destination-port-range=3000"
 

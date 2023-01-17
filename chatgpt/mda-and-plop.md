@@ -10,7 +10,7 @@ Usando a MDA com a biblioteca PLOP, os alunos foram capazes de compreender melho
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Relacione mda com geraçao de arquivo usando plop
 A Model-Driven Architecture (MDA) é uma abordagem para o desenvolvimento de software que se concentra em modelar aspectos importantes do sistema antes de implementá-los. Isso permite que os desenvolvedores tenham uma visão geral do sistema e possam fazer mudanças antes de escrever código.
 

@@ -18,14 +18,14 @@ Espero que isso ajude a dar uma ideia do que você pode escrever. Se você preci
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Nestjs é um framework monolitico? Ele nao tem suporte a microserviços?
 Me desculpe, eu cometi um erro em minha resposta anterior. NestJS é um framework para desenvolvimento de aplicações que fornece suporte a arquitetura de microserviços, além de outros padrões de arquitetura, como a arquitetura monolítica. Ele fornece recursos como gerenciamento de dependências, controladores, serviços, pipes e providers para ajudar a organizar e estruturar o código de sua aplicação. Ele também permite que você divida sua aplicação em módulos e crie aplicações distribuídas, permitindo assim o uso de Microserviços.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E ele é pesado mesmo?
 NestJS é construído sobre as bibliotecas popular do Node.js, como Express e TypeScript, o que significa que ele não é particularmente pesado em termos de recursos. No entanto, ele adiciona uma camada adicional de abstração sobre essas bibliotecas, o que pode afetar levemente o desempenho em comparação com usar essas bibliotecas diretamente. Isso pode ser considerado como uma desvantagem se você estiver procurando por desempenho máximo, mas pode ser considerado como uma vantagem se você estiver procurando por organização e facilidade de manutenção do código.
 
@@ -34,7 +34,7 @@ NestJS é construído sobre as bibliotecas popular do Node.js, como Express e Ty
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Quais seriam os beneficios de usar nestjs? 
 Aqui estão alguns dos principais benefícios de se usar NestJS:
 

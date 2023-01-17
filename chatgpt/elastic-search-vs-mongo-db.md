@@ -42,7 +42,7 @@ Este é apenas um exemplo básico, mas você pode encontrar documentação mais 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Usar full text search do mongodb é melhor?
 Usar a pesquisa de texto completo do MongoDB pode ser uma boa opção dependendo das necessidades específicas da sua aplicação. Algumas vantagens de usar a pesquisa de texto completo do MongoDB incluem:
 

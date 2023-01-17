@@ -4,21 +4,21 @@ Claro, eu posso te ajudar a escrever um livro sobre Feature-Sliced Design (FSD).
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Voce conhece o conteudo do site da documentaçao?
 Eu sou treinado com uma grande variedade de conteúdo, incluindo documentação. No entanto, eu não tenho acesso à internet para verificar o conteúdo específico do site da documentação que você mencionou. Posso fornecer informações gerais sobre Feature-Sliced Design (FSD) e ajudá-lo a escrever sobre esse assunto, se desejar.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Eu posso te abastecer de conteudo da documentaçao pra estruturar o livro?
 Claro, você pode me fornecer conteúdo da documentação para ajudar a estruturar o livro. Eu posso usar essa informação para fornecer contexto e exemplos, bem como para ajudar a escrever uma introdução e uma descrição detalhada do Feature-Sliced Design (FSD). Além disso, você pode me fornecer detalhes sobre as convenções e regras específicas que são abordadas na documentação, para que eu possa incluí-las no livro.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Primeiro vem o conceito de unidade. logo
 📚 ReferenceUnits
 On this page
@@ -40,7 +40,7 @@ Isso pode ser uma boa maneira de começar a estruturar o livro, explicando o con
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Depois vem o conceito de camada e suas pastas : Each project top level directory defines the scope of responsibility of modules, as well as the level of sensitivity to internal changes
 
 Representatives: app, processes, pages, widgets, features, entities, shared
@@ -51,7 +51,7 @@ Isso pode ser uma boa maneira de continuar estruturando o livro, explicando como
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E dentro de cada camada temos o conceito de fatia : Each of the elements located at the top level of the layers
 
 This level is poorly regulated is a methodology, but a lot depends on the specific project, stack and team
@@ -64,7 +64,7 @@ Isso pode ser uma boa maneira de continuar estruturando o livro, explicando como
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Dentro de cada fatia temos os segmentos:Group of primitives serving as implementation details for business logic
 
 This level determines the purpose of modules in the code and implementation, according to classical design models
@@ -77,7 +77,7 @@ Isso pode ser uma boa maneira de continuar estruturando o livro, explicando como
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Com uma observaçao: Since some layers doesn't contain slices (app, shared):
 
 Segments can be arranged according to their own rules shared/{api, config}
@@ -89,7 +89,7 @@ Isso é importante mencionar no livro, como exemplo, para ilustrar como o FSD é
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 logo
 
 🚀 Get StartedOverview
@@ -109,14 +109,14 @@ Isso pode ser uma boa maneira de começar o livro, dando uma visão geral do FSD
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 If you have an existing project, fear not — FSD can be adopted incrementally. Just make sure that your team is in pain from the current architecture, otherwise a switch might not be worth it
 Isso é uma boa informação a incluir no livro. O FSD pode ser adotado incrementalmente, então, se você tem um projeto existente, não precisa se preocupar. É importante garantir que a equipe esteja sofrendo com a arquitetura atual, caso contrário, a mudança pode não valer a pena. Isso pode ser uma boa maneira de discutir como o FSD pode ser implementado em projetos existentes e como ele pode ser integrado gradualmente, sem causar interrupções significativas no fluxo de trabalho. Além disso, podemos discutir as etapas envolvidas na adoção incremental do FSD e como garantir que a equipe esteja preparada para a mudança.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Pra enriquecer a introduçao: in FSD, a project consists of layers, each layer is made up of slices and each slice is made up of segments.
 
 themed--scheme
@@ -140,21 +140,21 @@ As fatias dividem o código por domínio de negócios, tornando o código fácil
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 ico. Os segmentos mais comuns são ui, model (store, actions), api e lib (utils/hooks), mas é possível omitir alguns ou adicionar mais, conforme a necessidade. Além disso, é importante mencionar que essa estruturação permite ao FSD garantir a escalabilidade, manutenibilidade e flexibilidade do projeto, pois cada camada, fatia e segmento tem sua própria responsabilidade e interação, o que facilita a compreensão e a manutenção do código.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 In most cases, it is recommended to place api and config only in the shared layer
 Sim, é recomendado colocar api e config somente na camada shared, pois esses segmentos são geralmente compartilhados entre várias partes do projeto e não estão diretamente relacionados a uma determinada funcionalidade ou domínio de negócios específico. Colocando-os na camada shared, eles ficam disponíveis para todas as outras camadas sem comprometer a organização e a estruturação do projeto. Isso também ajuda a manter o código limpo e fácil de entender e manter.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Example
 Let's consider a social network application.
 
@@ -174,7 +174,7 @@ Isso ilustra como o FSD ajuda a manter a organização e a escalabilidade do có
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Advantages
 Uniformity
 The code is organized by scope of influence (layers), by domain (slices), and by technical purpose (segments).
@@ -201,7 +201,7 @@ Essas vantagens são importantes para discutir no livro, pois ilustram como o FS
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Incremental adoption
 The power of FSD lies in structured decomposition. At its finest, it enables to locate any part of code near-deterministically. However, the level of decomposition is a parameter, and each team can tweak it to strike a balance between simple adoption and the amount of benefits.
 
@@ -227,7 +227,7 @@ Essa estratégia pode ser incluída no livro como um guia para ajudar as equipes
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Let's analyze the functionality
 Before starting the code, we need to decide - what value we want to convey to the end user
 
@@ -239,7 +239,7 @@ Uma vez que as funcionalidades são decompostas, podemos organizá-las nas camad
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Pages
 We will outline the basic necessary pages, and user expectations from them:
 
@@ -276,7 +276,7 @@ A abordagem comum é implementar toda a lógica na pasta específica de cada pá
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 umula a cada dia e torna-se cada vez mais difícil adicionar novas funcionalidades, e é necessário escalar tanto o projeto em si quanto sua equipe.
 
@@ -287,7 +287,7 @@ Portanto, é importante discutir esses desafios comuns de desenvolvimento de pro
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Alternative approach
 Even with the basic partitioning, we see that:
 
@@ -305,7 +305,7 @@ Isso pode ser incluído no livro como uma outra opção para a estruturação do
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Features
 Parts of functionality that bring value to the user
 
@@ -318,7 +318,7 @@ Esses componentes também pode ser mencionado no livro para ilustrar como eles s
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Entities
 Business entities on which a higher-level logic will be built
 
@@ -332,7 +332,7 @@ Essas entidades também podem ser mencionadas no livro para ilustrar como elas s
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 And shared
 Reused shared modules, without binding to the domain scopes
 
@@ -347,7 +347,7 @@ Esses módulos também podem ser mencionados no livro para ilustrar como eles se
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 What is the profit?
 Now all modules can be designed with low coupling and with their own scope of responsibility, as well as distributed across the team without conflicts during development
 
@@ -361,7 +361,7 @@ Another important benefit is that by focusing on specific
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Em portugues
 Sim, uma das principais vantagens do FSD é que ele permite a criação de módulos com baixo acoplamento e responsabilidades claramente definidas. Isso facilita a compreensão do código e a navegação nele.
 
@@ -372,7 +372,7 @@ Outra vantagem importante é que, ao se concentrar em funcionalidades específic
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E como ficaria o livro afinal
 O livro sobre Feature-Sliced Design (FSD) poderia ter a seguinte estrutura:
 
@@ -388,7 +388,7 @@ Este livro poderia incluir exemplos de código, diagramas e imagens para ilustra
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve o 1
 Introdução
 
@@ -407,7 +407,7 @@ Ao usar FSD, um
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 projeto consiste em camadas, cada camada é composta por fatias e cada fatia é composta por segmentos. As camadas são padronizadas em todos os projetos e dispostas verticalmente. Os módulos de uma camada só podem interagir com módulos das camadas estritamente abaixo. Atualmente, há sete delas (de baixo para cima):
 
@@ -421,7 +421,7 @@ app - configurações, estilos e
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 provedores globais do aplicativo.
 
@@ -439,7 +439,7 @@ Este livro irá explorar esses conceitos em detalhes, dando exemplos práticos e
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva o 2
 capítulo sobre como planejar e estruturar sua aplicação com FSD.
 
@@ -455,7 +455,7 @@ Este capítulo também incluirá exemplos práticos e exercícios para ajudar os
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 Desenvolva o 3 capítulo sobre como implementar FSD em sua equipe.
 
@@ -469,7 +469,7 @@ Adaptação: é importante ser flexível e adaptar F
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva cada topico do capitulo 2
 2.1 Analisando a funcionalidade
 
@@ -492,7 +492,7 @@ Por exemplo, em um aplicativo de redes sociais, uma fatia pode ser criada para g
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 fatia pode ser criada para gerenciar o perfil do usuário, incluindo recursos como visualizar informações do perfil, editar informações do perfil e visualizar as postagens do usuário.
 
@@ -511,7 +511,7 @@ Uma estratégia recomendada para migrar um código existente para FSD é começa
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 decomposição separando as entidades e funcionalidades, transformando as páginas e widgets em camadas puramente composicionais. É aconselhável evitar adicionar novas entidades grandes durante a refatoração ou refatorar apenas certas partes do projeto.
 
@@ -560,7 +560,7 @@ Ident
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 ue os módulos compartilhados reutilizáveis, sem vinculação aos escopos de domínio. Esses módulos podem incluir componentes UIKit, como um componente card, ou funções de API, como uma função para carregar uma lista de tarefas.
 
@@ -570,7 +570,7 @@ O Feature-Sliced Design (FSD) é uma metodologia arquitetural para estruturar ap
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria um exemplo de codigo pra cada topico desses
 Infelizmente, eu não posso escrever código para você, mas posso lhe dar algumas idéias gerais sobre como o código poderia ser estruturado de acordo com o Feature-Sliced Design (FSD).
 
@@ -642,7 +642,7 @@ Espero que esses exemplos ajudem a dar uma ideia geral de como o código poderia
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Feature-Sliced Design: The Evolution of Frontend Development for Quick Experiments
 It’s no surprise today that business requirements and project development priorities are constantly changing. It’s therefore important to design an architecture that is flexible, easily scalable and maintainable, and that also has a common terminology. This will make it possible to onboard new staff for a project quickly and efficiently.
 The Feature-Sliced Design (FSD) methodology is a modern approach to scaffolding frontend applications. It is a set of rules and conventions for organizing code that helps to make the project more understandable and
@@ -650,14 +650,14 @@ The Feature-Sliced Design (FSD) methodology is a modern approach to scaffolding 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Em portugues
 A metodologia Feature-Sliced Design (FSD) é uma abordagem moderna para estruturar aplicativos frontend. É um conjunto de regras e convenções para organizar o código, que ajuda a tornar o projeto mais compreensível e estruturado diante de requisitos de negócios em constante mudança. Isso facilita a capacitação de novos funcionários no projeto e garante escalabilidade e manutenibilidade. Além disso, FSD promove uma boa forma de pensar, mesmo em projetos pequenos.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 We use preact/compat, which gives us access to a multitude of libraries in the React ecosystem, thereby making the development process more flexible while still retaining the ability to use Preact. These very advantages often have a flipside, though: for example, there is no uniform methodology for app design projects, like there is in Angular, for instance. Additionally, the sheer multiplicity of libraries makes it difficult to immerse yourself in the project, and having the freedom to implement and design your ideas can result in a cluttered code base, which is a scare factor for developers, especially newbies.
 Para contornar esses desafios, a metodologia Feature-Sliced Design (FSD) foi criada. Ela oferece uma estrutura para organizar o código de maneira consistente, de modo que é fácil de entender e manter, mesmo quando os requisitos de negócios mudam. Isso também facilita a capacitação de novos desenvolvedores no projeto e garante escalabilidade e manutenibilidade.
 
@@ -677,21 +677,21 @@ Em resumo, a metodologia Feature-Sliced Design (FSD) oferece uma estrutura para 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 That's where Feature-Sliced Design (FSD) comes in. It's an architectural methodology that provides a set of rules and conventions
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Em portugues
 É aí que entra o Feature-Sliced Design (FSD). É uma metodologia arquitetural que fornece uma série de regras e convenções para organizar o código, tornando o projeto mais compreensível e estruturado diante de requisitos de negócios em constante mudança. O objetivo principal desta metodologia é garantir a estabilidade do projeto em meio às mudanças frequentes. Al
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 ém disso, permite uma adesão incremental, o que significa que é possível adotá-lo em projetos existentes sem precisar refazer completamente a arquitetura. Isso permite que equipes de qualquer tamanho implementem FSD, desde que haja dor no atual arranjo arquitetural.
 
@@ -706,14 +706,14 @@ Adotar o FSD traz benefícios como: uniformidade na arquitetura, reutilização 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 We use preact/compat, which gives us access to a multitude of libraries in the React ecosystem, thereby making the development process more flexible while still retaining the ability to use Preact. These very advantages often have a flipside, though: for example, there is no uniform methodology for app design projects, like there is in Angular, for instance. Additionally, the sheer multiplicity of libraries makes it difficult to immerse yourself in the project, and having the freedom to implement and design your ideas can result in a cluttered code base, which is a scare factor for developers, especially newbies.
 Para lidar com esses desafios, o Feature-Sliced Design (FSD) foi criado como uma metodologia arquitetural para scaffolding de aplicativos front-end. Basicamente, é uma compilação de regras e convenções para organizar o código. O objetivo principal dessa metodologia é tornar o projeto mais compreensível e estruturado diante de requisitos de negócios em constante mudança. Usando o FSD, um projeto é dividido em camadas, cada uma composta por fatias e cada fatia composta por segmentos. Isso permite uma estruturação mais clara e fácil de entender do código, tornando mais fácil para novos desenvolvedores se adaptarem ao projeto e para a equipe evoluir o projeto de forma organizada.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 I’ve come across situations involving several components with similar functionality scattered across the same project. For instance, five variations of the same button where the pure UI components were directly linked to the application domain components.
 
 For our team, these issues are also relevant. To resolve this concern once and for all, we went on to adopt the Feature-Sliced Design (FSD) methodology that is now actively gaining traction. Below I will cover its core principles and describe our experience with it. Oops, I forgot to introduce myself. I’m Zhenya, a frontend developer with the Quick Experiments Team at inDrive. I’m going to tell you how we develop our in-house start-ups based on business hypotheses, by using FSD.
@@ -724,7 +724,7 @@ No nosso time, também enfrentamos esses desafios. Para resolvê-los, adotamos a
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 The FSD methodology is based on three levels of abstraction:
 
 1. Layers. This level defines the scope of the layer’s responsibility and the level of risk of change. The higher the layer, the greater the level of its responsibility and knowledge about the other layers. The lower the layer, the more abstract it is and the more it is used in the upper layers, hence, the higher the danger involved in making changes to it.
@@ -747,7 +747,7 @@ A FSD é uma metodologia flexível e escalável que ajuda a manter um código li
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Our team hardly ever uses the third level because it over-complicates the structure of the application. We decided that we would only use segments if the module was large enough and two-level decomposition wouldn’t be sufficient to abstract the logic correctly.
 
 There’s one important rule to follow for the FSD architecture, which I mustn’t neglect to mention here:
@@ -760,7 +760,7 @@ In summary, Feature-Sliced Design (FSD) is a methodology for front-end projects 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Em portugues
 A metodologia FSD baseia-se em três níveis de abstração:
 
@@ -771,14 +771,14 @@ Fatias. As fatias refletem a funcionalidade específica da
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me ajuda a escrever um ebook de fsd
 Claro, posso ajudar você a escrever um e-book sobre o FSD (Feature-Sliced Design). Primeiro, você precisaria especificar o público-alvo do e-book e o nível de detalhamento que você deseja incluir. Além disso, seria útil ter uma estrutura geral para o e-book, incluindo os tópicos que você gostaria de abordar. Depois disso, podemos começar a escrever o conteúdo, passando por conceitos básicos do FSD, como os três níveis de abstração (camadas, fatias e segmentos), as regras para a estruturação do código e exemplos de como implementar o FSD em projetos reais. Também podemos incluir informações sobre as vantagens do FSD, como a uniformidade, o controle de reutilização de lógica e a estabilidade em caso de mudanças e refatoração. Vamos trabalhar juntos para criar um e-book completo e detalhado sobre o FSD.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Quais seriam exatamente os topicos
 Os tópicos incluiriam:
 
@@ -793,7 +793,7 @@ Considerações finais e recomendações para implementar o FSD em sua equipe de
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve o 1
 Introdução ao Feature-Sliced Design (FSD)
 O que é FSD
@@ -822,7 +822,7 @@ Dicas de boas práticas e como evitar erros comuns.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva cada sub topico
 Introdução ao Feature-Sliced Design (FSD)
 O que é o FSD
@@ -850,7 +850,7 @@ Próximos passos para aprender mais sobre o FSD e implementá-lo em seus projeto
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve 1.1
 1.1 Introdução ao Feature-Sliced Design (FSD)
 
@@ -877,7 +877,7 @@ Benefícios da implementação do FSD em comparação com abordagens comuns
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve 1.1.1
 1.1.1 Introdução ao Feature-Sliced Design (FSD)
 
@@ -897,14 +897,14 @@ A regra principal do FSD é que um módulo não deve usar outro módulo localiza
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 Desculpe, não entendi o contexto ou o que você gostaria que eu continuasse a desenvolver. Por favor, forneça mais informações para que eu possa ajudá-lo melhor.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve 1.2.1
 1.2.1 Introdução à arquitetura FSD
 
@@ -924,7 +924,7 @@ ui/
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 1.2.1. Exemplo de implementação:
 
@@ -982,7 +982,7 @@ src
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua o código ````
 import { useEffect, useState } from 'preact/hooks';
 
@@ -1052,14 +1052,14 @@ Como podemos ver, a página de lista de tarefas (TasksListPage) usa dois compone
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 Desculpe, eu não entendi exatamente o que você gostaria de continuar. Poderia fornecer mais contexto ou especificar o tópico em questão? Eu estaria feliz em ajudá-lo a continuar o livro de FSD.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve 1.2.3
 Para ilustrar como implementar a camada de "features" usando a metodologia FSD, vamos considerar um exemplo de uma aplicação de redes sociais.
 
@@ -1115,14 +1115,14 @@ export default function reducer(state = initialState, action) {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 ...
 Desculpe, eu não entendi o que você gostaria de continuar. Por favor, forneça mais contexto ou informações sobre o que você gostaria de desenvolver. Estou aqui para ajudá-lo da melhor maneira possível.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Finaliza o código
 Então, para finalizar o código, precisamos adicionar a lógica de chamada da API para carregar a lista de tarefas e para carregar uma tarefa específica pelo ID. Isso pode ser feito adicionando uma função assíncrona na pasta api/ dentro do segmento shared.
 
@@ -1156,28 +1156,28 @@ import { getTaskById } from 'shared/api
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Vamos continuar o ebook?
 Claro, podemos continuar o ebook. Qual é o próximo tópico que deseja abordar? Estou pronto para ajudá-lo a desenvolver cada sub tópico.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve a regra principal do fsd
 A regra principal do FSD é que um módulo não deve usar outro módulo localizado na mesma camada ou nas camadas acima. Isso é chamado de "Isolação de camadas". Isso permite que cada módulo tenha sua própria responsabilidade e seja facilmente modificado sem afetar outros módulos. Isso também facilita a refatoração e a manutenção do código, pois todos os módulos estão isolados uns dos outros e são fáceis de entender e gerenciar.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Conclui
 A regra principal do FSD é que um módulo não deve usar outro módulo localizado na mesma camada ou nas camadas acima. Isso permite que os módulos sejam isolados uns dos outros e sejam mais resistentes a novos requisitos. Isso também facilita a refatoração e a modificação dos módulos, pois a lógica está organizada em camadas hierárquicas, com cada camada tendo sua própria responsabilidade e dependência. Adotando essa regra, é possível manter um projeto organizado e escalável, além de facilitar a incorporação de novos membros na equipe de desenvolvimento.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Da um exemplo
 A regra principal do FSD é que um módulo não deve usar outro módulo localizado na mesma camada ou nas camadas acima. Por exemplo, o recurso A não deve importar o recurso B. Caso contrário, os módulos deixam de ser isolados uns dos outros e perdem sua resistência a novos requisitos.
 
@@ -1186,7 +1186,7 @@ Por exemplo, considere um aplicativo de redes sociais. A camada de recursos pode
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve como o fsd se diferencia de outros metodos de arquitetura front end
 A Feature-Sliced Design (FSD) se diferencia de outros métodos de arquitetura front-end principalmente pela sua abordagem baseada em três níveis de abstração: camadas, fatias e segmentos. Isso permite uma estruturação mais clara e organizada do código, além de um maior controle de reaproveitamento de lógica e estabilidade frente a mudanças e refatorações.
 
@@ -1197,7 +1197,7 @@ Além disso, o FSD também se diferencia ao enfatizar a orientação às necessi
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva as desvantagens em criar componentes de interface  num projeto react em pasta "pages" e "components" e como o fsd resolve isso
 Um problema comum em projetos React é criar componentes de interface diretamente nas pastas "pages" e "components" sem seguir uma estrutura de arquitetura consistente. Isso pode resultar em componentes com lógica de negócios misturada com componentes de visualização, o que torna o código difícil de entender e manter. Além disso, esses componentes podem acabar sendo duplicados em diferentes partes do aplicativo, o que viola o princípio DRY (Don't Repeat Yourself).
 
@@ -1206,7 +1206,7 @@ A metodologia FSD resolve esses problemas, pois força a equipe a pensar em term
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva o topico de divisao em camadas
 No FSD, a arquitetura é dividida em camadas, cada uma com sua própria responsabilidade e nível de risco de mudanças. As camadas são padronizadas em todos os projetos e organizadas verticalmente. Módulos em uma camada só podem interagir com módulos das camadas estritamente abaixo. Atualmente, há sete camadas no FSD (de baixo para cima):
 
@@ -1222,7 +1222,7 @@ Cada camada é dividida em fatias, que particionam o código por domínio de neg
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada app 
 A camada "app" é responsável por gerenciar as configurações gerais da aplicação, como rotas, estilos e provedores. Nesta camada, é definido como a aplicação será inicializada e como as rotas serão gerenciadas. Além disso, é onde são definidos os estilos globais da aplicação, como cores, fontes e espaçamentos.
 
@@ -1249,7 +1249,7 @@ Neste exemplo, vemos o uso do Preact e do React-Redux para inicializar a aplica�
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada shared
 A camada shared é responsável por conter módulos reutilizáveis e desacoplados das especificidades do projeto ou negócio. Esses módulos podem incluir bibliotecas de interface do usuário (UIKit), bibliotecas de terceiros e acesso à API. A ideia é que esses módulos possam ser compartilhados entre vários projetos ou aplicativos, o que permite uma melhor manutenção e escalabilidade.
 
@@ -1265,7 +1265,7 @@ Alocando esses módulos na camada shared, garantimos que eles estejam disponíve
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Da um exemplo usando chakra ui
 A camada shared é responsável por conter componentes e funcionalidades reutilizáveis ao longo do projeto. Um exemplo de como utilizar a biblioteca Chakra UI nessa camada seria criar um componente de botão personalizado, que pode ser utilizado em diferentes partes da aplicação.
 
@@ -1289,7 +1289,7 @@ Esse componente de botão personalizado pode ser importado e utilizado em qualqu
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 De um exemplo de api com axios na camada shared
 A camada shared é onde ficam os módulos compartilhados e que não estão ligados ao domínio específico do projeto. Um exemplo de utilização de uma API com Axios nessa camada seria criar um arquivo chamado api.js onde seriam definidas as funções para fazer as chamadas à API.
 
@@ -1318,7 +1318,7 @@ Assim, outras camadas, como a de features ou entities, podem importar essas fun�
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada entities
 A camada entities é responsável por armazenar as entidades de negócios do projeto. Essas entidades são geralmente objetos que representam os dados do seu aplicativo, como usuários, produtos, tarefas, etc. Esses objetos são usados ​​pela camada de features para realizar operações de negócios específicas.
 
@@ -1363,7 +1363,7 @@ Neste exemplo, a classe Task representa uma entidade de tarefa e contém proprie
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada features
 A camada features é responsável por implementar a lógica de negócios específica de cada funcionalidade do aplicativo. Ela é composta por componentes que são específicos para cada funcionalidade e geralmente tem uma lógica de negócios mais complexa do que a camada de entidades.
 
@@ -1374,7 +1374,7 @@ Por exemplo, em um aplicativo de gerenciamento de tarefas, a camada de features 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Da exemplo de codigo
 Para ilustrar como funciona a camada de "features" no FSD, vamos considerar um exemplo de um aplicativo de gerenciamento de tarefas.
 
@@ -1396,7 +1396,7 @@ Cada um desses arquivos contém uma função ou componente que implementa a func
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada widgets
 A camada widgets é responsável por agrupar componentes de interface e colocá-los em conjunto para formar componentes mais complexos. Esses componentes complexos, chamados de "widgets" nesta camada, são compostos por componentes de entidades e componentes de funcionalidades.
 
@@ -1430,7 +1430,7 @@ export const PostCard: React.FC<Props> = ({ post }) => {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada pages
 A camada pages é responsável por lidar com as rotas e a navegação do aplicativo. Ela contém os componentes de página que são exibidos ao usuário, como a página inicial, a página de perfil, a página de configurações, etc. Estes componentes são geralmente compostos por outros componentes, como widgets e features, e sua principal função é garantir que a visualização correta seja exibida ao usuário de acordo com a rota atual.
 
@@ -1471,7 +1471,7 @@ Neste exemplo, o componente TaskDetailsPage é responsável por exibir os detalh
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva a camada processes usando fluxo de cadastro como exemplo
 A camada processes é responsável por lidar com as operações que acontecem fora do fluxo principal do aplicativo, como autenticação, pagamentos e fluxos de cadastro.
 
@@ -1488,7 +1488,7 @@ Esses arquivos trabalhariam juntos para gerenciar o fluxo de cadastro e comunica
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 De um exemplo disso usando context api
 A camada "processes" é responsável por gerenciar o fluxo de processos, como o fluxo de cadastro, no nosso aplicativo. Usando o Context API do React, podemos criar um contexto para armazenar o estado atual do fluxo de cadastro e disponibilizá-lo para todos os componentes que precisam dele.
 
@@ -1582,7 +1582,7 @@ export default SignupForm;
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva um capitulo usando os segmentos
 Segmentos são partes específicas de um módulo com um propósito técnico específico. De acordo com a metodologia FSD, cada segmento é responsável por sua própria parte da implementação técnica do módulo.
 
@@ -1605,7 +1605,7 @@ Usando os segmentos, é possível manter a lógica de cadastro de usuários orga
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolve o segmento lib usando react hook form de exemplo
 O segmento lib é responsável por conter as bibliotecas de utilidade e funções auxiliares do nosso projeto. Neste caso, vamos utilizar o react-hook-form como exemplo de implementação.
 
@@ -1616,7 +1616,7 @@ Para utilizar o react-hook-form, primeiro precisamos instalá-
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 O segmento lib é onde armazenamos as bibliotecas e utilitários que são compartilhados entre os módulos do nosso projeto. Um exemplo de uma biblioteca que poderíamos usar nesse segmento é o react-hook-form. Ele fornece hooks para lidar com formulários de forma fácil e segura.
 
