@@ -25,8 +25,10 @@ export const addCategory: AddCategorySignature =
 Este código contém três exportações: AddCategory, AddCategorySignature, e addCategory.
 
 AddCategory é uma função que recebe um objeto CategoryData como entrada e retorna uma promessa que, quando resolvida, retorna um objeto CategoryEntity ou null.
+
 AddCategorySignature é uma função que recebe um objeto AddCategoryRepository como entrada e retorna a função AddCategory
 addCategory é uma constante que é uma instância da função AddCategorySignature e foi já passado como entrada um objeto addCategoryRepository
+
 A função AddCategory é usada para adicionar uma categoria ao sistema. Ela recebe um objeto CategoryData como entrada e retorna uma promessa que, quando resolvida, retorna um objeto CategoryEntity que representa a categoria adicionada ou null caso ocorra algum erro.
 
 A função AddCategorySignature é usada para criar uma assinatura para a função AddCategory, ela espera receber como entrada um objeto do tipo AddCategoryRepository e retorna a função AddCategory.
