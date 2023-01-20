@@ -10,15 +10,11 @@ ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
 ## Introdução
+O aprendizado acelerado é uma técnica cada vez mais popular para adquirir novas habilidades e conhecimentos de forma rápida e eficiente. Dois livros que abordam essa temática de forma aprofundada são "1 ano em 12 semanas" escrito por Ryan Masters e "Ultralearning" escrito por Scott Young.
+
 "1 Ano em 12 Semanas" é um livro escrito por Ryan Masters, que oferece uma estratégia de aprendizado acelerado para aprender uma nova habilidade ou conhecimento em um período de 12 semanas. O livro fornece dicas e técnicas para ajudar os leitores a aprender de forma eficiente, incluindo como estabelecer metas, criar um plano de estudo eficaz e usar técnicas de memorização. Ele também fala sobre como superar obstáculos comuns que as pessoas enfrentam ao aprender algo novo, como falta de motivação e dificuldade de concentração. Em resumo, o livro é uma ferramenta para quem busca aprender algo novo de forma rápida e eficiente.
 
 Já o livro "Ultralearning" é um livro escrito por Scott Young, onde ele apresenta uma abordagem para aprendizado acelerado e aprimoramento de habilidades. O livro fornece estratégias e técnicas para ajudar os leitores a aprender de forma mais eficiente, incluindo como estabelecer metas, criar um plano de estudo eficaz e usar técnicas de memorização. Além disso, o livro também discute como superar obstáculos comuns que as pessoas enfrentam ao aprender algo novo, como falta de motivação e dificuldade de concentração. O livro também destaca vários exemplos de pessoas que usaram essas técnicas para aprender habilidades complexas em curtos períodos de tempo. Em resumo, "Ultralearning" é um guia para desenvolver habilidades rapidamente e alcançar objetivos de aprendizado de forma eficiente.
-
-O aprendizado acelerado é uma técnica cada vez mais popular para adquirir novas habilidades e conhecimentos de forma rápida e eficiente. Dois livros que abordam essa temática de forma aprofundada são "1 ano em 12 semanas" escrito por Ryan Masters e "Ultralearning" escrito por Scott Young.
-
-"1 ano em 12 semanas" oferece uma estratégia para aprender uma nova habilidade ou conhecimento em apenas 12 semanas. O livro fornece dicas e técnicas para ajudar os leitores a aprender de forma eficiente, incluindo como estabelecer metas, criar um plano de estudo eficaz e usar técnicas de memorização. Além disso, o livro também discute como superar obstáculos comuns que as pessoas enfrentam ao aprender algo novo, como falta de motivação e dificuldade de concentração.
-
-Já "Ultralearning" apresenta uma abordagem para aprendizado acelerado e aprimoramento de habilidades. O livro fornece estratégias e técnicas para ajudar os leitores a aprender de forma mais eficiente, incluindo como estabelecer metas, criar um plano de estudo eficaz e usar técnicas de memorização. Além disso, o livro também discute como superar obstáculos comuns que as pessoas enfrentam ao aprender algo novo, como falta de motivação e dificuldade de concentração. Ele também destaca vários exemplos de pessoas que usaram essas técnicas para aprender habilidades complexas em curtos períodos de tempo.
 
 Ambos os livros compartilham a ideia de que o aprendizado acelerado é possível através do estabelecimento de metas claras, criação de um plano de estudo eficaz e uso de técnicas de memorização. Eles também sugerem superar obstáculos comuns que as pessoas enfrentam ao aprender algo novo, como falta de motivação e dificuldade de concentração.
 
