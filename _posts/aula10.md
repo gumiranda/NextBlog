@@ -30,15 +30,15 @@ Este código contém dois tipos de exportação: Query e QueryOptions.
 
 1. Query é um tipo que representa uma consulta a um banco de dados. Ele contém dois campos:
 
-1.1 fields: um objeto que contém os campos que serão usados para filtrar os resultados da consulta.
-1.2 options: (opcional) um objeto do tipo QueryOptions que contém opções adicionais para a consulta.
+1.1. fields: um objeto que contém os campos que serão usados para filtrar os resultados da consulta.
+1.2. options: (opcional) um objeto do tipo QueryOptions que contém opções adicionais para a consulta.
 2. QueryOptions é um tipo que representa as opções adicionais para uma consulta. Ele contém vários campos opcionais:
-2.1 projection: (opcional) um objeto que especifica quais campos serão incluídos ou excluídos na consulta.
-2.2 sort: (opcional) um objeto que especifica como os resultados serão classificados.
-2.3 page: (opcional) um número que especifica qual página de resultados deve ser retornada.
-2.4 limit: (opcional) um número que especifica quantos resultados devem ser retornados por página.
-2.5 userLoggedId: (opcional) uma string que contém o id do usuário logado
-2.6 indexToCreate: (opcional) um objeto que especifica quais índices devem ser criados antes de realizar a consulta
+2.1. projection: (opcional) um objeto que especifica quais campos serão incluídos ou excluídos na consulta.
+2.2. sort: (opcional) um objeto que especifica como os resultados serão classificados.
+2.3. page: (opcional) um número que especifica qual página de resultados deve ser retornada.
+2.4. limit: (opcional) um número que especifica quantos resultados devem ser retornados por página.
+2.5. userLoggedId: (opcional) uma string que contém o id do usuário logado
+2.6. indexToCreate: (opcional) um objeto que especifica quais índices devem ser criados antes de realizar a consulta
 
 Este código define os tipos Query e QueryOptions que são usados para representar consultas a um banco de dados, incluindo campos de filtragem e opções adicionais para a consulta, como projeção, classificação, paginação e limite de resultados.
 
