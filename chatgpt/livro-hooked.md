@@ -4,7 +4,7 @@ Resuma o livro hooked
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Explique os 4 passos
 Os quatro passos da metodologia "Hooked Model" são:
 
@@ -21,7 +21,7 @@ Esses quatro passos seguidos, criam um ciclo viciante, onde o usuário é gatilh
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 De exemplos de cada passo
 Alguns exemplos de como esses passos podem ser aplicados em diferentes produtos:
 
@@ -44,7 +44,7 @@ Um jogo que permite que o usuário crie seu próprio personagem ou construa sua 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva sobre cada exemplo
 Exemplo 1: Aplicativo de fitness
 
@@ -72,7 +72,7 @@ Trigger: O jogo mostra o progresso dos amigos do usuário, o que o incentiva a c
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 De o exemplo de um app de agendamentos de serviços online
 Exemplo: Aplicativo de agendamento de serviços online
 
@@ -87,7 +87,7 @@ Investment: O aplicativo permite que o usuário salve seus profissionais favorit
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Detalhe cada passo
 Exemplo: Aplicativo de agendamento de serviços online
 
@@ -102,7 +102,7 @@ Investment: O aplicativo permite que o usuário salve seus profissionais favorit
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Detalhe tecnicas de ui ux que podem ser usadas pra cada passo
 Existem várias técnicas de UI/UX que podem ser usadas para ajudar a aplicar cada passo da metodologia "Hooked Model" em um aplicativo ou website. Algumas dessas técnicas incluem:
 
@@ -124,7 +124,7 @@ Customização avançada: permitir que o usuário personalize sua experiência d
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva um texto sobre cada tecnica explicando de forma pratica
 Notificações push: As notificações push são uma técnica de UI/UX que permite enviar mensagens diretamente para o usuário, independentemente se ele estiver atualmente usando o aplicativo ou não. Essas notificações podem ser usadas como um gatilho para incentivar o usuário a abrir o aplicativo e realizar uma ação específica, como agendar um serviço ou continuar jogando um jogo.
 
@@ -139,7 +139,7 @@ Feedback instantâneo: Feedback instantâneo é uma técnica que busca fornecer 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 ode mostrar uma mensagem de confirmação para o usuário, informando que a compra foi realizada com sucesso. Além disso, se o usuário cometer um erro ao preencher um formulário, o aplicativo pode mostrar uma mensagem de erro específica, indicando qual campo precisa ser corrigido. Isso ajuda a evitar confusão e garantir que o usuário esteja sempre ciente do status de suas ações.
 
@@ -154,7 +154,7 @@ Personalização: Permitir que o usuário personalize sua experiência é uma t�
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 ma recompensa pessoal. Por exemplo, um aplicativo de música pode permitir que o usuário crie playlists personalizadas ou escolha temas de interface diferentes. Isso incentiva o usuário a continuar usando o aplicativo e sentir-se mais envolvido e proprietário da sua experiência.
 

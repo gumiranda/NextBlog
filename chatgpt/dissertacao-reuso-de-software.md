@@ -18,7 +18,7 @@ Lembre-se de que esses são apenas passos gerais e que a estrutura da sua disser
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva a introduçao
 A introdução é a primeira seção de uma dissertação de pesquisa e é responsável por apresentar o tema e o objetivo da pesquisa, bem como o contexto do assunto e por que é importante estudá-lo. A introdução deve ser escrita de forma clara e concisa, a fim de capturar a atenção do leitor e fornecer uma visão geral do trabalho.
 
@@ -31,7 +31,7 @@ O estudo deste assunto é relevante devido à crescente importância do reuso de
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva uma introduçao melhor
 A introdução é a primeira seção de uma dissertação de pesquisa e é responsável por apresentar o tema e o objetivo da pesquisa, bem como o contexto do assunto e por que é importante estudá-lo. A introdução deve ser escrita de forma clara e concisa, a fim de capturar a atenção do leitor e fornecer uma visão geral do trabalho.
 
@@ -44,7 +44,7 @@ O estudo deste assunto é relevante devido à crescente importância do reuso de
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva mais na introduçao
 Além disso, a dissertação também irá abordar a importância do uso de TypeScript e Plop.js para garantir a qualidade e a manutenibilidade do software. TypeScript é uma linguagem de programação que adiciona tipagem estática ao JavaScript, o que permite a detecção de erros em tempo de desenvolvimento e melhora a qualidade do código. Por outro lado, Plop.js é uma ferramenta de geração de código que permite automatizar a criação de componentes de software e garantir a conformidade com as boas práticas de codificação.
 
@@ -53,14 +53,14 @@ A pesquisa será realizada através de uma abordagem metodológica baseada em ex
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o titulo da dissertaçao
 "Melhorando o Reuso de Software e Mitigando a Podridão de Software com TypeScript e Plop.js"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 1.1 objetivos
 1.1 Objetivos
 
@@ -72,14 +72,14 @@ Contribuir para a comunidade de desenvolvimento de software fornecendo uma nova 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva em formato texto. Sem topicos
 Nesta dissertação, o objetivo principal é investigar como as ferramentas TypeScript e Plop.js podem ser utilizadas para melhorar o processo de reuso de software e lidar com a podridão de software. Para alcançar este objetivo, será implementado uma solução baseada em TypeScript e Plop.js e avaliados os resultados obtidos. Além disso, será medida a qualidade e a manutenibilidade do software implementado e propostas recomendações para a utilização das ferramentas no processo de reuso de software e lidar com a podridão de software. Este estudo é relevante devido à crescente importância do reuso de software e à necessidade de lidar com a podridão de software em projetos de software modernos. A dissertação também contribuirá para a comunidade de desenvolvimento de software, fornecendo uma nova abordagem para a implementação de reuso de software e lidando com a podridão de software.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 1.2 justificativa
 1.2 Justificativa
 
@@ -90,7 +90,7 @@ O uso de ferramentas como TypeScript e Plop.js tem se tornado cada vez mais popu
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 .
 
@@ -101,7 +101,7 @@ Além disso, a pesquisa sobre o uso de TypeScript e Plop.js para reuso de softwa
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 Além disso, a pesquisa também pode ser útil para empresas e organizações que buscam melhorar seus processos de desenvolvimento de software e garantir a qualidade e manutenibilidade do código. Ao utilizar as técnicas propostas nesta dissertação, essas organizações podem economizar tempo e recursos, além de garantir que seus projetos de software sejam de alta qualidade e fáceis de manter.
 
@@ -110,7 +110,7 @@ Em resumo, esta dissertação tem como objetivo investigar como as ferramentas T
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 1.3 metodo
 1.3 Método
 
@@ -127,7 +127,7 @@ Além disso, será realizada uma revisão da literatura para identificar as prin
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 1.4 trabalhos relacionados
 1.4 Trabalhos Relacionados
 
@@ -142,7 +142,7 @@ Há uma série de trabalhos relacionados à utilização de ferramentas de progr
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 uma abordagem para geração automatizada de código para componentes React usando a ferramenta Plop.js. O autor mostrou como essa abordagem pode ser utilizada para seguir boas práticas de desenvolvimento de software e aumentar a eficiência do processo de desenvolvimento.
 
@@ -155,21 +155,21 @@ Esses trabalhos fornecem uma base sólida para a present
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 e dissertação e mostram a importância de ferramentas como o TypeScript e o Plop.js no processo de reuso de software e lidando com a podridão de software. No entanto, a presente dissertação difere desses trabalhos, pois propõe uma abordagem específica para utilizar essas ferramentas juntas e avaliar sua eficácia no processo de reuso de software e lidando com a podridão de software. Além disso, esta dissertação também se concentra em aplicações específicas e pode fornecer recomendações mais precisas para a utilização de TypeScript e Plop.js.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 Além disso, a dissertação também se concentrará em aplicações específicas e pode fornecer recomendações mais precisas para a utilização de TypeScript e Plop.js em diferentes contextos. Também será realizada uma avaliação empírica dos resultados obtidos, comparando-os com os trabalhos relacionados e estabelecendo uma base sólida para futuras pesquisas.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 1.5 resultados
 1.5 Resultados Esperados
 
@@ -188,14 +188,14 @@ Esses resultados serão avaliados através de métodos empíricos, como análise
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 Além disso, os resultados serão comparados com os trabalhos relacionados e aplicados em aplicações específicas para fornecer recomendações precisas para a utilização de TypeScript e Plop.js em diferentes contextos. Além disso, a dissertação também pretende fornecer uma compreensão mais profunda dos desafios enfrentados pelos desenvolvedores ao tentar reutilizar componentes de software e propõe soluções para superá-los.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Introduza o capitulo 2 fundamentaçao teorica
 Capítulo 2 - Fundamentação Teórica
 
@@ -228,7 +228,7 @@ Este capítulo apresentará uma revisão da literatura sobre reuso de software e
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 2.5 Outras ferramentas relacionadas
 
@@ -247,7 +247,7 @@ Este capítulo apresentará uma revisão aprofundada dos conceitos de reuso de s
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 2.1
 2.1 Reuso de Software
 
@@ -264,7 +264,7 @@ Apesar dos benefícios, o reuso de software também apresenta desafios. Um dos p
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 is e que possam ser facilmente integrados a novos sistemas. Isso inclui garantir a qualidade e manutenibilidade dos componentes, bem como a capacidade de adaptá-los a diferentes contextos e necessidades.
 
@@ -275,7 +275,7 @@ Para superar esses desafios, existem várias abordagens e ferramentas que podem 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 2.2 Podridão de software
 
@@ -294,7 +294,7 @@ Além disso, ferramentas de análise de código e geração de relatórios de qu
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 2.3. Integrando TypeScript e Plop.js no desenvolvimento de software
 
@@ -311,7 +311,7 @@ Integrando TypeScript e Plop.js no desenvolvimento de software, é possível apr
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 ficiente e menos propenso a erros. Isso inclui a garantia de tipos estáticos no código, o que pode ajudar a evitar erros comuns de runtime, e a automação de tarefas como criação de novos componentes e refactorização de código existente, o que pode ajudar a garantir a consistência e qualidade do código.
 
@@ -322,7 +322,7 @@ Em resumo, a integração de TypeScript e Plop.js no desenvolvimento de software
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 2.4 Estrutura do Capítulo
 
@@ -331,7 +331,7 @@ Este capítulo será dividido em três seções. A primeira seção tratará da 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 2.5 Conclusão
 
@@ -340,7 +340,7 @@ Neste capítulo, discutimos a importância do reuso de software e como a podrid�
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 2.5 Outras ferramentas relacionadas
 
 2.5.1 Revisão de outras ferramentas de tipagem estática e geração de código
@@ -378,14 +378,14 @@ Embora o TypeScript e o Plop.js sejam ferramentas poderosas para melhorar a qual
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 escreva a introdução do capitulo 3 "desenvolvimento da aplicação"
 No capítulo 3, "Desenvolvimento da Aplicação", discutiremos como o TypeScript e o Plop.js foram utilizados em um projeto de software de exemplo. Apresentaremos os detalhes da arquitetura da aplicação, as escolhas de design e a implementação das funcionalidades. Também discutiremos como as ferramentas foram integradas no fluxo de trabalho de desenvolvimento e os benefícios obtidos em termos de qualidade e manutenibilidade do código. Além disso, mostraremos os resultados da avaliação empírica realizada, comparando o projeto com outros projetos semelhantes que não utilizam essas ferramentas.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 desenvolva os subcapitulos
 3.1 Escolha da arquitetura
 
@@ -405,7 +405,7 @@ Concluir o capítulo com as conclusões gerais sobre o uso do TypeScript e Plop.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 continue
 3.1 Escolha da arquitetura
 
@@ -428,7 +428,7 @@ Incluir quaisquer anexos relevantes, como código fonte, configurações ou scri
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 desenvolva 3.1 Escolha da arquitetura
 3.1 Escolha da arquitetura
 
@@ -445,14 +445,14 @@ Em resumo, a escolha da arquitetura de microserviços permitiu que o projeto ate
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva 3.2 Implementação das funcionalidades
 No subcapítulo 3.2, serão descritos os detalhes da implementação das funcionalidades propostas na pesquisa. Serão apresentados os passos seguidos para implementar cada uma delas, incluindo o uso do TypeScript e Plop.js. Além disso, serão mostrados exemplos de código e explicações detalhadas sobre como cada funcionalidade foi implementada. Também serão discutidos os desafios encontrados e como eles foram superados durante o processo de implementação.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 3.2
 No subcapítulo 3.2, serão descritos os detalhes da implementação das funcionalidades propostas na pesquisa. A primeira etapa foi escolher a arquitetura e definir as bibliotecas a serem usadas. Para isso, foi realizada uma pesquisa sobre as diferentes opções disponíveis e foram comparadas as suas funcionalidades e limitações. Com base nessa pesquisa, foi escolhido o TypeScript como linguagem de programação e o Plop.js como ferramenta de geração de código.
 
@@ -467,7 +467,7 @@ Exemplos de código e capturas de tela ilustrando a implementação das funciona
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 3.2.1
 3.2 Implementação das funcionalidades
 
@@ -482,7 +482,7 @@ A segunda etapa foi utilizar o Plop.js para gerar código de forma automatizada.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva exemplos de codigo
 3.2 Implementação das funcionalidades
 
@@ -549,7 +549,7 @@ Para facilitar o processo de deploy da aplicação, foi configurado um pipeline 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue a escrita
 3.2 Implementação das funcionalidades
 
@@ -586,7 +586,7 @@ export default {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva 3.2.5
 3.2.5 Testes automatizados
 
@@ -602,7 +602,7 @@ Com esses testes automatizados em place, é possível ter maior confiança na ev
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 3.2.6
 Testes e validação
 
@@ -625,14 +625,14 @@ Esses testes automatizados garantem que a aplicação está funcionando corretam
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Vamos começar de novo o capitulo 3 do desenvolvimento da aplicaçao?
 Claro, podemos começar de novo o capítulo 3 do desenvolvimento da aplicação. O que você gostaria de incluir na introdução desse capítulo?
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Introduzir um projeto desenvolvido para evitar a podridao de software usando o plop.js para automatizar a criaçao de entidades,use cases, repositories e controllers com typescript
 Introdução
 
@@ -641,7 +641,7 @@ O capítulo 3 tem como objetivo apresentar o desenvolvimento da aplicação prop
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 o projeto de exemplo utilizado é um sistema de agendamentos online de serviços
 No capítulo 3, "Desenvolvimento da Aplicação", apresentaremos um projeto desenvolvido para evitar a podridão de software, utilizando o plop.js para automatizar a criação de entidades, use cases, repositórios e controladores com TypeScript. O projeto de exemplo utilizado será um sistema de agendamentos online de serviços, com o objetivo de ilustrar como o uso dessas ferramentas pode auxiliar na manutenção e escalabilidade do código.
 
@@ -654,14 +654,14 @@ No subcapítulo 3.3, faremos uma avaliação da eficácia do uso do plop.js e Ty
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Boa gostei muito
 Eu fico feliz em ouvir isso! Estou sempre aqui para ajudar. Se você precisar de algo mais, basta me perguntar.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva 3.1
 3.1 Escolha da arquitetura
 
@@ -710,7 +710,7 @@ Da mesma forma que para as entidades, foi utilizado o plop.js para automatizar a
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 3.2.1 usando classes typescript
 3.2.1 Implementação das Entidades
 
@@ -758,7 +758,7 @@ class Service {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 ...
 3.2.1 Implementação das Entidades
 
@@ -783,7 +783,7 @@ Além disso, utilizamos o Plop.js para automatizar a criação dessas classes, g
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 3.2.2 use cases
 3.2.2 Use Cases
 
@@ -802,7 +802,7 @@ Além disso, o plop.js foi utilizado para automatizar a criação dessas classes
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 De exemplo de codigo
 3.2.2 Use Cases
 
@@ -870,7 +870,7 @@ Os use cases foram implementados com classes separadas para cada funcionalidade,
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 3.2.3
 Repositories
 
@@ -911,7 +911,7 @@ Note que, neste exemplo, estamos armazenando os agendamentos em um array, mas em
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva 3.2.4
 3.2.4 Repositórios
 
@@ -933,7 +933,7 @@ export class ServiceRepository {
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 3.2.5
 3.2.5 Repositories
 
@@ -965,14 +965,14 @@ Como podemos ver, o repositório estende a classe Repository do TypeORM, especif
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Nao vou usar typeorm
 Entendi, neste caso, para 3.2.5, você pode discutir como você implementou as funcionalidades de persistência de dados sem utilizar o TypeORM. Você pode explicar as decisões de projeto que você tomou, como por exemplo, usar uma biblioteca diferente ou escrever seu próprio código para lidar com banco de dados.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Prisma orm
 3.2.5 Implementação das funcionalidades com Prisma ORM
 
@@ -1020,7 +1020,7 @@ Com as operações CRUD implementadas, foi possível desenvolver as funcionalida
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 3.2.5 Integração do Prisma ORM
 
@@ -1074,7 +1074,7 @@ Assim, garantimos que somente agendamentos válidos sejam criados e atualizados 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 3.2.6 Integração com o Prisma
 
@@ -1085,7 +1085,7 @@ Para exemplificar, v
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva sobre controllers
 3.2.6 Controllers
 

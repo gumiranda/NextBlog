@@ -12,7 +12,7 @@ Em resumo, a era dos bootcamps Javascript é um fenômeno crescente que tem ajud
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Finalize fazendo propaganda do bootcamp crazystack nodejs typescript fastify mongodb
 O Bootcamp CrazyStack Node.js TypeScript Fastify MongoDB é uma excelente opção para aqueles interessados em aprender as habilidades necessárias para se tornarem desenvolvedores Javascript. Este curso intensivo oferece uma abordagem prática e baseada em projetos para ensinar as principais tecnologias do mercado, incluindo Node.js, TypeScript, Fastify e MongoDB.
 
@@ -25,7 +25,7 @@ Se você está procurando uma maneira rápida e eficiente de aprender as habilid
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Reescreve esse texto adicionando um tom humoristico
 Se você está cansado de ficar sentado na frente de um computador, digitando linhas de código sem sentido e pensando "isso não é para mim", então você precisa experimentar o Bootcamp CrazyStack Node.js TypeScript Fastify MongoDB! Este curso é tão divertido, que você nem vai perceber que está trabalhando duro para se tornar um desenvolvedor Javascript.
 

@@ -10,7 +10,7 @@ Quanto a compartilhar conhecimento entre React e React Native, é possível reut
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Reescreva o mesmo artigo adotando um tom humoristico
 Quer desenvolver aplicativos incríveis, mas sem gastar todo o seu tempo e dinheiro? Então você precisa conhecer React e React Native! Esses dois frameworks são como os gêmeos siameses da programação: um é especialista em web, o outro em mobile, mas ambos possuem uma ligação inseparável.
 
@@ -23,7 +23,7 @@ Em resumo, React e React Native são como os melhores amigos que você nunca sou
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Da um exemplo de codigo desse compartilhamento
 Aqui está um exemplo simples de como compartilhar um componente entre React e React Native:
 
@@ -67,7 +67,7 @@ Como você pode ver, o componente MyComponent é importado e usado tanto no apli
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Da um exemplo de hook de login compartilhada
 Aqui está um exemplo simples de um hook de login que pode ser compartilhado entre React e React Native:
 

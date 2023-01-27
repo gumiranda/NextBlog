@@ -4,7 +4,7 @@ Faça um texto ironizando java no front end
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Detalhe melhor
 Java é uma linguagem de programação incrivelmente poderosa e versátil, mas ela foi projetada originalmente para desenvolvimento de aplicações empresariais e não para o desenvolvimento de aplicações front-end. Isso significa que, embora possa ser possível usar Java no front-end, ele não é realmente a escolha ideal para esse tipo de desenvolvimento.
 
@@ -15,7 +15,7 @@ Em resumo, usar Java no front-end é uma escolha que pode ser feita, mas não é
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 De exemplos de uso de java no front end
 Existem alguns casos específicos em que Java pode ser usado no front-end, mas eles são geralmente limitados. Alguns exemplos incluem:
 

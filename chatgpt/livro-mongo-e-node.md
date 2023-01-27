@@ -16,7 +16,7 @@ Faça testes e revisões para garantir a qualidade e precisão das informações
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Passo 1
 No primeiro passo de escrever um livro sobre MongoDB usando exemplos com Node.js, é importante fornecer uma introdução clara e concisa ao assunto.
 
@@ -29,7 +29,7 @@ Finalize essa seção apresentando o objetivo do livro e o publico alvo.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreve
 sobre como instalar o MongoDB e o driver Node.js para MongoDB.
 
@@ -44,7 +44,7 @@ Para instalar o driver Node.js para MongoDB, você pode fornecer instruções so
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Capitulo 1
 Capítulo 1: Introdução a NoSQL e MongoDB
 
@@ -68,7 +68,7 @@ Este livro tem como objetivo fornecer uma compreensão completa de como usar Mon
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 disponibilidade do MongoDB, incluindo tópicos como replicação, sharding e replicação geográfica. Além disso, forneceremos uma visão geral das melhores práticas para o desenvolvimento de aplicativos com MongoDB e Node.js, bem como uma seção de referência para ajudar os leitores a encontrar recursos adicionais. Este livro é destinado a desenvolvedores e administradores de banco de dados que desejam aprender a usar MongoDB com Node.js.
 
@@ -84,7 +84,7 @@ Este é o esboço do primeiro capítulo de seu livro, espero que possa ajudar.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Capitulo 2
 Capítulo 2: Instalação e configuração do MongoDB e Node.js
 

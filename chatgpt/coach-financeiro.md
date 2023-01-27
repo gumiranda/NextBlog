@@ -14,7 +14,7 @@ Espero que isso te ajude. Lembrando que esse é um artigo fictício e não deve 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E as pessoas que ensinam day trade atraves de cursos caros
 Aqui vai um exemplo de como o artigo poderia continuar abordando os "coaches" de day trade que vendem cursos caros:
 
@@ -29,7 +29,7 @@ Além disso, esses "professores" de day trade geralmente não possuem uma trajet
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E os bootcamps de programaçao que prometem salarios exorbitantes pra quem ta começando na area e fizer o curso
 Aqui vai um exemplo de como o artigo poderia continuar abordando os "bootcamps" de programação que prometem salários exorbitantes para quem está começando na área e fizer o curso:
 
@@ -44,7 +44,7 @@ Novamente, é importante lembrar que essas são apenas ironias e não é saudáv
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E os bootcamps de modelo de sucesso compartilhado
 Aqui vai um exemplo de como o artigo poderia continuar abordando os "bootcamps" de modelo de sucesso compartilhado:
 

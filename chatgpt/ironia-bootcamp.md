@@ -4,7 +4,7 @@ Faça um texto ironizando empresas que vendem bootcamps carissimos que usam fras
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Use esse texto de base para um novo artigo "
 Os grandes criadores de bootcamps de programação sabem que as pessoas tendem a desejar mais um curso quando ele é exclusivo ou limitado por tempo. Ficar de fora causa um certo desconforto, e deixar uma oportunidade tão boa e tão atraente passar causa o arrependimento de ter que esperar até a abertura da turma seguinte.
 
@@ -49,7 +49,7 @@ Mas não se deixe enganar pelas táticas de marketing agressivas desses cursos. 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva um novo artigo sobre esse tema
 Os bootcamps de programação têm se tornado cada vez mais populares entre aqueles que buscam aprender habilidades de tecnologia e alavancar suas carreiras. No entanto, ao procurar por um bootcamp, é importante estar ciente de algumas táticas de marketing comuns usadas por empresas para manipular a decisão de compra dos potenciais alunos.
 
@@ -62,7 +62,7 @@ Outra tática comum é a venda de conteúdo já existente como algo novo e exclu
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva um novo artigo adotando um tom humoristico
 Se você está procurando por um bootcamp de programação, prepare-se para ser bombardeado por anúncios que prometem transformá-lo em um ser supremo da tecnologia, capaz de codificar com os olhos fechados e passar em qualquer entrevista de emprego das grandes empresas de tecnologia. Mas antes de se jogar de cabeça em um desses cursos, é importante estar ciente de algumas táticas de marketing engraçadas (e nem tanto) que as empresas usam para manipular a decisão de compra dos potenciais alunos.
 
@@ -75,6 +75,6 @@ Outra tática comum é a venda de conteúdo já existente como algo novo e exclu
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continua
 a mãe, afinal, saber cozinhar é uma habilidade tão valiosa quanto saber programar. E se você ainda quer aprender programação, há sempre opções gratuitas e confiáveis disponíveis na internet. Então, não se sinta pressionado a gastar uma fortuna em um bootcamp caro, você pode aprender tudo o que precisa sem se endividar. E lembre-se, se alguém lhe disser que "foguete não tem ré", você pode sempre dizer que sim, mas ele também não tem panela de pressão.

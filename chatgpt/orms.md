@@ -16,7 +16,7 @@ Em resumo, ORM é uma ferramenta útil que pode simplificar o desenvolvimento de
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Qual é o tipo de projeto ideal para o uso de orms
 O uso de ORM é ideal para projetos de desenvolvimento de aplicações que precisam acessar e manipular dados armazenados em um banco de dados relacional. Alguns exemplos de projetos ideais para o uso de ORM incluem:
 
@@ -31,7 +31,7 @@ Em geral, ORM é uma boa opção para projetos de médio ou grande porte, onde o
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E projetos que é melhor usar sql puro
 Há casos em que o uso de SQL puro pode ser mais adequado do que o uso de ORM. Alguns exemplos incluem:
 
@@ -46,7 +46,7 @@ Em resumo, o uso de SQL puro é mais adequado para projetos de baixa complexidad
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Projetos de baixa complexidade que exigem um simples crud nao é melhor usar orm?
 Sim, em projetos de baixa complexidade que exigem somente operações CRUD (create, read, update, delete) simples, o uso de ORM pode ser uma boa opção. O ORM fornece uma abstração do banco de dados e permite que você se concentre no código da aplicação, enquanto esconde a complexidade do banco de dados. Além disso, o ORM geralmente fornece mecanismos para evitar a injeção de SQL, tornando seu aplicativo mais seguro.
 
@@ -57,7 +57,7 @@ No entanto, é importante lembrar que o uso de ORM pode adicionar sobrecarga de 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 O que é melhor? Fazer tudo na raça e reinventar a roda ou usar orm? Use um tom humoristico
 Bem, isso é como escolher entre comer uma pizza com muita caloria ou uma salada saudável.
 

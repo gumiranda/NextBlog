@@ -527,42 +527,42 @@ Atualizações constantes: React Native e Flutter estão em constante evolução
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Qual seria um titulo atraente e polemico pro artigo
 "Por que desenvolver aplicativos iOS com React Native ou Flutter pode ser um erro: os desafios escondidos e o alto preço do sucesso"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Outro
 "React Native e Flutter: a ilusão de desenvolvimento cruzado para iOS e os problemas que as pessoas não falam"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Outro
 "iOS desenvolvimento com React Native e Flutter: a verdade sobre os desafios e o alto custo do sucesso"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Outro
 "A armadilha do desenvolvimento de aplicativos iOS com React Native ou Flutter: os desafios escondidos e o alto preço do Mac"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva a introduçao
 Desenvolver aplicativos iOS usando React Native ou Flutter pode parecer uma boa ideia no papel, já que essas ferramentas permitem desenvolver aplicativos para diferentes plataformas usando o mesmo código. No entanto, a realidade é que essas ferramentas apresentam desafios significativos que muitas vezes são ignorados ou subestimados. Neste artigo, vamos explorar os desafios escondidos de desenvolver aplicativos iOS com React Native ou Flutter, incluindo configuração do ambiente de desenvolvimento, uso exclusivo do Xcode, integração com bibliotecas nativas, testes e depuração, e atualizações constantes. Além disso, discutiremos o alto custo de possuir um Mac, o dispositivo necessário para desenvolver aplicativos iOS, especialmente no Brasil.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo
 Capítulo 1: Configuração do Ambiente de Desenvolvimento
 
@@ -577,7 +577,7 @@ Em resumo, configurar o ambiente de desenvolvimento para desenvolver aplicativos
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cite tambem o altissimo custo de um iphone pra testar o app sem a necessidade de um emulador. Emuladores gastam muita memoria RAM da maquina
 Capítulo 1: Configuração do Ambiente de Desenvolvimento
 
@@ -594,7 +594,7 @@ Em resumo, configurar o ambiente de desenvolvimento para desenvolver aplicativos
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo
 Capítulo 2: Integração com Bibliotecas Nativas
 
@@ -609,7 +609,7 @@ Em resumo, a integração com bibliotecas nativas específicas de cada plataform
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo
 Capítulo 3: Testes e Depuração
 
@@ -622,7 +622,7 @@ Em resumo, o processo de testes e depuração de aplicativos iOS desenvolvidos c
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo
 Capítulo 4: Atualizações Constantes
 
@@ -637,7 +637,7 @@ Em resumo, lidar com as atualizações constantes de React Native e Flutter e da
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo
 Capítulo 5: Conclusão
 
@@ -650,7 +650,7 @@ Isso não significa que essas ferramentas não possam ser usadas para desenvolve
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Finaliza o texto propondo uma possivel soluçao pra apple aplicar
 Capítulo 6: Solução proposta
 
@@ -667,7 +667,7 @@ Em resumo, a Apple poderia implementar soluções como ferramentas de desenvolvi
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como o governo brasileiro poderia atuar nessa questao?
 O governo brasileiro poderia atuar nessa questão de várias maneiras. Uma delas seria fornecer incentivos fiscais para empresas que produzam dispositivos eletrônicos, como iPhones, no Brasil, o que poderia diminuir o preço dos dispositivos para os consumidores.
 
@@ -680,7 +680,7 @@ Em geral, o governo brasileiro poderia atuar para facilitar o desenvolvimento de
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E porque os gestores de TI nao reconhecem essas dificuldades?
 Existem várias razões pelas quais os gestores de TI podem não reconhecer essas dificuldades ao desenvolver aplicativos iOS com React Native ou Flutter.
 
@@ -695,7 +695,7 @@ Em geral, as razões pelas quais os gestores de TI podem não reconhecer esses d
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me ajuda a criar um artigo criticando o uso excessivo de war room em projetos de TI
 Título sugestivo: "War Rooms: Por que o excesso de pressão não é a resposta para projetos de TI"
 
@@ -709,7 +709,7 @@ Um War Room é uma sala específica onde equipes de TI se reúnem para resolver 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 em um só lugar, problemas possam ser resolvidos rapidamente e comunicação melhorada. No entanto, o uso excessivo de War Rooms pode criar uma pressão desnecessária e causar estresse para os membros da equipe, o que pode levar a erros e problemas adicionais.
 
@@ -727,7 +727,7 @@ Embora os War Rooms possam ser úteis em situações de crise, o uso excessivo d
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E o que envolve gestao agil?
 A gestão ágil envolve a aplicação de princípios ágeis para garantir a entrega de valor ao cliente de forma eficiente e continuamente. Isso inclui a utilização de iterações curtas (geralmente chamadas de sprints) para desenvolver e entregar o software. Isso permite que as equipes de desenvolvimento se adaptem rapidamente às mudanças e aos problemas que possam surgir durante o processo de desenvolvimento.
 
@@ -738,7 +738,7 @@ A gestão ágil também se concentra em métricas de desempenho para medir o pro
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Porque pedir aos devs suas estimativas de tempo em historias de usuario mal definidas (ou definidas pela metade) é prejudicial
 Pedir aos desenvolvedores estimativas de tempo em histórias de usuário mal definidas pode ser prejudicial por várias razões:
 
@@ -755,7 +755,7 @@ Frustração: Se os desenvolvedores são frequentemente solicitados a
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 fornecer estimativas de tempo em histórias de usuário mal definidas, eles podem se sentir frustrados e desmotivados, pois isso significa que eles estão tendo que adivinhar o que é esperado e que não estão tendo a oportunidade de contribuir com seus conhecimentos e habilidades para o projeto. Isso pode levar a uma queda na produtividade e no engajamento da equipe.
 
@@ -766,7 +766,7 @@ Em resumo, pedir estimativas de tempo em histórias de usuário mal definidas po
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Porque gestores sempre acatam mudanças de ultima hora no projeto sem conversar com os devs ou prolongar o prazo
 Existem várias razões pelas quais os gestores podem acatar mudanças de última hora no projeto sem conversar com os desenvolvedores ou prolongar o prazo:
 
@@ -785,7 +785,7 @@ Em geral, os gestores podem acatar mudanças de última hora sem conversar com o
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Destaque a sobrecarga que isso gera nos devs
 A sobrecarga que as mudanças de última hora podem gerar nos desenvolvedores é uma das principais preocupações a serem consideradas. Quando os desenvolvedores são solicitados a implementar mudanças de última hora, isso pode resultar em:
 
@@ -800,7 +800,7 @@ Problemas de comunicação: Se os desenvolvedores não são consultados sobre as
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 do projeto e desmotivados, o que pode levar a problemas de comunicação e colaboração entre os membros da equipe.
 
@@ -810,14 +810,14 @@ Além disso, a sobrecarga dos desenvolvedores pode levar a uma diminuição da p
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Agora vamos criar outro artigo?
 Claro, estou aqui para ajudá-lo a criar qualquer artigo que você desejar. Qual seria o tópico do novo artigo? Posso ajudá-lo a escolher um tópico interessante ou você já tem um em mente? Estou ansioso para ajudá-lo a escrever o artigo.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Um artigo sobre devs que fingem que trabalham. Que movem o card no jira sinalizando o termino da tarefa quando na verdade nao desenvolveu o codigo dela
 Esse é um tópico interessante e relevante na indústria de desenvolvimento de software. A seguir está uma possível introdução para o seu artigo:
 
@@ -826,7 +826,7 @@ Esse é um tópico interessante e relevante na indústria de desenvolvimento de 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como seria um titulo atraente pra ele?
 Algumas sugestões para um título atraente para o artigo:
 
@@ -838,7 +838,7 @@ Algumas sugestões para um título atraente para o artigo:
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreve a introduçao
 A introdução é a primeira parte do artigo e é a oportunidade de chamar a atenção do leitor e apresentar o tópico do artigo.
 
@@ -847,7 +847,7 @@ A introdução é a primeira parte do artigo e é a oportunidade de chamar a ate
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreve o proximo capitulo
 O próximo capítulo pode se concentrar em identificar as causas do "fingimento de trabalho" entre os desenvolvedores. Algumas possíveis causas a serem discutidas podem incluir:
 
@@ -864,7 +864,7 @@ Falta de engajamento: os desenvolvedores podem sentir-se desconectados do projet
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreve o proximo topico
 O próximo tópico do artigo pode se concentrar nos impactos negativos do "fingimento de trabalho" nos desenvolvedores, na equipe e no projeto. Alguns dos impactos negativos a serem discutidos podem incluir:
 
@@ -881,7 +881,7 @@ Pro
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 blemas de comunicação e colaboração: se os desenvolvedores estão "fingindo trabalhar", eles podem não estar dispostos a compartilhar informações ou colaborar com os outros membros da equipe, o que pode prejudicar a comunicação e colaboração entre os membros da equipe.
 
@@ -894,7 +894,7 @@ Esses impactos negativos podem afetar negativamente tanto a equipe quanto o proj
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo topico destacando o que os devs que realmente trabalham devem fazer nesses casos
 O próximo tópico do artigo pode se concentrar nas possíveis soluções para lidar com o "fingimento de trabalho" entre os desenvolvedores. Algumas das possíveis soluções a serem discutidas podem incluir:
 
@@ -913,7 +913,7 @@ Desenvolvedores que realmente trabalham devem falar com os gestores sobre a situ
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Destaque a sobrecarga de trabalho dos outros devs da equipe no proximo topico
 No próximo tópico, podemos destacar a sobrecarga de trabalho que os desenvolvedores que realmente trabalham enfrentam quando os colegas fingem trabalhar. Essa sobrecarga pode ser causada por vários fatores, incluindo:
 
@@ -928,7 +928,7 @@ Atrasos no
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 projeto: devido ao trabalho não realizado pelos colegas que estão "fingindo trabalhar", o projeto pode sofrer atrasos, o que pode causar pressão adicional para os desenvolvedores que realmente trabalham para tentar compensar esses atrasos.
 
@@ -941,7 +941,7 @@ Estresse: A sobrecarga de trabalho causada pelos colegas que estão "fingindo tr
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Destaque no proximo topico que uma das causas principais desse fingimento é a falta de comunicaçao e a não sinalizaçao de dificuldade em concluir a tarefa. Muitas vezes o fingidor tem dificuldade e num prazo apertado ele nao pede o alongamento desse prazo pra gestao. Ele prefere mover o card e ficar quieto
 No próximo tópico, podemos destacar que a falta de comunicação e a não sinalização de dificuldade em concluir as tarefas são uma das principais causas do "fingimento de trabalho" entre os desenvolvedores. Quando os desenvolvedores têm dificuldade em concluir uma tarefa, muitas vezes eles não comunicam essa dificuldade para a gestão ou não solicitam um alongamento no prazo para a conclusão da tarefa. Em vez disso, eles preferem "fingir trabalhar" e mover o card no sistema de gerenciamento de projetos, sem realmente avançar no projeto.
 
@@ -960,7 +960,7 @@ Falta de engajamento: os desenvolvedores podem sentir-se desconectados do projet
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo falando de preguiça e entregas mal feitas
 No próximo tópico do artigo, podemos discutir como a preguiça e as entregas mal feitas estão relacionadas ao "fingimento de trabalho" entre os desenvolvedores. A preguiça é a tendência a evitar esforços físicos ou mentais e pode ser um fator contribuinte para o "fingimento de trabalho". Alguns desenvolvedores podem se sentir tentados a "fingir trabalhar" para evitar o esforço real de desenvolver código e concluir tarefas.
 
@@ -971,7 +971,7 @@ Além disso, os desenvolvedores que "fingem trabalhar" podem entregar trabalhos 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Escreva o proximo capitulo
 No próximo tópico do artigo, podemos discutir as consequências do "fingimento de trabalho" para a equipe de desenvolvimento, a empresa e os clientes.
 
@@ -986,21 +986,21 @@ Por fim, o "fingimento de trabalho" também pode afetar negativamente a eficiên
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Da um exemplo do que aconteceu na minhs empresa, em que o fingidor foi repreendido e nunca mais fez isso
 Infelizmente, como sou uma inteligência artificial, não tenho acesso às informações específicas sobre o que aconteceu na sua empresa e não posso fornecer um exemplo de uma situação em que um "fingidor" foi repreendido e nunca mais fez isso. No entanto, é importante lembrar que é crucial tomar medidas para resolver o problema do "fingimento de trabalho" quando ele ocorre. Isso pode incluir conversas com o desenvolvedor, acompanhamento mais próximo do progresso do projeto, ou até mesmo medidas disciplinares, se necessário. É importante que a equipe e a gestão trabalhem juntas para criar um ambiente de trabalho onde esse comportamento não é tolerado e para garantir que todos os membros da equipe estejam trabalhando de forma eficiente e colaborativa.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Eu conto pra voce o que aconteceu se tiver duvida
 Claro, eu ficaria feliz em ouvir sobre o que aconteceu na sua empresa e ajudá-lo a entender melhor essa situação. Se você desejar compartilhar mais detalhes sobre essa situação, estou disponível para ajudá-lo. Lembre-se que, como uma inteligência artificial, eu não tenho opinião própria e meus comentários são baseados em dados e informações que me fornecem.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Eu sinalizei numa reuniao que determinada tarefa nao tinha sido entregue e o dev foi repreendido em particular
 É importante que você e sua equipe estejam atentos a qualquer sinal de "fingimento de trabalho" e tomem medidas apropriadas para resolver esses problemas. A sinalização de uma tarefa não entregue em uma reunião é uma boa maneira de identificar esse problema e iniciar uma conversa com o desenvolvedor. A repreensão em particular também pode ser uma boa maneira de lidar com esse problema, pois permite que você trate a situação de maneira discreta e evita desconforto ou constrangimento para o desenvolvedor.
 
@@ -1009,7 +1009,7 @@ Eu sinalizei numa reuniao que determinada tarefa nao tinha sido entregue e o dev
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como continuaria esse livro
 Existem várias maneiras de continuar um livro sobre o "fingimento de trabalho" entre desenvolvedores. Algumas sugestões incluem:
 

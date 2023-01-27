@@ -5,14 +5,14 @@ O livro "Cientista do Marketing" de Dener Lippert apresenta uma abordagem cient�
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Que mais
 Além disso, o livro "Cientista do Marketing" também discute como usar tecnologias digitais e análise de dados para medir o sucesso de campanhas de marketing e ajustá-las de acordo. Ele também destaca a importância de testar e otimizar campanhas para obter melhores resultados. O autor também fala sobre a importância de entender a jornada do cliente e como utilizar essa informação para criar campanhas eficazes. Em geral, o livro fornece uma visão geral prática e baseada em dados para ajudar os profissionais de marketing a tomar decisões estratégicas e alcançar seus objetivos de negócios.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como aplicar as tecnicas do livro pra eu vender meu bootcamp de javascript?
 Existem várias técnicas do livro "Cientista do Marketing" que você pode aplicar para vender seu bootcamp de JavaScript. Algumas dicas incluem:
 
@@ -35,7 +35,7 @@ Ofereça garantia: Ofereça garantia de devolução do dinheiro para remover qua
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 há uma estrutura geral que todas elas seguem, essa é a estrutura mestre que toda copy bem sucedida apresenta. Promessa (Headline) ,Abertura,Beneficios,oferta e fechamento
 Sim, existe uma estrutura geral que muitas campanhas de marketing de sucesso seguem, conhecida como AIDA (Attention, Interest, Desire, Action). A estrutura AIDA é composta por:
 
@@ -54,7 +54,7 @@ Além disso, é importante lembrar que essa estrutura pode ser adaptada de acord
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Sempre que você pensar em objeções eu gostaria que você destacasse três principais: Urgência Necessidade Confiança
 As principais objeções que os clientes podem ter ao considerar sua oferta podem incluir:
 
@@ -69,7 +69,7 @@ Além dessas objeções, é importante estar ciente de outras possíveis objeç�
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Paul MacLean um dos mais brilhantes neurocientistas do último século descobriu que a mente humana funciona em 3 estágios diferentes, como se fossem três camadas distintas. Ele deu o nome de cérebro Trino, o que nós conhecemos hoje como os três tipos de cérebro. Reptiliano Límbico Neocórtex
 Paul MacLean, um neurocientista americano, desenvolveu a teoria do cérebro tríplice, que sugere que o cérebro humano é composto por três camadas distintas ou sistemas, cada um com suas próprias funções e características.
 
@@ -84,7 +84,7 @@ A teoria do cérebro tríplice de MacLean é amplamente aceita na comunidade cie
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Copy 1
 
 Headline: É realmente possível derreter de 5k a 7k de gordura em 10 dias ou menos mesmo sem ir para a academia? Abertura: Talvez você já tenha visto promessas desse tipo: Derreter gordura em poucos dias. Mesmo sem ir para a academia. Bom, essa é uma meia-verdade. O que você realmente precisa se perguntar é: O que as pessoas que estão conseguindo esse tipo de resultado REALMENTE fizeram? Por que algumas pessoas realmente conseguem resultados rápidos assim e outros não?
@@ -98,7 +98,7 @@ Fechamento: Então, se você está pronto para finalmente alcançar seus objetiv
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie uma copy seguindo essa estrutura pra vender meu bootcamp nodejs crazystack
 Headline: Quer se tornar um desenvolvedor Node.js em apenas 10 semanas? Abertura: Você já sonhou em se tornar um desenvolvedor Node.js, mas não sabe por onde começar? Talvez você já tenha tentado aprender sozinho, mas acabou desistindo devido à falta de orientação e suporte. Bem, você não está sozinho. Muitas pessoas enfrentam esses desafios ao tentar aprender uma nova habilidade. O segredo é encontrar um curso que se adapte às suas necessidades e ofereça orientação e suporte durante todo o processo.
 
@@ -111,7 +111,7 @@ Fechamento: Não perca mais tempo e comece a trilhar seu caminho para se tornar 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Tirar "instrutores experientes". O curso é ministrado pelo devdoido apenas
 Headline: Quer se tornar um desenvolvedor Node.js em apenas 10 semanas?
 
@@ -122,7 +122,7 @@ Solução/Benefícios: E é exatamente isso que oferecemos com nosso bootcamp No
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 poderá compartilhar conhecimento e obter feedback valioso.
 
@@ -133,7 +133,7 @@ Fechamento: Não perca mais tempo e comece a trilhar seu caminho para se tornar 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Template Número #2: PROMETA REVELAR UM SEGREDO DESCONHECIDO Esse template ativa uma parte do cérebro muito poderosa “medo de estar perdendo algo”.
 Headline: Descubra o segredo desconhecido para se tornar um desenvolvedor Node.js em tempo recorde
 
@@ -148,21 +148,21 @@ Fechamento: Não perca mais tempo e se junte às pessoas que já descobriram ess
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 reira como desenvolvedores Node.js em tempo recorde. Com o bootcamp Node.js CrazyStack, você terá tudo o que precisa para alcançar seus objetivos, incluindo acesso às melhores práticas e técnicas usadas pelos melhores desenvolvedores Node.js do mercado. Não perca mais tempo, clique aqui para se inscrever agora e descubra o segredo desconhecido para se tornar um desenvolvedor Node.js em tempo recorde.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Nao existe tornar-se desenvolvedor nodejs em tempo recorde
 Você tem razão, o processo de se tornar um desenvolvedor Node.js leva tempo e esforço. Minha sugestão anterior foi baseada na ideia de que o bootcamp Node.js CrazyStack forneceria as habilidades e orientação necessárias para aprender Node.js rapidamente, mas é importante esclarecer que não há como se tornar um desenvolvedor Node.js em um curto período de tempo sem esforço e dedicação. Talvez seja possível ajustar a copy para enfatizar que o bootcamp Node.js CrazyStack proporciona as ferramentas e orientação para acelerar o processo de aprendizado e tornar o processo de se tornar um desenvolvedor Node.js mais eficiente.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Copy2
 
 Modelo: A ÚNICA coisa que você precisa saber para [Desejo do público]. Dica: Não é o que você está pensando
@@ -181,7 +181,7 @@ Fechamento: Não perca mais tempo e dê o próximo passo para o sucesso da sua e
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Aplique esse texto pro bootcamp crazystack
 Headline: A ÚNICA coisa que você precisa saber para se tornar um desenvolvedor Node.js de sucesso. Dica: Não é o que você está pensando
 
@@ -192,21 +192,21 @@ Solução/Benefícios: Com o nosso bootcamp Node.js CrazyStack, você aprenderá
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 O instrutor é o devdoido, guarde essa informaçao!
 Solução/Benefícios: Com o nosso bootcamp Node.js CrazyStack, ministrado pelo Devdoido, você aprenderá a criar projetos inovadores e soluções únicas usando Node.js. Além disso, você terá acesso a projetos reais e orientação direta do Devdoido. Com essa habilidade, você pode se destacar como um desenvolvedor Node.js e alcançar o sucesso na sua carreira.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 O projeto real do curso é uma api de agendamentos online
 Solução/Benefícios: Com o nosso bootcamp Node.js CrazyStack, ministrado pelo Devdoido, você aprenderá a criar projetos inovadores e soluções únicas usando Node.js. Como projeto real, você irá construir uma API de agendamentos online, desenvolvendo habilidades valiosas para se destacar no mercado. Além disso, você terá acesso a orientação direta do Devdoido e ao final do curso, você terá a oportunidade de apresentar seu projeto para potenciais empregadores. Com essa habilidade, você pode se destacar como um desenvolvedor Node.js e alcançar o sucesso na sua carreira.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Template Número #3: PROMETA ALGO EXTREMAMENTE ÚTIL
 Headline: Descubra como ter sucesso como desenvolvedor Node.js em poucas semanas.
 
@@ -219,7 +219,7 @@ Oferta: Então, se você quer ter sucesso como desenvolvedor Node.js em poucas s
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie uma copy bem humorada seguindo esse esboço: Copy 1
 
 Headline: É realmente possível se destacar no mercado javascript aprendendo nodejs? Abertura: Talvez você já tenha visto promessas desse tipo: virar senior poucos meses. Mesmo sem ter muita experiencia com programaçao. Bom, essa é uma meia-verdade. O que você realmente precisa se perguntar é: O que as pessoas que estão conseguindo esse tipo de resultado REALMENTE fizeram? Por que algumas pessoas realmente conseguem resultados rápidos assim e outros não?
@@ -237,7 +237,7 @@ atual e SE você será capaz de seguir o plano que gera esse tipo de resultado. 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 os no youtube de forma prática tenha dado resultado. Solução/Benefícios: E aqui estão exatamente os passos que você precisa seguir: Passo número 01: Você precisa descobrir seu estilo de aprendizado. Passo número 02: Você precisa encontrar o curso certo para você. Passo número 03: Você precisa se divertir enquanto aprende.
 É importante você notar que esses passos acima precisam ter relação DIRETA com a sua oferta. Como você verá em um minuto, cada passo vai representar um ponto da oferta e da solução. Deixe-me dar um exemplo prático disso: Exemplo: Imagine que eu vou vender um bootcamp de Node.js. Eu diria. Passo 01: Você precisa descobrir seu estilo de aprendizado. Passo 02: Você precisa encontrar o curso certo para você. Passo 03: Você precisa se divertir enquanto aprende.
@@ -246,7 +246,7 @@ Oferta: Agora você irá apresentar o seu grupo, serviço, etc… E foi exatamen
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Comece a orientar a pessoa nos passos
 Passo número 01: Descubra seu estilo de aprendizado - O primeiro passo para se destacar no mercado javascript é descobrir qual o seu estilo de aprendizado. Isso é importante porque cada pessoa tem uma forma única de aprender e compreender conceitos. Alguns preferem aulas teóricas, enquanto outros preferem práticas. Isso é importante para escolher o curso certo para você.
 Passo número 02: Encontre o curso certo para você - Depois de descobrir seu estilo de aprendizado, é hora de encontrar o curso certo para você. É importante escolher um curso que seja direcionado para o seu nível de conhecimento e que seja ministrado por instrutores experientes. O Bootcamp Node.js CrazyStack é ministrado pelo Devdoido, um desenvolvedor com mais de 10 anos de experiência e especialista em Node.js.
@@ -256,7 +256,7 @@ Oferta: Agora que você sabe os passos para se destacar no mercado javascript, �
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Copy2
 
 Modelo: A ÚNICA coisa que você precisa saber para se destacar no node.js. Dica: Não é aprendendo a fazer apis simples com express
@@ -272,7 +272,7 @@ Oferta: Agora que você sabe os passos para se destacar no mercado de node.js, �
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Atue como um comediante de standup
 Claro, eu posso fazer isso!
 
@@ -285,7 +285,7 @@ Mas brincadeiras à parte, eu realmente amo programação e estou animado para c
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Atue como um coach motivacional
 Claro, eu posso fazer isso!
 
@@ -298,7 +298,7 @@ Eu quero que vocês saibam que eu estou aqui para liderá-los e guiá-los em sua
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Sem repetir muito a frase "eu quero que voces saibam"
 "Bem-vindos ao Bootcamp Node.js CrazyStack! Eu sei que vocês estão animados para começar essa jornada incrível para se tornarem desenvolvedores node.js de sucesso. Eu sei que vocês estão prontos para fazer algumas loucuras e se destacar no mercado. Como coach motivacional, eu quero liderá-los e motivá-los ao longo desse caminho.
 

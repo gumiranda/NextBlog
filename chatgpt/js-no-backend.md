@@ -10,7 +10,7 @@ Em geral, a utilização do JavaScript no back-end é uma questão de opinião e
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Exalte as vantagens do nodejs usando um tom humoristico
 Ah, o Node.js! O melhor amigo do desenvolvedor de back-end que precisa de velocidade e eficiência! Com o Node.js, você pode construir aplicativos de back-end tão rapidamente, que as pessoas vão pensar que você tem superpoderes!
 

@@ -13,7 +13,7 @@ Integração com ferramentas de automação de build e deploy (ex: Webpack, Jenk
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um cronograma completo pra cada topico
 Arquitetura de aplicações com React e Redux (3 aulas)
 
@@ -59,7 +59,7 @@ Aula 1: Introdução às ferramentas de automação de build e deploy
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 Aula 2: Implementação de ferramentas como o Webpack e Jenkins para automatizar o processo de build e deploy de aplicações React.
 Nota: esses são somente exemplos de tópicos e cronograma para um curso avançado de React, eles podem ser adaptados para se adequar a necessidade específica do curso e do público-alvo.
@@ -67,7 +67,7 @@ Nota: esses são somente exemplos de tópicos e cronograma para um curso avança
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Desenvolva o topico de cada aula
 Arquitetura de aplicações com React e Redux (3 aulas)
 
@@ -107,7 +107,7 @@ Utilização de contextos para evitar
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um roteiro pra cada aula
 Arquitetura de aplicações com React e Redux (3 aulas)
 
@@ -146,7 +146,7 @@ Introdução à contexto no React e sua
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 utilização para compartilhar estado entre componentes
 - Atividade prática: criação de um hook personalizado para gerenciamento de estado

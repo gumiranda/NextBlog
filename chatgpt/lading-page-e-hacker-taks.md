@@ -22,7 +22,7 @@ Lembre-se de que o SEO é um processo contínuo, e é preciso trabalhar constant
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me ajuda a criar um headline atraente pro curso CrazyStack Node.js e MongoDB
 Aqui estão algumas ideias para criar um headline atraente para o seu curso CrazyStack Node.js e MongoDB:
 
@@ -34,7 +34,7 @@ Aqui estão algumas ideias para criar um headline atraente para o seu curso Craz
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Não é um curso que inclui web. É um curso de backend somente
 Aqui estão algumas ideias para criar um headline atraente para o seu curso CrazyStack Node.js e MongoDB:
 
@@ -46,7 +46,7 @@ Aqui estão algumas ideias para criar um headline atraente para o seu curso Craz
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Nao usar a palavra "aplicativo"
 Aqui estão algumas ideias para criar um headline atraente para o seu curso CrazyStack Node.js e MongoDB sem utilizar a palavra "aplicativo":
 
@@ -58,7 +58,7 @@ Aqui estão algumas ideias para criar um headline atraente para o seu curso Craz
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Agora escreva descriçoes que seguem esses deadlines de forma otimizada pra SEO incluindo as palavras chave "typescript","fastify","clean architecture","ddd","tdd","jwt","aggregation","jest"
 "O curso CrazyStack Node.js e MongoDB apresenta técnicas avançadas de desenvolvimento de backend utilizando TypeScript, Fastify, Clean Architecture, DDD, TDD, JWT, Aggregation e Jest. Aprenda a criar soluções de backend robustas e escaláveis, com código limpo e testável.
 
@@ -75,7 +75,7 @@ Essas são algumas sugestões de como você pode otimizar a descrição do seu c
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Faça as mesmas descriçoes usando um tom de humor
 "Você quer aprender a criar soluções de backend tão robustas e escaláveis que até mesmo o Thanos ficaria impressionado? Então se junte a nós no curso CrazyStack Node.js e MongoDB e aprenda a usar TypeScript, Fastify, Clean Architecture, DDD, TDD, JWT, Aggregation e Jest para criar soluções incríveis!
 
@@ -90,14 +90,14 @@ Faça as mesmas descriçoes usando um tom de humor
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 TDD para escrever testes eficientes, JWT para autenticação, Aggregation para manipular dados no MongoDB com precisão de robô e Jest para testar seus módulos com eficiência de máquina.
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Otimize pra SEO: "O CrazyStack chegou para te ensinar a criar uma API de agendamentos online com Node.js, MongoDB e Fastify.
 Turbine o seu conhecimento com esse bootcamp louco!"
 "Aprenda a criar uma API de agendamentos online com Node.js, MongoDB e Fastify no incrível curso CrazyStack. Otimize suas habilidades de desenvolvimento de backend e crie soluções escaláveis e confiáveis com esse bootcamp louco."
@@ -115,7 +115,7 @@ Essas são algumas sugestões de como você pode otimizar a descri
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Otimize pra SEO: "Qual é a magia do bootcamp?
 Conceitos avançados ✨
 
@@ -140,7 +140,7 @@ São mais de 2 mil testes cobrindo 90% do código."
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Otimize pra SEO :"Como é o conteúdo?
 100% prático
 
@@ -165,7 +165,7 @@ Além de manipular horários disponíveis de acordo com distintos horários de f
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como eu continuaria a landing page após esse titulo e essas descriçoes?
 Depois de ter criado um título atraente e descrições detalhadas do conteúdo do seu curso, a próxima etapa é continuar a construção da sua landing page. Algumas sugestões de como continuar a landing page incluem:
 
@@ -180,7 +180,7 @@ Adicionar informações de contato para que os visitantes possam entrar em conta
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Inclui imagem e video. Qual texto eu uso pra atrair cliques pro video de apresentaçao do conteudo do curso
 Para atrair cliques para o vídeo de apresentação do conteúdo do curso, você pode usar um texto chamativo e persuasivo. Algumas sugestões incluem:
 
@@ -199,7 +199,7 @@ Essas são algumas
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Sobre o topico 2 eu nao tenho depoimentos de alunos, como devo proceder
 Se você não tem depoimentos de alunos, existem algumas outras maneiras de fornecer provas sociais e credibilidade para o seu curso:
 
@@ -216,7 +216,7 @@ Use depoimentos de clientes anteriores: se você já trabalhou com clientes ante
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Como eu descreveria o video de apresentaçao na descriçao do youtube
 Aqui estão algumas sugestões para descrever o vídeo de apresentação do seu curso no YouTube:
 
@@ -231,21 +231,21 @@ Aqui estão algumas sugestões para descrever o vídeo de apresentação do seu 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Use um tom humoristico que ressalte as imitaçoes ao longo do curso: "Galvao bueno,silvio santos,faustao,serjao berranteiro matador de onça,datena,craque neto,etc"
 "Prepare-se para uma jornada divertida e cheia de imitações épicas no curso CrazyStack! Aprenda tudo sobre desenvolvimento de backend enquanto o Faustão ensina você a programar como o Silvio Santos, o Galvão Bueno fala sobre geolocalização e o Serjão Berranteiro Matador de Onça ensina sobre testes unitários. E você ainda vai ouvir o Datena falando sobre JWT e o Craque Neto ensinando sobre MongoDB. Não perca essa oportunidade única de aprender enquanto se diverte!"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Cria uma alternativa
 "Junte-se a nós no curso CrazyStack para uma jornada divertida e cheia de aprendizado! Aprenda tudo sobre desenvolvimento de backend enquanto se diverte com nossas aulas dinâmicas e exemplos engraçados, como aplicar as técnicas de programação de celebridades como Silvio Santos, Faustão e Galvão Bueno. Descubra como usar tecnologias atuais como TypeScript, Fastify, MongoDB e mais, enquanto se diverte com nossos exemplos de aplicação real e exercícios práticos. Não perca essa chance de aprender enquanto se diverte!"
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Eu tenho alguns comentarios do canal do youtube. Como eu poderia inclui-los na landing page
 Existem várias maneiras de incluir comentários do seu canal do YouTube na sua landing page:
 
@@ -264,7 +264,7 @@ Essas são algumas maneiras de incluir comentári
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Qual seria o titulo e descriçao de apresentaçao desses comentarios
 Título: "Veja o que nossos alunos estão dizendo sobre o curso CrazyStack"
 
@@ -273,7 +273,7 @@ Descrição: "Não apenas ouvimos falar sobre como o curso CrazyStack é eficaz,
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Destaque que os comentarios dizem respeito a videos gratuitos ( que nao sao os do curso)
 Título: "Veja o que nossos espectadores estão dizendo sobre os nossos vídeos gratuitos de desenvolvimento de backend"
 
@@ -282,7 +282,7 @@ Descrição: "Não apenas ouvimos falar sobre como o nosso conteúdo gratuito é
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Adote um tom de humor
 Título: "Não acredita em nós? Veja o que nossos espectadores estão dizendo sobre nossos vídeos gratuitos de desenvolvimento de backend"
 
@@ -291,7 +291,7 @@ Descrição: "Não acredita que nossos vídeos gratuitos são incríveis? Não a
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me ajude a Incluir detalhes sobre a duração do curso, o nível de habilidade requerido, e qualquer material necessário para completar o curso. O curso tem 21 horas de vídeo gravado e editado e o nivel requerido é de noçoes básicas de javascript e nodejs
 Você pode incluir detalhes sobre a duração, nível de habilidade e material necessário do seu curso nas seguintes maneiras:
 
@@ -310,7 +310,7 @@ Essas são algumas maneiras de incluir esses detalhes importantes na sua landing
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Me ajuda a escrever a seçao perguntas frequentes
 A seção "Perguntas frequentes" é uma ótima maneira de fornecer informações adicionais sobre o seu curso e ajudar os visitantes a entender se o curso é adequado para eles. Aqui estão algumas perguntas e respostas que você pode incluir na sua seção "Perguntas frequentes":
 
@@ -331,7 +331,7 @@ Sim, oferece
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 mos uma garantia de satisfação de 30 dias, o que significa que se, por algum motivo, você não estiver satisfeito com o curso, poderá solicitar um reembolso dentro desse período.
 
@@ -344,7 +344,7 @@ Não, o curso é on-line e aberto a qualquer pessoa interessada.
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 Como é a estrutura do curso?
 O curso é dividido em módulos, cada um abordando tópicos específicos relacionados ao desenvolvimento de backend com Node.js e MongoDB. Cada módulo inclui vídeos aulas, arquivos de código-fonte e exercícios práticos.
@@ -357,7 +357,7 @@ Enquanto não podemos garantir emprego, oferecemos suporte para ajudar os alunos
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue
 Há alguma possibilidade de trabalhar em projetos reais durante o curso?
 Sim, o curso se concentra em construir uma aplicação de agendamentos real, onde os alunos terão a oportunidade de aplicar os conceitos aprendidos em um projeto real.
@@ -370,7 +370,7 @@ Sim, oferecemos conteúdo adicional e bônus exclusivos para os alunos do curso,
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Continue falando de perguntas sobre as imitaçoes
 As imitações estão incluídas no curso?
 Sim, o instrutor usa imitações de celebridades e personalidades conhecidas para tornar as aulas mais divertidas e memoráveis.
@@ -381,7 +381,7 @@ Sim, as imitações são uma forma divertida de aprender e se lembrar das habili
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie mais CTAs otimizados pra SEO que destaque o "acesso vitalicio por um investimento único de 133,35 reais se usar o cupom JANEIRODOIDO válido até 31/1/2023"
 "Aproveite nossa oferta limitada e garanta acesso vitalício por um investimento único de 133,35 reais! Use o código JANEIRODOIDO antes de 31 de janeiro de 2023.
 
@@ -396,7 +396,7 @@ Crie mais CTAs otimizados pra SEO que destaque o "acesso vitalicio por um invest
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E textos de botoes redirecionando pro checkout?
 "Clique aqui para garantir sua vaga e acesso vitalício"
 "Aproveite essa oportunidade agora"
@@ -409,7 +409,7 @@ E textos de botoes redirecionando pro checkout?
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Textos mais curtos
 "Compre agora"
 "Inscreva-se já"
@@ -422,7 +422,7 @@ Textos mais curtos
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 E o que mais falta na page
 Além das informações sobre o curso, preços e benefícios, algumas outras coisas que podem ser incluídas na página de destino incluem:
 
@@ -434,7 +434,7 @@ Recursos adicionais, como webinars, e-books ou outros materiais de estudo, que p
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie titulos atraentes otimizados para SEO no youtube do podcast "hacker talks" entrevistando o "dev doido" com o tema "chatgpt"
 "O Dev Doido fala sobre a tecnologia de linguagem ChatGPT no Hacker Talks"
 "Descubra como o ChatGPT está revolucionando a inteligência artificial com o Dev Doido no Hacker Talks"
@@ -447,14 +447,14 @@ Crie titulos atraentes otimizados para SEO no youtube do podcast "hacker talks" 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie uma descriçao otimizada pra SEO
 "Assista ao episódio mais recente do Hacker Talks, onde o famoso desenvolvedor conhecido como "Dev Doido" compartilha suas experiências e insights sobre a tecnologia de linguagem ChatGPT. Descubra como essa tecnologia está revolucionando a inteligência artificial e a forma como as máquinas processam o idioma natural. Comente e compartilhe suas opiniões sobre como ChatGPT está sendo usado para criar chatbots e assistentes virtuais. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria."
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie hashtags
 #ChatGPT
 #IA
@@ -469,7 +469,7 @@ Crie hashtags
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie palavras chave
 ChatGPT
 Inteligência artificial
@@ -484,14 +484,14 @@ Progresso Tecnológico
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra instagram
 🚀 O futuro é agora! Estamos empolgados em anunciar que o nosso próximo convidado no podcast Hacker Talks será o famoso desenvolvedor conhecido como "Dev Doido"! Ele vai compartilhar suas experiências e insights sobre a tecnologia de linguagem ChatGPT e como ela está revolucionando a inteligência artificial e a forma como as máquinas processam o idioma natural. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria. O episódio será lançado em breve, fique ligado! #ChatGPT #IA #LinguagemNatural #DevDoido #HackerTalks
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie titulos atraentes otimizados para SEO no youtube do podcast "hacker talks" entrevistando o "dev doido" com o tema "faculdade é necessaria para a area de tecnologia da informaçao"
 "Dev Doido debate se a faculdade é necessária para a carreira em Tecnologia da Informação no Hacker Talks"
 "Aprenda com o Dev Doido se é preciso ter uma graduação para trabalhar na área de TI no Hacker Talks"
@@ -504,21 +504,21 @@ Crie titulos atraentes otimizados para SEO no youtube do podcast "hacker talks" 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie a descriçao otimizada pra SEO
 "Assista ao episódio mais recente do Hacker Talks, onde o famoso desenvolvedor conhecido como "Dev Doido" compartilha sua opinião sobre se é preciso ter uma graduação para trabalhar na área de Tecnologia da Informação. Descubra se a educação formal é realmente importante para uma carreira de sucesso na TI e quais são as vantagens e desvantagens de ter uma faculdade para essa carreira. Comente e compartilhe suas opiniões sobre este tema tão discutido na comunidade tecnológica. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria."
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 adote um tom de humor
 "Prepare-se para rir e aprender ao mesmo tempo no episódio mais recente do Hacker Talks, onde o famoso desenvolvedor conhecido como "Dev Doido" compartilha sua opinião sobre se é preciso ter uma graduação para trabalhar na área de Tecnologia da Informação. Descubra se a educação formal é realmente importante para uma carreira de sucesso na TI ou se é só mais uma desculpa para gastar dinheiro com mensalidades. Comente e compartilhe suas opiniões sobre este tema tão discutido na comunidade tecnológica. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria e rir um pouco também."
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie hashtags
 #FaculdadeEmTI
 #CarreiraEmTI
@@ -533,28 +533,28 @@ Crie hashtags
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra instagram
 🤔 Será que precisamos de uma faculdade para trabalhar na área de Tecnologia da Informação? O famoso desenvolvedor conhecido como "Dev Doido" compartilha sua opinião e insights sobre este tema tão discutido na comunidade tecnológica no episódio mais recente do Hacker Talks. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria e rir um pouco também. O episódio será lançado em breve, fique ligado! #FaculdadeEmTI #CarreiraEmTI #DevDoido #HackerTalks #HumorNaTI
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra twitter
 📢 Novo episódio do Hacker Talks com o Dev Doido! Descubra se a faculdade é realmente necessária para trabalhar na área de Tecnologia da Informação e quais são as vantagens e desvantagens de ter uma faculdade para essa carreira. Assista agora! #FaculdadeEmTI #CarreiraEmTI #DevDoido #HackerTalks
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra facebook
 🚀 O futuro é agora! Estamos empolgados em anunciar que o nosso próximo convidado no podcast Hacker Talks será o famoso desenvolvedor conhecido como "Dev Doido"! Ele vai compartilhar sua opinião e insights sobre se é preciso ter uma graduação para trabalhar na área de Tecnologia da Informação. Descubra se a educação formal é realmente importante para uma carreira de sucesso na TI e quais são as vantagens e desvantagens de ter uma faculdade para essa carreira. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria. O episódio será lançado em breve, fique ligado! #FaculdadeEmTI #CarreiraEmTI #DevDoido #HackerTalks
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie titulos atraentes otimizados para SEO no youtube do podcast "hacker talks" entrevistando o "dev doido" com o tema "clt vs pj na area de tecnologia da informaçao"
 "Dev Doido discute as vantagens e desvantagens de ser CLT ou PJ na área de Tecnologia da Informação no Hacker Talks"
 "Entenda as diferenças entre ser CLT ou PJ na carreira de TI com o Dev Doido no Hacker Talks"
@@ -567,21 +567,21 @@ Crie titulos atraentes otimizados para SEO no youtube do podcast "hacker talks" 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie a descriçao otimizada pra SEO
 "Assista ao episódio mais recente do Hacker Talks, onde o famoso desenvolvedor conhecido como "Dev Doido" compartilha sua opinião e experiência sobre as escolhas de ser CLT ou PJ na carreira de Tecnologia da Informação. Descubra as vantagens e desvantagens de cada opção e como elas afetam as implicações fiscais e legais da sua carreira. Comente e compartilhe suas opiniões sobre este tema tão discutido na comunidade tecnológica. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria."
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Adote um tom bem humorado
 "Prepare-se para rir e aprender ao mesmo tempo no episódio mais recente do Hacker Talks, onde o famoso desenvolvedor conhecido como "Dev Doido" compartilha sua opinião sobre ser CLT ou PJ na carreira de Tecnologia da Informação. Descubra se é melhor ser um trabalhador assalariado ou um empreendedor na TI, e quais são as vantagens e desvantagens de cada opção. Comente e compartilhe suas opiniões sobre este tema tão discutido na comunidade tecnológica. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria e rir um pouco também."
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie hashtags e palavras chave
 Hashtags:
 
@@ -608,28 +608,28 @@ Humor
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra facebook
 🤔 CLT ou PJ? Qual é a melhor escolha para sua carreira na Tecnologia da Informação? O famoso desenvolvedor conhecido como "Dev Doido" compartilha sua opinião e insights sobre este tema tão discutido na comunidade tecnológica no episódio mais recente do Hacker Talks. Descubra as vantagens e desvantagens de ser um trabalhador assalariado ou um empreendedor na TI, e como isso afeta as implicações fiscais e legais de sua carreira. Não perca essa oportunidade de aprender com um dos principais especialistas na indústria e rir um pouco também. O episódio será lançado em breve, fique ligado! #CLTvsPJ #CarreiraEmTI #DevDoido #HackerTalks #HumorNaTI
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Trocar "principais especialistas no assunto" por "dev com mais de 5 anos de experiencia no mercado"
 🤔 CLT ou PJ? Qual é a melhor escolha para sua carreira na Tecnologia da Informação? O famoso desenvolvedor conhecido como "Dev Doido", com mais de 5 anos de experiência no mercado, compartilha sua opinião e insights sobre este tema tão discutido na comunidade tecnológica no episódio mais recente do Hacker Talks. Descubra as vantagens e desvantagens de ser um trabalhador assalariado ou um empreendedor na TI, e como isso afeta as implicações fiscais e legais de sua carreira. Não perca essa oportunidade de aprender com um dev com mais de 5 anos de experiência no mercado e rir um pouco também. O episódio será lançado em breve, fique ligado! #CLTvsPJ #CarreiraEmTI #DevDoido #HackerTalks #HumorNaTI
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Inclua no texto que durante o podcast sao dados exemplos de historias reais de aconteceram ao longo da carreira do convidado dev doido
 🤔 CLT ou PJ? Qual é a melhor escolha para sua carreira na Tecnologia da Informação? O famoso desenvolvedor conhecido como "Dev Doido", com mais de 5 anos de experiência no mercado, compartilha sua opinião e insights sobre este tema tão discutido na comunidade tecnológica no episódio mais recente do Hacker Talks. Descubra as vantagens e desvantagens de ser um trabalhador assalariado ou um empreendedor na TI, e como isso afeta as implicações fiscais e legais de sua carreira através de histórias reais de sua própria carreira. Não perca essa oportunidade de aprender com um dev com mais de 5 anos de experiência no mercado e rir um pouco também. O episódio será lançado em breve, fique ligado! #CLTvsPJ #CarreiraEmTI #DevDoido #HackerTalks #HumorNaTI
 
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra instagram
 🤔 CLT ou PJ? Qual é a melhor escolha para sua carreira na Tecnologia da Informação? O famoso desenvolvedor conhecido como "Dev Doido", com mais de 5 anos de experiência no mercado, compartilha sua opinião e insights sobre este tema tão discutido na comunidade tecnológica no episódio mais recente do Hacker Talks. Descubra as vantagens e desvantagens de ser um trabalhador assalariado ou um empreendedor na TI, e como isso afeta as implicações fiscais e legais de sua carreira através de histórias reais de sua própria carreira. Não perca essa oportunidade de aprender com um dev com mais de 5 anos de experiência no mercado e rir um pouco também. #CLTvsPJ #CarreiraEmTI #DevDoido #HackerTalks #HumorNaTI #TecnologiadaInformação
 
@@ -638,7 +638,7 @@ Crie um post pra instagram
 
 
 
-gustavomirandadeaguiar2@gmail.com
+
 Crie um post pra twitter de ate 240 caracteres
 
 2 / 2
