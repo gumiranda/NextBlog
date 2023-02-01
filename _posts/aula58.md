@@ -131,6 +131,79 @@ export const serverError = (error: any): HttpResponse<Error> => ({
   data: new ServerError(error),
 });
 ``` 
+Essa classe `HttpResponse` é uma classe helper para trabalhar com respostas HTTP em sua aplicação. É uma boa prática ter uma classe dessas para padronizar as respostas HTTP, tornando o código mais legível e fácil de manter.
+
+A classe `HttpResponse` define um tipo `HttpResponse<T = any>` que consiste em um objeto com duas propriedades: `statusCode` e `data`. `statusCode` é o código HTTP da resposta e `data` é os dados que serão retornados para o cliente.
+
+A classe também define funções `ok`, `badRequest`, `unauthorized`, `forbidden` e `serverError`, que retornam uma resposta HTTP com o respectivo status code.
+
+Por exemplo, se você quiser retornar uma resposta 200 (OK) para o cliente com algum dado, você pode usar a função `ok` da seguinte maneira:
+ 
+
+```typescript
+const data = { message: "Hello World" };
+const response = ok(data);
+console.log(response);
+// Output: { statusCode: 200, data: { message: "Hello World" } }` 
+```
+
+Da mesma forma, se você quiser retornar uma resposta 401 (Unauthorized), você pode usar a função `unauthorized`:
+
+
+```typescript
+const response = unauthorized();
+
+console.log(response);
+// Output: { statusCode: 401, data: UnauthorizedError {} }` 
+```
+
+A classe `HttpRequest` é semelhante à classe `HttpResponse`, porém serve para definir o formato da requisição HTTP. Ela define um tipo `HttpRequest<T = any>` que consiste em um objeto com propriedades para o corpo da requisição, cabeçalhos, parâmetros da rota, query string e informações do usuário logado (se houver).
+
+
+
+```typescript
+import { HttpRequest, HttpResponse, serverError } from "@/application/helpers";
+
+export abstract class Controller {
+  abstract execute(httpRequest: HttpRequest): Promise<HttpResponse>;
+  async handle(httpRequest: HttpRequest): Promise<HttpResponse> {
+    try {
+      return this.execute(httpRequest);
+    } catch (error) {
+      return serverError(error);
+    }
+  }
+}
+``` 
+Este código define a classe abstrata `Controller` em uma aplicação. Essa classe tem dois métodos: `execute` e `handle`.
+
+O método `execute` é uma função abstrata, ou seja, deve ser implementada pelas classes filhas de `Controller`. Ele recebe um objeto `httpRequest` e retorna uma promessa que, quando resolvida, irá retornar um objeto `HttpResponse`.
+
+O método `handle` é uma função concreta, ou seja, já está implementada na classe `Controller`. Ele também recebe um objeto `httpRequest`, mas antes de chamar o `execute`, ele faz uma tentativa de capturar qualquer erro que possa ocorrer durante a execução. Caso ocorra algum erro, ele retorna o resultado da função `serverError` passando o erro como argumento. Se não houver erro, o método `execute` é chamado normalmente e o resultado é retornado.
+
+Note que as funções `HttpRequest`, `HttpResponse` e `serverError` são importadas do módulo `@/application/helpers`.
+
+A classe abstrata `Controller` é extendida por todos os controllers da API de agendamentos online, pois ela fornece uma estrutura básica para todos os controllers seguirem. Ela fornece um método `handle` que é responsável por manipular a lógica principal dos controllers.
+
+A lógica principal é implementada pelo método `execute`, que é declarado como abstrato na classe `Controller` e é obrigatório ser implementado em todas as subclasses. O método `execute` é responsável por receber uma requisição HTTP e retornar uma resposta HTTP.
+
+Se algum erro ocorrer durante a execução do método `execute`, ele é capturado pelo bloco try-catch no método `handle` e a função `serverError` é chamada para retornar uma resposta HTTP de erro.
+
+Assim, a classe abstrata `Controller` fornece uma estrutura padronizada e confiável para todos os controllers da API de agendamentos online seguirem e implementarem a lógica principal.
+
+Em comparação, no NestJS, a estruturação dos controllers é feita a partir da utilização de decorators e classes que já possuem métodos implementados. Por exemplo, ao invés de ter que implementar manualmente o método `handle`, o NestJS fornece uma classe chamada `Controller` que já possui esse comportamento. Além disso, o NestJS também fornece outras funcionalidades como injeção de dependências e validação de entrada, tornando o desenvolvimento mais ágil e eficiente.
+
+Ambas as abordagens são válidas e cada uma possui suas vantagens e desvantagens. A escolha por uma ou outra dependerá das necessidades e preferências da equipe de desenvolvimento.
+
+Optar por uma classe abstrata para os controllers em vez de utilizar a estrutura pronta de um framework, como o NestJS, pode trazer vários benefícios para o desenvolvimento de uma aplicação. O principal é a independência do framework, ou seja, a possibilidade de mudar de framework sem que isso afete a camada de controle.
+
+Ao utilizar a classe abstrata, o código fica mais flexível e menos preso ao framework, o que é importante porque o framework pode mudar ou ser descontinuado ao longo do tempo. Além disso, a classe abstrata permite uma melhor separação das camadas da aplicação, permitindo que elas possam ser testadas e reutilizadas mais facilmente.
+
+Outra vantagem da classe abstrata é que ela fornece uma estrutura básica para todos os controllers da aplicação, tornando mais fácil para os desenvolvedores implementarem novos controllers de maneira consistente. Além disso, a classe abstrata pode ser estendida para adicionar funcionalidades extras que são comuns a todos os controllers, como o tratamento de erros ou o acesso a dados.
+
+Em resumo, usar uma classe abstrata para os controllers em vez de depender de uma estrutura pronta do framework traz benefícios como a independência do framework, uma melhor separação de camadas e uma estrutura básica consistente para todos os controllers. Ao considerar esses benefícios, é fácil entender porque muitos desenvolvedores optam por essa abordagem em vez de usar uma estrutura pronta.
+
+
 ```typescript
 export const cleanDataObject = (
   forbiddenFields: string[],
@@ -149,42 +222,9 @@ export const cleanDataObject = (
   return cleanObject;
 };
 ``` 
-```typescript
-import { HttpRequest, HttpResponse, serverError } from "@/application/helpers";
 
-export abstract class Controller {
-  abstract execute(httpRequest: HttpRequest): Promise<HttpResponse>;
-  async handle(httpRequest: HttpRequest): Promise<HttpResponse> {
-    try {
-      return this.execute(httpRequest);
-    } catch (error) {
-      return serverError(error);
-    }
-  }
-}
-``` 
-```typescript
+Esse código é uma função que remove determinados campos de um objeto de requisição HTTP (`bodyObject`). Ela cria um novo objeto vazio (`cleanObject`), e verifica cada propriedade do objeto original. Se a propriedade estiver na lista de campos proibidos (`forbiddenFields`), ele não adiciona ao novo objeto. Se a propriedade estiver na lista de campos permitidos (`allowedFields`), ele adiciona ao novo objeto. Por fim, retorna o objeto limpo.
 
-``` 
-```typescript
-
-``` 
-```typescript
-
-``` 
-```typescript
-
-``` 
-```typescript
-
-``` 
-```typescript
-
-``` 
-```typescript
-
-``` 
-
-
+Essa função pode ser útil para garantir que apenas os campos permitidos sejam usados para criar ou atualizar recursos em sua aplicação. Ao invés de permitir que o objeto de requisição tenha todos os campos, você pode especificar apenas aqueles que são realmente necessários e relevantes para a sua aplicação, aumentando a segurança e evitando possíveis erros.
 
 [LINK DO REPOSITÓRIO](https://github.com/gumiranda/CrazyStackNodeJs)
