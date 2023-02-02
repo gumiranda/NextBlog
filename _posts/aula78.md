@@ -81,6 +81,9 @@ export const makeLoadUserByPageGeoNearController = (): Controller => {
   );
 };
 ``` 
+Esse código é uma função factory que retorna um novo controlador para carregar usuários por página utilizando uma busca próxima geográfica. Ela importa vários módulos e utiliza uma função factory para criar um conjunto de validação de campos obrigatórios e uma função factory para criar uma instância da camada de negócios que carrega usuários por página e geolocalização. Além disso, ele aplica um decorador de log que registra as informações da chamada para esse controlador. Por fim, ele retorna uma nova instância do controlador LoadUserByPageGeoNearController, que utiliza essas duas instâncias de camada de negócios e validação para executar a ação de carregamento de usuários.
+
+
 https://github.com/gumiranda/CrazyStackNodeJs/commit/e9853764214a2c1ebe875508e4b1ae1e78b4ada8
 
 

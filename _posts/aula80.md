@@ -9,6 +9,19 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Nesta aula, vamos criar todas as rotas de categoria, para que possamos interagir com as informações de categoria na nossa API. As rotas que vamos criar incluem:
+
+1.  Criar categoria
+2.  Atualizar categoria
+3.  Excluir categoria
+4.  Listar categorias por página ou por query específica
+
+Antes de criarmos as rotas, precisamos garantir que tenhamos todos os controladores e usos casos necessários para cada rota implementados e disponíveis. Em seguida, podemos usar uma biblioteca de rotas, como Fastify, para configurar cada rota com o controlador correto e as opções de rota apropriadas, como o método HTTP (GET, POST, PUT, DELETE) e o caminho da rota.
+
+Depois de ter criado as rotas, poderemos testá-las usando uma ferramenta como o Postman para garantir que elas estejam funcionando como esperado.
+
+Ao final da aula, teremos uma API completa para gerenciar categorias, permitindo que os usuários criem, atualizem, excluam e listem as informações de categoria em nossa aplicação.
+
 Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
 
 ```typescript
@@ -156,7 +169,20 @@ export const loadCategoryByPageGetSchema = {
     },
   },
 };
-``` 
+```
+Essas são as definições de esquema JSON que serão utilizadas com o Fastify para validar o request e o response em cada rota da categoria. O Fastify usa esquemas JSON para definir o formato esperado de entrada e saída de dados nas rotas. Aqui estão algumas explicações para cada esquema JSON:
+
+1.  bodyAddCategoryJsonSchema: Este esquema define o formato do corpo da solicitação que será enviada para a rota de adição de categoria. Ele especifica que o tipo do objeto deve ser "object", e que um campo "name" é obrigatório. O campo "name" deve ser do tipo "string".
+    
+2.  headersJsonSchema: Este esquema define o formato do cabeçalho da solicitação que será enviada para todas as rotas. Ele especifica que o tipo do objeto deve ser "object", e que um campo "authorization" é obrigatório. O campo "authorization" deve ser do tipo "string".
+    
+3.  addCategoryResponse: Este esquema define o formato da resposta que será enviada pela rota de adição de categoria. Ele especifica que o tipo da resposta é um objeto, e que ele tem vários campos, incluindo "\_id", "name", "active", "createdById" e "createdAt". Todos esses campos têm tipos específicos, por exemplo, "\_id" deve ser do tipo "string" com comprimento mínimo de 24 caracteres e comprimento máximo de 24 caracteres.
+    
+4.  queryStringJsonLoadCategorySchema: Este esquema define o formato da query string que será enviada para a rota de carregamento de categoria. Ele especifica que o tipo do objeto deve ser "object", e que um campo "\_id" é obrigatório. O campo "\_id" deve ser do tipo "string" com comprimento mínimo de 24 caracteres e comprimento máximo de 24 caracteres.
+    
+5.  loadCategoryResponse: Este esquema define o formato da resposta que será enviada pela rota de carregamento de categoria. Ele especifica que o tipo da resposta é um objeto, e que ele tem vários campos, incluindo "\_id", "name", "active", "createdById" e "createdAt". Todos esses campos têm tipos específicos, por exemplo, "\_id" deve ser do tipo "string" com comprimento mínimo de 24 caracteres e comprimento máximo de 24 caracteres.
+    
+6.  deleteCategoryResponse: Este esquema define o formato da resposta que será enviada pela rota de exclusão de categoria. Ele especifica que o tipo da resposta é "boolean". 
 ```typescript
 import { authLogged } from "@/application/infra/middlewares";
 import {
@@ -188,6 +214,32 @@ async function category(fastify: any, options: any) {
 }
 export { category };
 ``` 
+
+Antes de começarmos as rotas em si, temos a importação de alguns arquivos necessários para o funcionamento dessas rotas:
+
+* `authLogged`: é uma função middleware que verifica se o usuário está autenticado antes de acessar a rota.
+* `categoryAdapter`: é um arquivo que contém as implementações das lógicas de negócios para cada rota.
+* `categorySchema`: é um arquivo que contém os esquemas de validação das requisições para cada rota.
+
+Em seguida, temos a função `category`, que é responsável por criar as rotas do Fastify para as categorias. A função recebe como parâmetros o objeto Fastify e as opções para o Fastify.
+
+O primeiro passo dentro da função é adicionar o middleware `authLogged` como um hook de pré-tratamento de requisições, ou seja, este middleware será executado antes de cada requisição para as rotas definidas neste arquivo.
+
+Em seguida, temos 5 rotas diferentes para as categorias:
+
+1.  `POST /category/add`: rota para adicionar uma nova categoria. Ela usa o schema `addCategoryPostSchema` para validar a requisição e a lógica de negócios é implementada na função `addCategoryAdapter`.
+    
+2.  `GET /category/load`: rota para carregar todas as categorias. Ela usa o schema `loadCategoryGetSchema` para validar a requisição e a lógica de negócios é implementada na função `loadCategoryAdapter`.
+    
+3.  `GET /category/loadByPage`: rota para carregar as categorias por página. Ela usa o schema `loadCategoryByPageGetSchema` para validar a requisição e a lógica de negócios é implementada na função `loadCategoryByPageAdapter`.
+    
+4.  `DELETE /category/delete`: rota para deletar uma categoria. Ela usa o schema `deleteCategorySchema` para validar a requisição e a lógica de negócios é implementada na função `deleteCategoryAdapter`.
+    
+5.  `PATCH /category/update`: rota para atualizar uma categoria. Ela usa o schema `updateCategorySchema` para validar a requisição e a lógica de negócios é implementada na função `updateCategoryAdapter`.
+    
+
+Por fim, exportamos a função `category` para que possa ser reconhecido no nosso array de rotas do Fastify.
+
 ```typescript
 import { makeFastifyInstance } from "@/index";
 import { Collection, ObjectId } from "mongodb";
@@ -438,11 +490,31 @@ describe("Route api/category", () => {
   });
 });
 ``` 
+Estes são testes de integração para as rotas de categoria de um sistema de agendamento online. Eles são feitos usando a biblioteca Jest e testam a funcionalidade de adição, carregamento,listagem e exclusão de categorias.
 
-explique como essas rotas de categorias serão usadas como modelo para geração dinâmica de rotas para outros domínios da aplicação através do uso da lib plop.js
+Os testes de integração visam verificar se os diferentes componentes de um sistema estão funcionando corretamente juntos. No caso deste sistema de agendamentos online, estamos testando a integração entre o servidor, o banco de dados e as rotas da API relacionadas às categorias.
 
+Antes de cada teste, é necessário se conectar ao banco de dados MongoDB e criar uma instância do Fastify, uma biblioteca de roteamento para aplicativos Node.js. Em seguida, as coleções de usuários e categorias são limpas.
 
-https://github.com/gumiranda/CrazyStackNodeJs/commit/57296ee1bead7114679ce7c474916aa2819df0fa
+Os testes são realizados usando a biblioteca Jest, que permite escrever testes unitários e de integração de maneira simples e clara. Cada teste é escrito dentro de uma função `test`, que especifica o comportamento esperado do sistema.
 
+O código inicializa o servidor e o banco de dados antes de cada teste, e desconecta tudo após todos os testes terem sido realizados. Isso garante que cada teste execute em um ambiente limpo e não sejam afetados pelos resultados dos testes anteriores.
+
+Os testes são divididos em vários grupos: "POST /api/category/add", "GET /api/category/load",PATCH e DELETE.
+
+Em cada grupo, são testados quatro casos diferentes:
+
+1.  Verifica se a resposta é 200 (OK) ao adicionar uma categoria com um token de autorização válido
+2.  Verifica se a resposta é 400 (Bad Request) ao adicionar uma categoria com dados inválidos
+3.  Verifica se a resposta é 401 (Unauthorized) ao tentar adicionar uma categoria sem um token de autorização válido
+4.  Verifica se a resposta é 400 (Bad Request) ao tentar adicionar uma categoria sem passar um token de autorização
+ 
+## Como gerar as próximas rotas dinamicamente?
+
+A lib plop.js é uma biblioteca de geração de código baseada em um modelo, que permite a criação de rotas dinâmicas para outros domínios da aplicação a partir de modelos pré-definidos. Para isso, você precisa criar modelos para suas rotas de categorias e testes de integração que representem as estruturas de suas rotas e testes.
+
+Em seguida, você pode usar esses modelos como base para geração dinâmica de novas rotas e testes para outros domínios da aplicação. O plop.js irá ler os modelos e gerar automaticamente o código para as novas rotas e testes, tornando o processo mais rápido e eficiente. Além disso, você pode personalizar o plop.js para adicionar ou remover informações de seus modelos para ajustá-los ao seu projeto.
+
+De forma geral, o uso da lib plop.js permite a automação do processo de criação de rotas e testes, facilitando o desenvolvimento e a manutenção do código em seu projeto.
 
 [LINK DO REPOSITÓRIO](https://github.com/gumiranda/CrazyStackNodeJs)
