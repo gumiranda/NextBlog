@@ -335,6 +335,23 @@ export class DbAuthentication implements Authentication {
   }
 }
 ``` 
+Esse é um código em JavaScript que define a classe "DbAuthentication", responsável por implementar uma interface de autenticação. Essa classe possui as seguintes responsabilidades:
+
+* Verificar se as credenciais fornecidas (email e senha) correspondem a algum usuário registrado no banco de dados.
+* Gerar tokens de acesso e refresh (em caso de sucesso na autenticação).
+
+A classe possui uma dependência de três objetos, que são inicializados através de seu construtor:
+
+* loadUserRepository: Um repositório responsável por carregar informações de usuários.
+* hashComparer: Um objeto que compara hashes de senhas.
+* tokenGenerator: Um gerador de tokens de acesso.
+* refreshTokenGenerator: Um gerador de tokens de refresh.
+
+A classe possui dois métodos:
+
+* auth: Verifica as credenciais fornecidas e gera tokens de acesso e refresh em caso de sucesso.
+* authRefreshToken: Recebe o ID do usuário e gera tokens de acesso e refresh.
+
 ```typescript
 import { BcryptAdapter, env, JwtAdapter, MongoRepository } from "@/application/infra";
 import { DbAuthentication, Authentication } from "@/application/helpers";
@@ -342,9 +359,9 @@ import { UserRepository } from "@/slices/user/repositories";
 export const makeDbAuthentication = (): Authentication => {
   const salt = 12;
   const bcryptAdapter = new BcryptAdapter(salt);
-  const jwtAdapter = new JwtAdapter(env.jwtSecret, "120d");
-  const jwtRefreshTokenAdapter = new JwtAdapter(env.jwtRefreshSecret, "120d");
-  const userMongoRepository = new MongoRepository("users");
+  const jwtAdapter = new JwtAdapter(env.jwtSecret, "1d");
+  const jwtRefreshTokenAdapter = new JwtAdapter(env.jwtRefreshSecret, "10d");
+  const userMongoRepository = new MongoRepository("user");
   const userRepository = new UserRepository(userMongoRepository);
   return new DbAuthentication(
     userRepository,
@@ -354,6 +371,23 @@ export const makeDbAuthentication = (): Authentication => {
   );
 };
 ``` 
+Este código define uma função chamada `makeDbAuthentication` que retorna uma instância da classe `DbAuthentication`.
+
+A função começa declarando uma constante `salt` com o valor 12, que será usado para criar uma instância da classe `BcryptAdapter`. Em seguida, duas instâncias da classe `JwtAdapter` são criadas, uma para gerar tokens de acesso e outra para tokens de atualização de token.
+
+Em seguida, uma instância da classe `MongoRepository` é criada com o nome da coleção "users". Uma instância da classe `UserRepository` é criada com base na instância de `MongoRepository`.
+
+Finalmente, uma instância da classe `DbAuthentication` é retornada, usando as instâncias criadas anteriormente como argumentos.
+
+A ideia é que `makeDbAuthentication` é uma factory que retorna uma instância de `DbAuthentication` pronta para ser usada.
+
+Somente o Refresh Token e os dados de autenticação são armazenados em um banco de dados, normalmente MongoDB, com o objetivo de garantir a segurança dos dados do usuário. A biblioteca MongoRepository é usada para se conectar ao banco de dados e manipular as informações do usuário.
+
+O Access Token é usado para autenticar as requisições do usuário e fornecer acesso aos recursos protegidos. É gerado pelo TokenGenerator e é válido por um curto período de tempo, como 120 dias. Se a sessão do usuário expirar antes desse período, ele precisará fazer login novamente.
+
+O Refresh Token é usado para renovar o Access Token sem que o usuário precise fazer login novamente. Ele é gerado pelo RefreshTokenGenerator e é válido por um período de tempo mais longo do que o Access Token. Se o Access Token expirar, o usuário pode usar o Refresh Token para obter um novo Access Token sem precisar fazer login novamente.
+
+Em resumo, o uso de Access Token e Refresh Token aumenta a segurança da aplicação, já que o usuário precisa fazer login apenas uma vez e pode continuar usando a aplicação sem precisar fazer login novamente, desde que seu Refresh Token esteja válido. Além disso, a biblioteca BcryptAdapter é usada para criptografar a senha do usuário antes de armazená-la no banco de dados, garantindo a segurança dos dados sensíveis do usuário.
 
 ```typescript
 import { MongoRepository } from "@/application/infra/database/mongodb";
@@ -365,7 +399,11 @@ export const makeLoadUserFactory = (): LoadUser => {
   return loadUser(userRepository);
 };
 ``` 
+Este código exporta uma função factory `makeLoadUserFactory` que retorna uma instância de `LoadUser`. A função factory utiliza o módulo `MongoRepository` para criar uma instância do repositório de usuários, que é então usada para criar uma instância do caso de uso `loadUser`.
 
+O caso de uso `loadUser` é importado do módulo `@/slices/user/useCases/loadUser` e é responsável por carregar um usuário a partir de seus dados de identificação, como o e-mail ou o ID do usuário. Esse caso de uso usa o repositório de usuários para realizar a tarefa de recuperar as informações do usuário.
+
+Em resumo, a função factory `makeLoadUserFactory` retorna uma instância do caso de uso `loadUser` que foi inicializada com uma instância do repositório de usuários.
 
 
 
