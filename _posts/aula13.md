@@ -9,7 +9,11 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Na aula "Criando contract loadCategoryByPageRepository", vamos criar um contrato para o nosso repositório de categoria que irá implementar a funcionalidade de carregar as categorias por página. Este contrato irá definir a interface que o nosso repositório deve seguir para implementar essa funcionalidade.
+
+Ele pode ser implementado usando diversas tecnologias, como banco de dados SQL ou NoSQL, arquivos, etc. O importante é que ele segue a interface definida no contrato para que possa ser usado pelo nosso use case "loadCategoryByPage".
+
+Este contrato é importante porque nos permite ter flexibilidade na implementação da nossa aplicação e facilidade na manutenção, pois caso precise mudar a forma como a funcionalidade é implementada, basta mudar a implementação do repositório sem precisar mexer em nenhuma outra parte da aplicação.
 
 ```typescript
 import { Query } from "@/application/types";

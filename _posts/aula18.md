@@ -9,7 +9,9 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+A aula de "Criando usecase updateCategory" irá mostrar como implementar a funcionalidade de atualização de categoria em sua aplicação. Nesta aula, você aprenderá como usar o contrato "updateCategoryRepository" que foi criado anteriormente.
+
+Este usecase é responsável por atualizar as informações de uma categoria específica no banco de dados. Para isso, ele receberá um id da categoria a ser atualizada e as informações a serem atualizadas. Este usecase irá verificar se as informações fornecidas são válidas e, em seguida, irá passar as informações para o contrato "updateCategoryRepository" para que ele as atualize no banco de dados. O resultado da atualização será então retornado para o usuário.
 
 ```typescript
 import { UpdateCategoryRepository } from "@/slices/category/repositories";

@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+A aula "Criando useCase addCategory" é uma aula importante no desenvolvimento da aplicação, na qual será abordado a implementação do caso de uso de inserção de categoria. Nesta aula, será criada a classe "AddCategory" que representa a lógica de negócio para adicionar uma categoria ao sistema. Esta classe será responsável por validar os dados de entrada, executar as regras de negócio e comunicar-se com o repositório de categoria para persistir as informações. Além disso, será criado o teste de unidade para garantir o funcionamento correto desta funcionalidade. Esta aula é fundamental para entender como as operações de negócio são implementadas e como são realizados os testes para garantir a qualidade do software.
+
 Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
 
 ```typescript
@@ -35,6 +37,6 @@ A função AddCategorySignature é usada para criar uma assinatura para a funç�
 
 A constante addCategory é uma instância da função AddCategorySignature já passando como entrada o objeto addCategoryRepository. Ele é usado para adicionar uma categoria ao sistema, ele cria uma instância de CategoryEntity com os dados recebidos e passa para o objeto addCategoryRepository para salvar no banco de dados.
 
-Este código é usado para definir e implementar a funcionalidade de adição de uma categoria. Ele utiliza a interface AddCategoryRepository para adicionar uma categoria ao banco de dados e retorna uma promessa com o objeto CategoryEntity adicionado ou null caso ocorra algum erro.
+Este código é usado para definir e implementar a funcionalidade de inserção de uma categoria. Ele utiliza a interface AddCategoryRepository para adicionar uma categoria ao banco de dados e retorna uma promessa com o objeto CategoryEntity adicionado ou null caso ocorra algum erro.
 
 [LINK DO REPOSITÓRIO](https://github.com/gumiranda/CrazyStackNodeJs)

@@ -137,7 +137,7 @@ export const makeAddUserFactory = (): AddUser => {
 };
 ``` 
 
-Este é um código para a criação de uma fábrica de casos de uso de adição de usuários. A fábrica cria uma instância do BcryptAdapter com um salto de 12, uma instância de UserRepository que usa o MongoRepository como sua base de dados, e retorna a função addUser injetando essas instâncias como dependências.
+Este é um código para a criação de uma fábrica de casos de uso de inserção de usuários. A fábrica cria uma instância do BcryptAdapter com um salto de 12, uma instância de UserRepository que usa o MongoRepository como sua base de dados, e retorna a função addUser injetando essas instâncias como dependências.
 
 Isso é útil porque separa a responsabilidade de instanciar dependências da implementação do caso de uso, tornando-o mais fácil de testar e mudar as dependências.
 

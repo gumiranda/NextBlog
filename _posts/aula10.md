@@ -9,6 +9,14 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Nesta aula, vamos criar um tipo genérico "Query" com base no código apresentado. A ideia é usar este tipo para representar todas as consultas que serão realizadas na aplicação, incluindo as que serão feitas ao banco de dados.
+
+O tipo "Query" consiste em dois objetos: "fields" e "options". O primeiro objeto, "fields", representa os campos que serão selecionados na consulta. O segundo objeto, "options", representa as opções adicionais que podem ser passadas para a consulta, como o tipo de ordenação, a página que será retornada, o limite de resultados e o ID do usuário logado, entre outros.
+
+O tipo "QueryOptions" é usado para especificar essas opções adicionais, incluindo a projeção, a ordenação, a página, o limite, o ID do usuário logado e o índice a ser criado. Este tipo é opcional e pode ser omitido caso não sejam necessárias as opções adicionais.
+
+Ao final da aula, teremos um tipo genérico "Query" que será útil para representar todas as consultas da aplicação e facilitar a manutenção do código.
+
 Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
 
 ```typescript

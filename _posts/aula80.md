@@ -172,11 +172,11 @@ export const loadCategoryByPageGetSchema = {
 ```
 Essas são as definições de esquema JSON que serão utilizadas com o Fastify para validar o request e o response em cada rota da categoria. O Fastify usa esquemas JSON para definir o formato esperado de entrada e saída de dados nas rotas. Aqui estão algumas explicações para cada esquema JSON:
 
-1.  bodyAddCategoryJsonSchema: Este esquema define o formato do corpo da solicitação que será enviada para a rota de adição de categoria. Ele especifica que o tipo do objeto deve ser "object", e que um campo "name" é obrigatório. O campo "name" deve ser do tipo "string".
+1.  bodyAddCategoryJsonSchema: Este esquema define o formato do corpo da solicitação que será enviada para a rota de inserção de categoria. Ele especifica que o tipo do objeto deve ser "object", e que um campo "name" é obrigatório. O campo "name" deve ser do tipo "string".
     
 2.  headersJsonSchema: Este esquema define o formato do cabeçalho da solicitação que será enviada para todas as rotas. Ele especifica que o tipo do objeto deve ser "object", e que um campo "authorization" é obrigatório. O campo "authorization" deve ser do tipo "string".
     
-3.  addCategoryResponse: Este esquema define o formato da resposta que será enviada pela rota de adição de categoria. Ele especifica que o tipo da resposta é um objeto, e que ele tem vários campos, incluindo "\_id", "name", "active", "createdById" e "createdAt". Todos esses campos têm tipos específicos, por exemplo, "\_id" deve ser do tipo "string" com comprimento mínimo de 24 caracteres e comprimento máximo de 24 caracteres.
+3.  addCategoryResponse: Este esquema define o formato da resposta que será enviada pela rota de inserção de categoria. Ele especifica que o tipo da resposta é um objeto, e que ele tem vários campos, incluindo "\_id", "name", "active", "createdById" e "createdAt". Todos esses campos têm tipos específicos, por exemplo, "\_id" deve ser do tipo "string" com comprimento mínimo de 24 caracteres e comprimento máximo de 24 caracteres.
     
 4.  queryStringJsonLoadCategorySchema: Este esquema define o formato da query string que será enviada para a rota de carregamento de categoria. Ele especifica que o tipo do objeto deve ser "object", e que um campo "\_id" é obrigatório. O campo "\_id" deve ser do tipo "string" com comprimento mínimo de 24 caracteres e comprimento máximo de 24 caracteres.
     
@@ -490,7 +490,7 @@ describe("Route api/category", () => {
   });
 });
 ``` 
-Estes são testes de integração para as rotas de categoria de um sistema de agendamento online. Eles são feitos usando a biblioteca Jest e testam a funcionalidade de adição, carregamento,listagem e exclusão de categorias.
+Estes são testes de integração para as rotas de categoria de um sistema de agendamento online. Eles são feitos usando a biblioteca Jest e testam a funcionalidade de inserção, carregamento,listagem e exclusão de categorias.
 
 Os testes de integração visam verificar se os diferentes componentes de um sistema estão funcionando corretamente juntos. No caso deste sistema de agendamentos online, estamos testando a integração entre o servidor, o banco de dados e as rotas da API relacionadas às categorias.
 

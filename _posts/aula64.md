@@ -57,10 +57,10 @@ Essa é uma factory de criação de `SignupController`. A factory retorna um obj
 O `SignupController` é criado com várias dependências:
 
 * `makeValidationComposite`, que fornece validação de campos obrigatórios.
-* `makeAddUserFactory`, que fornece a lógica de adição de usuário.
+* `makeAddUserFactory`, que fornece a lógica de inserção de usuário.
 * `makeLoadUserFactory`, que fornece a lógica de carregamento de usuários.
 * `makeDbAuthentication`, que fornece autenticação de banco de dados.
-* `makeAddAccountFactory`, que fornece a lógica de adição de conta.
+* `makeAddAccountFactory`, que fornece a lógica de inserção de conta.
 
 Essas dependências são passadas para o construtor de `SignupController`, e a factory retorna o objeto decorado pelo `makeLogController`, que adiciona funcionalidade de log ao controlador.
 

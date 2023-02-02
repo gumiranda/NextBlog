@@ -9,7 +9,19 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+A aula de Repository genérico trata sobre a criação de uma classe abstrata "Repository" que é utilizada como base para a criação de repositórios de dados. Esta classe define os métodos básicos que um repositório deve ter, como:
+
+1. Adicionar um item
+2. Atualizar um item
+3. Incrementar valores de um item
+4. Deletar um item
+5. Buscar um único item
+6. Buscar todos os itens
+7. Buscar itens com paginação
+8. Contar itens
+9. Agregar dados
+
+Essa classe abstrata ajuda a manter o padrão de programação, ajudando na criação de repositórios mais consistentes e fáceis de manter. Além disso, é possível herdar da classe Repository e implementar funcionalidades específicas, tornando a criação de repositórios mais rápida e eficiente.
 
 ```typescript
 export abstract class Repository {

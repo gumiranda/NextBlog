@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Nesta aula, você aprenderá sobre a introdução ao MongoDB. Veremos uma classe de helper para acessar o banco de dados MongoDB que fornece funções para conectar e desconectar do banco de dados, recuperar uma coleção específica, remover a senha de um objeto da coleção, remover a senha de vários objetos da coleção, iniciar e finalizar uma sessão no MongoDB e recuperar a sessão atual. Essa classe ajudará na gestão das conexões com o banco de dados e na realização de operações de consulta de forma simples e eficiente.
 
 ```typescript
 import { MongoClient, Collection } from "mongodb";

@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Nesta aula, você aprenderá sobre a gestão de status, que é uma das partes importantes da aplicação de agendamento. A aula mostrará como implementar uma função chamada "statusIsValid", que é utilizada para validar se é possível mudar o status de um agendamento. Esta validação é importante para garantir a consistência dos dados na aplicação e evitar situações indesejadas. A função statusIsValid pode ser escrita de várias maneiras, mas, em geral, é uma verificação lógica que compara o status atual do agendamento com o status pretendido e retorna um valor booleano indicando se a mudança é válida ou não.
 
 ```typescript
 export const NEW_STATUS_ARRAY_THAT_NEEDS_APPOINTMENT_IN_FUTURE = [1, 2, 3, 5, 6, 7, 8];

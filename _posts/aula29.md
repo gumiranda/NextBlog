@@ -9,8 +9,23 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Nesta aula, você aprenderá como criar as funcionalidades básicas de um CRUD (Create, Read, Update e Delete) para o recurso "RatingResult". O objetivo é que você possa aplicar o mesmo padrão utilizado na criação do CRUD de "Categoria" e assim, possa desenvolver CRUDs para outros recursos da aplicação com facilidade. Serão criadas as seguintes interfaces de repositório:
 
+1. addRatingResultRepository
+2. loadRatingResultRepository
+3. loadRatingResultByPageRepository
+4. deleteRatingResultRepository
+5. updateRatingResultRepository
+
+Além disso, serão criados os seguintes casos de uso:
+
+1. addRatingResult
+2. loadRatingResult
+3. loadRatingResultByPage
+4. deleteRatingResult
+5. updateRatingResult
+
+Você também poderá aplicar as técnicas de validação de dados e tratamento de erros aprendidas nas aulas anteriores. Ao final desta aula, você terá uma base sólida para o desenvolvimento de futuros recursos da aplicação.
 ```typescript
 type RatingResultStarsModel = {
   rating: string;

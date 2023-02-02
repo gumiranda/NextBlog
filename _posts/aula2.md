@@ -9,6 +9,15 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+
+Nesta aula, você vai criar a primeira classe que representará a categoria de serviços da API. A classe de categoria é uma parte fundamental do modelo de dados da sua aplicação e será usada em vários lugares ao longo do desenvolvimento.
+
+Para criar a classe de categoria, você precisará definir sua estrutura, incluindo os atributos e métodos que farão parte dela. Além disso, você precisará implementar as validações e as regras de negócio relacionadas à categoria. É importante que você organize o código da classe de forma clara e legível, para que seja fácil manter e evoluir a aplicação ao longo do tempo.
+
+Após criar a classe de categoria, você pode testá-la para garantir que está funcionando corretamente. Isso pode ser feito através de testes unitários, que verificam se cada método da classe está funcionando como esperado. Esses testes também ajudam a garantir que sua aplicação será estável e confiável ao longo do tempo.
+
+Depois de criar a classe de categoria, você pode usar a biblioteca Plop.js para gerar automaticamente classes para novos domínios de negócios, baseado no modelo que você definiu. Isso permitirá que você rapidamente adicione novas classes à aplicação sem precisar escrever código manualmente para cada uma delas.
+
 Começamos com a criação da entidade de categoria
 
 ```typescript

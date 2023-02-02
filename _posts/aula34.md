@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+A aula "Manipulando Datas com DateFns" é destinada a ensinar como utilizar a biblioteca "date-fns" para manipulação de datas no seu projeto. Date-fns é uma biblioteca moderna, fácil de usar e eficiente para manipulação de datas no JavaScript. Essa biblioteca fornece uma série de funções que permitem fazer operações comuns com datas, como adicionar dias, semanas, meses, anos, etc. Além disso, ela também permite formatar datas para exibição em diferentes padrões, como o padrão ISO, o padrão americano, o padrão brasileiro, entre outros. Ao final desta aula, você será capaz de usar a biblioteca Date-fns com confiança para manipular datas no seu projeto.
 
 Arquivo date.ts
 
@@ -648,8 +648,8 @@ export const secondStep = (secondStepInput: SecondStepInput): void => {
   });
 };
 ```
-A função "secondStep" é usada para encontrar os intervalos de tempo disponíveis, após as consultas já agendadas. Ela recebe como entrada "secondStepInput" que contém informações como horário de início e fim do dia de trabalho, horário de início e fim do intervalo de almoço, se há intervalo de almoço, as consultas agendadas, data da consulta e um array para armazenar os intervalos de tempo disponíveis.
-A função percorre cada consulta agendada e verifica se há outra consulta agendada depois dela. Se houver, ela adiciona a diferença de tempo entre o final da consulta atual e o início da próxima no array de intervalos disponíveis. Se não houver outra consulta agendada, ela adiciona o tempo entre o final da última consulta e o final do dia de trabalho no array. Se houver um intervalo de almoço, a função também verifica se as consultas estão dentro do primeiro ou segundo período do dia e adiciona os intervalos disponíveis de acordo.
+A função "secondStep" é usada para encontrar os intervalos de tempo disponíveis, após as consultas já agendadas. Ela recebe como entrada "secondStepInput" que contém informações como horário de início e fim do dia funcionamento, horário de início e fim do intervalo de almoço, se há intervalo de almoço, as consultas agendadas, data da consulta e um array para armazenar os intervalos de tempo disponíveis.
+A função percorre cada consulta agendada e verifica se há outra consulta agendada depois dela. Se houver, ela adiciona a diferença de tempo entre o final da consulta atual e o início da próxima no array de intervalos disponíveis. Se não houver outra consulta agendada, ela adiciona o tempo entre o final da última consulta e o final do dia funcionamento no array. Se houver um intervalo de almoço, a função também verifica se as consultas estão dentro do primeiro ou segundo período do dia e adiciona os intervalos disponíveis de acordo.
 As funções firstStep e secondStep são importantes para o sistema de agendamentos online pois elas determinam quais horários estão disponíveis para agendamentos. A função firstStep é responsável por determinar os horários disponíveis no início do dia, levando em conta o horário de almoço (se houver) e possíveis agendamentos já existentes. A função secondStep é responsável por determinar os horários disponíveis entre cada agendamento, levando em conta o horário de almoço (se houver) e possíveis agendamentos subsequentes.
 
 Juntas, essas funções permitem que o sistema de agendamentos online apresente aos usuários apenas os horários disponíveis para agendamentos, o que é fundamental para garantir que os agendamentos sejam eficientes e evitem conflitos de horário

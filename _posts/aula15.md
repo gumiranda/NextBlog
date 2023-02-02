@@ -9,7 +9,13 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+A aula "Criando usecase deleteCategory" é onde você irá implementar a lógica para excluir uma categoria em sua aplicação. Isso incluirá a criação de um novo caso de uso chamado "deleteCategory". Este caso de uso será responsável por receber uma requisição de exclusão de categoria, validar a requisição, e então remover a categoria do repositório.
+
+Nesta aula, você irá trabalhar com o contract deleteCategoryRepository, que irá garantir que a classe de repositório de categoria tenha as funcionalidades necessárias para remover uma categoria.
+
+Você também irá utilizar o tipo genérico Query, que foi criado na aula anterior, para passar as informações da categoria a ser excluída para o repositório.
+
+Este é um passo importante para garantir a integridade dos dados em sua aplicação, e é fundamental que você siga todas as boas práticas de programação para garantir a segurança e a qualidade do seu código.
 
 ```typescript
 import { Query } from "@/application/types";

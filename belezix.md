@@ -198,7 +198,7 @@ A criação de categorias é uma maneira eficiente de organizar os serviços ofe
 
 2.4
 
-Capítulo 2.4: Adição de Serviços
+Capítulo 2.4: Inserção de Serviços
 
 Depois de criar as categorias, é hora de adicionar os serviços que serão oferecidos pela equipe. Cada serviço deve ser associado a uma categoria e pode incluir informações como preço, descrição e tempo de duração.
 
@@ -222,7 +222,7 @@ Salve as alterações.
 
 Depois de adicionar um serviço, é possível editar ou excluir o serviço a qualquer momento. Além disso, é possível adicionar mais serviços a qualquer momento, sempre associando-os a uma categoria.
 
-A adição de serviços é fundamental para o sucesso do seu negócio. Quanto mais serviços você oferecer, mais clientes você atrairá. Além disso, ao oferecer uma ampla variedade de serviços, você pode atender às diversas necessidades e desejos dos seus clientes.
+A inserção de serviços é fundamental para o sucesso do seu negócio. Quanto mais serviços você oferecer, mais clientes você atrairá. Além disso, ao oferecer uma ampla variedade de serviços, você pode atender às diversas necessidades e desejos dos seus clientes.
 
 
 

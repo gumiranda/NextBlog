@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+A aula "Chain of Responsibility" no use case UpdateRequestById irá apresentar uma abordagem para lidar com várias validações que devem ser feitas antes de atualizar um agendamento. A ideia é utilizar o padrão de projeto Chain of Responsibility para criar uma cadeia de responsabilidades de validações, onde cada validação é representada por uma classe. Essas classes serão executadas sequencialmente, e caso uma validação falhe, a atualização do agendamento não será realizada. Dessa forma, é possível adicionar ou remover validações a qualquer momento sem afetar a funcionalidade do sistema.
 
 ```typescript
 import { RequestData } from "@/slices/request/entities";
@@ -334,9 +334,9 @@ export class OrderHandler extends AbstractHandler {
 ``` 
 A classe OrderHandler é responsável por lidar com o processamento de pedidos. Ela herda de uma classe abstrata chamada AbstractHandler, que fornece alguns comportamentos comuns para outras classes de manipuladores.
 
-A classe OrderHandler tem um construtor que recebe quatro repositórios como parâmetros: o repositório de adição de pedidos, o repositório de atualização de serviços, o repositório de atualização de usuários e o repositório de atualização de clientes. Esses repositórios são usados ​​dentro do método handle() para realizar operações de banco de dados específicas.
+A classe OrderHandler tem um construtor que recebe quatro repositórios como parâmetros: o repositório de inserção de pedidos, o repositório de atualização de serviços, o repositório de atualização de usuários e o repositório de atualização de clientes. Esses repositórios são usados ​​dentro do método handle() para realizar operações de banco de dados específicas.
 
-O método handle() verifica se o status da solicitação é igual a 10. Se for, ele adiciona um novo pedido ao banco de dados usando o repositório de adição de pedidos. Ele também incrementa o número total de agendamentos de serviços, profissionais, proprietários e clientes usando os respectivos repositórios. Se alguma dessas operações falhar, ele lança uma exceção com uma mensagem de erro específica.
+O método handle() verifica se o status da solicitação é igual a 10. Se for, ele adiciona um novo pedido ao banco de dados usando o repositório de inserção de pedidos. Ele também incrementa o número total de agendamentos de serviços, profissionais, proprietários e clientes usando os respectivos repositórios. Se alguma dessas operações falhar, ele lança uma exceção com uma mensagem de erro específica.
 
 Finalmente, o método handle() chama o método handle() da classe pai (AbstractHandler) para continuar o processamento da solicitação.
 
@@ -381,7 +381,7 @@ export class RecurrenceHandler extends AbstractHandler {
 ``` 
 Este é um exemplo de uma classe "RecurrenceHandler" que estende a classe "AbstractHandler". Ela tem uma dependência de uma instância da classe "AddRecurrenceRepository", que é usada para adicionar novas recorrências ao banco de dados.
 
-A classe tem um método "handle" que sobrescreve o método da classe pai "AbstractHandler". Este método verifica se o objeto "request" tem o atributo "haveRecurrence" como verdadeiro e se o atributo "status" tem o valor 0 ou 6. Se essas condições forem atendidas, ele usa o repositório para adicionar uma nova recorrência ao banco de dados com os dados fornecidos no objeto "request". Se a adição falhar, ele lança uma exceção "Não foi possível criar a recorrência". Por fim, ele chama o método "handle" da classe pai.
+A classe tem um método "handle" que sobrescreve o método da classe pai "AbstractHandler". Este método verifica se o objeto "request" tem o atributo "haveRecurrence" como verdadeiro e se o atributo "status" tem o valor 0 ou 6. Se essas condições forem atendidas, ele usa o repositório para adicionar uma nova recorrência ao banco de dados com os dados fornecidos no objeto "request". Se a inserção falhar, ele lança uma exceção "Não foi possível criar a recorrência". Por fim, ele chama o método "handle" da classe pai.
 
 ```typescript
 import { AddRideRepository } from "@/slices/ride/repositories";

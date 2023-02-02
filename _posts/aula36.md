@@ -9,7 +9,9 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+A aula "Criando useCase LoadAvailableTimes" vai mostrar como utilizar as funções "getArrayTimes" e "queryDateGenerator" criadas em aulas anteriores para buscar informações sobre horários disponíveis a partir de uma determinada data. Essa funcionalidade será implementada através de um "useCase" que irá utilizar o contrato "LoadAvailableTimesRepository" para obter os dados.
+
+O objetivo desta aula é apresentar como o uso de funções e contratos já implementados pode ser aplicado para solucionar problemas mais complexos, como a busca de horários disponíveis. Será mostrado como a funcionalidade pode ser integrada ao sistema e como é possível reaproveitar o código já escrito para resolver novos problemas.
 
 ```typescript
 import { LoadServiceRepository } from "@/slices/service/repositories";

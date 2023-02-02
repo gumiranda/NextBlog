@@ -10,7 +10,7 @@ ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
 
-Bem-vindos à aula de Gerador de Controllers Dinâmico. Neste curso, vocês irão aprender sobre a utilização da biblioteca plop.js para geração automatizada de controllers em sua aplicação. Estes controllers serão baseados nos controllers de categoria que já foram desenvolvidos, que incluem funções como adição, exclusão, atualização, carregamento e carregamento por página. Com a utilização deste gerador dinâmico, vocês poderão acelerar significativamente o desenvolvimento de seus projetos, evitando a repetição de tarefas manuais e garantindo a consistência em toda a aplicação. Então, vamos começar!
+Bem-vindos à aula de Gerador de Controllers Dinâmico. Neste curso, vocês irão aprender sobre a utilização da biblioteca plop.js para geração automatizada de controllers em sua aplicação. Estes controllers serão baseados nos controllers de categoria que já foram desenvolvidos, que incluem funções como inserção, exclusão, atualização, carregamento e carregamento por página. Com a utilização deste gerador dinâmico, vocês poderão acelerar significativamente o desenvolvimento de seus projetos, evitando a repetição de tarefas manuais e garantindo a consistência em toda a aplicação. Então, vamos começar!
 
 Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
 

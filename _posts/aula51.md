@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Nesta aula, você irá aprender sobre como usar consultas GeoSpatial no MongoDB para listar usuários. O MongoDB tem suporte a vários tipos de consultas GeoSpatial, como consultas de índice espacial 2D, consultas de índice espacial 2D com raio, consultas de índice espacial 3D, consultas poligonais e consultas de linhas. Você aprenderá como usar estas consultas para encontrar usuários que estejam dentro de uma determinada área geográfica, usando a latitude e longitude do usuário. Isso permitirá que você implemente recursos de pesquisa por localização em sua aplicação, como por exemplo, encontrar todos os usuários em um raio de X km de um ponto específico.
 
 ```typescript
 export class QueryBuilder {

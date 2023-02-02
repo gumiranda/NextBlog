@@ -9,8 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
-A query a seguir é importante em um sistema de agendamentos online, pois ela permite que sejam listados os horários disponíveis para agendamento para um profissional específico, de acordo com um período de tempo determinado.
+ 
+Nessa aula, estamos construindo uma consulta MongoDB utilizando o QueryBuilder. Essa consulta serve para listar os horários disponíveis para agendamentos.Veremos uma query importante em um sistema de agendamentos online, pois ela permite que sejam listados os horários disponíveis para agendamento para um profissional específico, de acordo com um período de tempo determinado.
 
 A query utiliza uma combinação de técnicas, como filtragem, classificação, junções e agrupamento, para selecionar e organizar informações de diferentes coleções de dados, como os dados dos agendamentos, dos profissionais e dos proprietários. A query também filtra os agendamentos cancelados e inativos, de modo que apenas os agendamentos ativos e válidos sejam listados.
 
@@ -80,7 +80,37 @@ Em resumo, essa query é fundamental para garantir a eficiência e a usabilidade
     return null;
   }
 ``` 
-Este é o método loadAvailableTimes, que retorna os horários disponíveis de um profissional baseado em uma consulta dada. Verifica primeiro se os IDs dos profissionais e os dias de início e término estão presentes na consulta. Se não estiverem, retorna null. Em seguida, cria uma consulta ao MongoDB usando a classe QueryBuilder para recuperar uma lista agrupada de horários agendados pelo profissional no período especificado. Também usa o método lookup para recuperar informações adicionais sobre o profissional e o proprietário da clínica. Finalmente, agrupa e projeta os resultados e retorna o resultado como um objeto AvailableTimesModelRepository, que contém um array de horários agendados e um contador total.
+Ela usa as seguintes etapas:
+
+1.  A primeira etapa é usar o método `match` para filtrar os agendamentos baseados nos seguintes critérios:
+
+* professionalId: ID do profissional deve ser igual ao fornecido na consulta
+* initDate: A data de início deve estar entre o período inicial e final fornecido na consulta
+* endDate: A data de término deve estar entre o período inicial e final fornecido na consulta
+* cancelled: O agendamento não pode ter sido cancelado
+* active: O agendamento deve estar ativo.
+
+2.  Em seguida, usamos o método `sort` para classificar os resultados pelo campo initDate.
+    
+3.  Usamos o método `lookup` para juntar informações do profissional com base no seu ID.
+    
+4.  Em seguida, usamos o método `project` para selecionar os campos initDate, endDate e informações do profissional.
+    
+5.  Usamos o método `unwind` para descompactar o array "professionalDetails".
+    
+6.  Novamente, usamos o método `lookup` para juntar informações do dono do estabelecimento.
+    
+7.  Usamos o método `project` para selecionar apenas os campos relevantes das informações do dono do estabelecimento.
+    
+8.  Usamos o método `unwind` para descompactar o array "owner".
+    
+9.  Usamos o método `group` para agrupar os resultados com base nas informações do dono do estabelecimento.
+    
+10. Por fim, usamos o método `project` para selecionar apenas os campos _id e data.
+    
+11. O resultado final é então construído com o método `build`.
+
+Resumindo, este é o método loadAvailableTimes, que retorna os horários disponíveis de um profissional baseado em uma consulta dada. Verifica primeiro se os IDs dos profissionais e os dias de início e término estão presentes na consulta. Se não estiverem, retorna null. Em seguida, cria uma consulta ao MongoDB usando a classe QueryBuilder para recuperar uma lista agrupada de horários agendados pelo profissional no período especificado. Também usa o método lookup para recuperar informações adicionais sobre o profissional e o proprietário da clínica. Finalmente, agrupa e projeta os resultados e retorna o resultado como um objeto AvailableTimesModelRepository, que contém um array de horários agendados e um contador total.
 
 
 [LINK DO REPOSITÓRIO](https://github.com/gumiranda/CrazyStackNodeJs)

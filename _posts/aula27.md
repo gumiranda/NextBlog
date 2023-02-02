@@ -9,7 +9,23 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Nesta aula, você aprenderá como criar as funcionalidades básicas de um CRUD (Create, Read, Update e Delete) para o recurso "Order". O objetivo é que você possa aplicar o mesmo padrão utilizado na criação do CRUD de "Categoria" e assim, possa desenvolver CRUDs para outros recursos da aplicação com facilidade. Serão criadas as seguintes interfaces de repositório:
+
+1. addOrderRepository
+2. loadOrderRepository
+3. loadOrderByPageRepository
+4. deleteOrderRepository
+5. updateOrderRepository
+
+Além disso, serão criados os seguintes casos de uso:
+
+1. addOrder
+2. loadOrder
+3. loadOrderByPage
+4. deleteOrder
+5. updateOrder
+
+Você também poderá aplicar as técnicas de validação de dados e tratamento de erros aprendidas nas aulas anteriores. Ao final desta aula, você terá uma base sólida para o desenvolvimento de futuros recursos da aplicação.
 
 ```typescript
 export type OrderData = {

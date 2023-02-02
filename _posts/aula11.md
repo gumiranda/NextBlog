@@ -9,7 +9,9 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Nesta aula, nós vamos criar o contrato para o repositório "loadCategoryRepository". O contrato é uma interface que define a estrutura dos métodos que o repositório deve implementar. Isso é importante porque garante que a camada de persistência (banco de dados, por exemplo) e a camada de negócio (use cases) estejam sincronizadas, evitando erros e problemas de implementação.
+
+O contrato "loadCategoryRepository" será usado para carregar uma categoria específica a partir do banco de dados. Ele deve ter um método que aceite um identificador de categoria e retorne as informações da categoria. A estrutura do contrato seria algo como:
 
 ```typescript
 import { Query } from "@/application/types";
@@ -26,5 +28,7 @@ A interface LoadCategoryRepository é usada para definir a estrutura de um repos
 O import { Query } from "@/application/types" é usado para importar o tipo Query do módulo "types" dentro do diretório "application" da raiz do projeto. Isso permite que o tipo Query seja usado como o tipo de entrada do método loadCategory na interface LoadCategoryRepository.
 
 Assim, este código é usado para definir uma interface que espera que as classes que implementem ela tenham um método chamado loadCategory que retorna uma promessa de sucesso com um objeto CategoryData ou null.
+
+Este contrato será usado para implementar o repositório de categoria, que será responsável por fazer as operações de leitura e busca de dados na camada de persistência. Além disso, o contrato permitirá que você teste sua implementação do use case "loadCategory" sem precisar acessar o banco de dados real.
 
 [LINK DO REPOSITÓRIO](https://github.com/gumiranda/CrazyStackNodeJs)
