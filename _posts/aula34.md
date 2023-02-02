@@ -2,7 +2,7 @@
 title: 'Manipulando Datas com DateFns no CrazyStack Node.js'
 excerpt: 'Nesse post explicarei alguns códigos da aula.'
 coverImage: 'https://avatars.githubusercontent.com/u/13774579?v=4'
-date: '2022-05-20T05:35:07.322Z'
+date: '2022-06-17T05:35:07.322Z'
 author:
   name: Gustavo Miranda
   picture: 'https://avatars.githubusercontent.com/u/13774579?v=4'
