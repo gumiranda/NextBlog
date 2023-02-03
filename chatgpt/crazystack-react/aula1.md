@@ -9,6 +9,17 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Bem-vindo ao curso CrazyStack Next.js!
+
+Este curso é voltado para aqueles que desejam se aprofundar no desenvolvimento de aplicações com a plataforma Next.js e seus ecossistemas. Durante as aulas, você aprenderá a criar aplicações full stack completas, utilizando as tecnologias mais atuais do mercado.
+
+Você irá aprender desde o básico, como criar sua primeira aplicação com Next.js, até técnicas avançadas de desenvolvimento, como integração com APIs externas, gerenciamento de estado com React Query, validação de formulários com React Hook Form e Yup, e muito mais.
+
+O curso é baseado em projetos práticos, o que significa que você irá construir aplicações reais ao longo das aulas, ao invés de apenas ver exemplos teóricos. Desta forma, você poderá colocar em prática os conhecimentos adquiridos e aperfeiçoar suas habilidades de desenvolvimento.
+
+Não perca mais tempo e vamos iniciar essa jornada de aprendizado, aprimorando suas habilidades de desenvolvimento e construindo aplicações incríveis com Next.js!
+
+## Aula 1
 Olá pessoal, bem-vindos à nossa primeira aula sobre Next.js. Neste módulo, vamos aprender a criar um projeto Next.js, instalar o ESLint e o Prettier, e criar o primeiro teste unitário usando a React Testing Library.
 
 Primeiramente, vamos criar um novo projeto Next.js usando o comando `npx create-next-app`. Isso irá inicializar um projeto com as configurações padrão do Next.js, e todas as dependências já serão instaladas.
@@ -43,5 +54,4 @@ Dentro da função `it`, o componente `Home` é renderizado usando a função `r
 Este é um exemplo básico de como escrever testes unitários usando a React Testing Library. No futuro, você pode adicionar mais testes para verificar outras partes do componente e garantir que ele esteja funcionando corretamente.
 
 Bem, é isso pessoal. Nesta aula, aprendemos como criar um projeto Next.js, instalar o ESLint e o Prettier, e criar o primeiro teste unitário usando a React Testing Library. Na próxima aula, vamos aprender sobre rotas no Next.js. Até a próxima!
-
-[LINK DO REPOSITÓRIO](https://github.com/gumiranda/CrazyStackNodeJs)
+ 

@@ -11,5 +11,8 @@ ogImage:
 ---
 
 ```typescript
- 
-``` 
+introduza detalhadamente e de forma didática a aula " "
+
+explique detalhadamente e de forma didática o código a seguir:
+```tsx
+```

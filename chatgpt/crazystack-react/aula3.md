@@ -150,3 +150,9 @@ O componente ColorModeScript é fornecido pelo Chakra UI e é responsável por g
 
 O arquivo _document.tsx é importante porque permite que você configure o HTML padrão para todas as páginas da aplicação e garanta que o Chakra UI seja corretamente inicializado em todas as páginas.
   
+## Porque não usamos Tailwind no projeto
+Chakra UI é uma biblioteca de componentes React baseados em design system que oferece uma série de recursos e funcionalidades já prontas para uso, incluindo estilos, animações, modais e outros componentes comuns. Além disso, Chakra UI segue o padrão de design accessibility-first, o que significa que seus componentes são projetados com acessibilidade em mente, tornando-os uma boa opção para projetos que precisam atender a uma ampla gama de usuários.
+
+Tailwind CSS é uma biblioteca de estilos de código aberto que se concentra em fornecer uma gama completa de classes pré-estabelecidas para estilizar rapidamente seus elementos HTML. Enquanto isso pode ser útil para alguns projetos, também pode ser visto como uma complexidade adicional, já que você precisa escrever muito código de estilo para obter o resultado desejado.
+
+Ao optar por usar Chakra UI em vez de Tailwind CSS no projeto Next.js, o curso está levando em consideração a necessidade de ter componentes completos e prontos para uso, além da preocupação com acessibilidade. Isso significa que os desenvolvedores podem se concentrar no desenvolvimento de funcionalidades e interações do usuário, em vez de se preocupar com a estilização e a acessibilidade dos componentes.

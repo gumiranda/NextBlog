@@ -55,3 +55,10 @@ Esse código é uma implementação de componente que engloba vários providers 
 Ao usar o componente AllProviders, os filhos dentro dele têm acesso a todos os providers fornecidos. O componente usa o hook useState para criar uma nova instância de QueryClient e passá-la para o componente QueryClientProvider. Isso permite que a aplicação use o cliente de consulta do React-Query em toda a aplicação.
 
 O componente Hydrate é usado para desidratar o estado da página a partir de dados pré-renderizados no lado do servidor. O componente ChakraProvider fornece estilos e componentes Chakra UI para a aplicação. E, por fim, o componente ReactQueryDevTools é renderizado somente em modo de desenvolvimento, permitindo que os desenvolvedores visualize as consultas em andamento e possam depurar problemas.
+
+## E usar React Query é melhor que o uso de Redux para gerenciamento de estado?
+React Query é uma biblioteca mais leve e menos complexa para gerenciamento de estado do que o Redux. Ela se concentra apenas na gestão de estado de consultas de API e deixa outras preocupações, como gerenciamento de dados em nível de aplicativo, para o próprio React. Isso significa que você pode aproveitar todos os recursos de gerenciamento de estado do React, como useState e useContext, sem ter que lidar com a complexidade adicional do Redux.
+
+Além disso, React Query oferece funcionalidades únicas, como cache automático de consultas, suporte a múltiplos fontes de dados, resolução de dependências entre consultas e recursos avançados de debug. Tudo isso é fornecido de forma integrada com o React e sem a necessidade de configurações adicionais, tornando a vida dos desenvolvedores muito mais fácil.
+
+Em resumo, a escolha de React Query ao invés de Redux no curso foi uma decisão baseada na necessidade de gerenciamento de estado simples e enxuto para consultas de API, sem comprometer a escalabilidade do aplicativo.

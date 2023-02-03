@@ -9,7 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+introduza detalhadamente e de forma didática a aula " "
 
-```typescript
- 
-``` 
+explique detalhadamente e de forma didática o código a seguir:
+```tsx
+```
