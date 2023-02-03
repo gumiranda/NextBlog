@@ -21,9 +21,9 @@
   overflow-x: auto;
   padding: 1rem;
   margin: 0rem;
-  color: #000;
-  background-color: #dfe6e9;
-}
+  color: #fff;
+  background-color: #000;
+} 
 .markdown img {
   margin-left:0.1rem;
 }

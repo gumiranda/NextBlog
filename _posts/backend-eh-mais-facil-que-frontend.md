@@ -16,7 +16,7 @@ Uma das principais dificuldades no desenvolvimento backend é a necessidade de l
 
 Por outro lado, o desenvolvimento frontend envolve lidar com aspectos visuais e interatividade com o usuário. Isso requer habilidades em design e usabilidade, além de conhecimentos em linguagens de programação como HTML, CSS e JavaScript. O desenvolvimento frontend também requer a capacidade de se adaptar às constantes atualizações e mudanças nas tendências de design e tecnologias. 
 
-Eu por exemplo já estive nos 2 lados. Já trabalhei com Java, C#, VB, PHP, Angular, React, Nodejs e React Native. Na minha opinião o frontend tem seus próprios desafios, principalmente quando se fala de desenvolvimento Mobile e desenvolvimento Web.
+Eu por exemplo já estive os 2 lados. Já trabalhei com Java, C#, VB, PHP, Angular, React, Nodejs e React Native. Na minha opinião o frontend tem seus próprios desafios, principalmente quando se fala de desenvolvimento Mobile e desenvolvimento Web.
 
 ## Web vs Mobile
 Desenvolvimento mobile envolve lidar com diferentes tamanhos de tela, resoluções e orientações, bem como garantir a compatibilidade com diferentes sistemas operacionais e dispositivos. Isso requer habilidades em design responsivo e adaptação de interface para diferentes tamanhos de tela. Além disso, o desenvolvimento mobile também envolve lidar com limitações de recursos, como armazenamento e bateria, e garantir que o aplicativo seja performático e responsivo.

@@ -160,7 +160,7 @@ São problemas que ocorrem porque aproximamos demais o código do qual diferente
 OCP: Princípio do Aberto/Fechado (Open-Closed Principle
 
 )
-Em essência, para que os sistemas de software sejam fáceis de mudar, eles devem ser projetados de modo a permitirem que o comportamento desses sistemas mude pela adição de um novo código em vez da alteração do código existente
+Em essência, para que os sistemas de software sejam fáceis de mudar, eles devem ser projetados de modo a permitirem que o comportamento desses sistemas mude pela inserção de um novo código em vez da alteração do código existente
 
 .
 Um artefato de software deve ser aberto para extensão, mas fechado para modificação
