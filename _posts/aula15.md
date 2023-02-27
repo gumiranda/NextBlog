@@ -11,6 +11,8 @@ ogImage:
 ---
 A aula "Criando usecase deleteCategory" é onde você irá implementar a lógica para excluir uma categoria em sua aplicação. Isso incluirá a criação de um novo caso de uso chamado "deleteCategory". Este caso de uso será responsável por receber uma requisição de exclusão de categoria, validar a requisição, e então remover a categoria do repositório.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Nesta aula, você irá trabalhar com o contract deleteCategoryRepository, que irá garantir que a classe de repositório de categoria tenha as funcionalidades necessárias para remover uma categoria.
 
 Você também irá utilizar o tipo genérico Query, que foi criado na aula anterior, para passar as informações da categoria a ser excluída para o repositório.

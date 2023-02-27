@@ -15,7 +15,7 @@ Nesta aula, vamos explorar o uso de interfaces e classes abstratas na camada pri
 Veremos como definir interfaces para representar ações da aplicação, e como usar classes abstratas para fornecer uma estrutura comum para vários tipos de objetos relacionados. Veremos como essas abstrações podem ser usadas para melhorar a manutenibilidade do código, ao facilitar a criação de novas funcionalidades e a alteração de funcionalidades existentes sem prejudicar o resto da aplicação.
 
 No final desta aula, você terá uma compreensão mais clara de como interfaces e classes abstratas podem ser usadas na camada principal da aplicação e como essas técnicas podem ser aplicadas em seus próprios projetos.
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import { HttpRequest, HttpResponse } from "@/application/helpers";

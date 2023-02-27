@@ -17,7 +17,7 @@ Finalmente, implementaremos o SignUpController, que será responsável por reali
 
 Esta aula é importante para entender como gerenciar a entrada de dados em uma aplicação e como implementar uma rota de cadastro de forma segura e confiável. Vamos começar?
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

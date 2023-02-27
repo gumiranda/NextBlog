@@ -22,7 +22,7 @@ Depois de ter criado as rotas, poderemos testá-las usando uma ferramenta como o
 
 Ao final da aula, teremos uma API completa para gerenciar categorias, permitindo que os usuários criem, atualizem, excluam e listem as informações de categoria em nossa aplicação.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 const bodyAddCategoryJsonSchema = {

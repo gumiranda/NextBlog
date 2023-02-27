@@ -11,7 +11,7 @@ ogImage:
 ---
 Bem-vindo à aula sobre Controllers de Request! Neste tópico, você aprenderá a importância dos controllers na arquitetura de aplicações, como eles se relacionam com as camadas de aplicação e como implementá-los para garantir uma boa experiência de usuário e uma boa performance. Além disso, você verá exemplos práticos de como criar e gerenciar requisições HTTP através de controllers eficientes e bem estruturados. Não perca esta oportunidade de aprimorar suas habilidades em arquitetura de software!
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import { ValidateAvailableTimes } from "@/slices/appointment/useCases";

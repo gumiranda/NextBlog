@@ -15,7 +15,7 @@ Nesta aula, vamos aprender a criar os controllers "Owner" e "RatingResult", que 
 
 Vamos começar entendendo como funciona a comunicação entre as camadas da aplicação e, em seguida, implementaremos cada um dos controllers e suas respectivas validações, usando as boas práticas de programação.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

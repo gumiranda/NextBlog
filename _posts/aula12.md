@@ -11,6 +11,8 @@ ogImage:
 ---
 A aula "Criando useCase loadCategory" tem como objetivo criar uma lógica de negócios para carregar uma categoria existente. Para isso, vamos utilizar o contrato "loadCategoryRepository", que foi criado anteriormente, para acessar a camada de persistência de dados e recuperar as informações da categoria requisitada.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Nesta aula, vamos implementar a função loadCategory e sua assinatura, que deve receber como parâmetro uma query de uma categoria a ser carregada e retornar uma Promise que, ao ser resolvida, deve retornar um objeto do tipo Categoria. Também vamos tratar possíveis erros que possam ocorrer durante a execução da operação, como, por exemplo, a categoria não existir no banco de dados.
 
 Este useCase é importante porque ele permite a recuperação das informações de uma categoria específica, o que é útil em muitas situações, como, por exemplo, a exibição detalhada de uma categoria na interface do usuário.

@@ -12,6 +12,8 @@ ogImage:
  
 Nessa aula, estamos construindo uma consulta MongoDB utilizando o QueryBuilder. Essa consulta serve para listar os horários disponíveis para agendamentos.Veremos uma query importante em um sistema de agendamentos online, pois ela permite que sejam listados os horários disponíveis para agendamento para um profissional específico, de acordo com um período de tempo determinado.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 A query utiliza uma combinação de técnicas, como filtragem, classificação, junções e agrupamento, para selecionar e organizar informações de diferentes coleções de dados, como os dados dos agendamentos, dos profissionais e dos proprietários. A query também filtra os agendamentos cancelados e inativos, de modo que apenas os agendamentos ativos e válidos sejam listados.
 
 A saída da query é uma lista de agendamentos disponíveis, agrupados pelo proprietário do profissional, incluindo informações sobre os horários de início e término de cada agendamento e as configurações de horários de funcionamento do proprietário. Essas informações são cruciais para o usuário, pois ele pode verificar rapidamente se há horários disponíveis para agendamento e escolher o melhor horário com base nas configurações de horários de funcionamento do proprietário.

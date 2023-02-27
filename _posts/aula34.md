@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 A aula "Manipulando Datas com DateFns" é destinada a ensinar como utilizar a biblioteca "date-fns" para manipulação de datas no seu projeto. Date-fns é uma biblioteca moderna, fácil de usar e eficiente para manipulação de datas no JavaScript. Essa biblioteca fornece uma série de funções que permitem fazer operações comuns com datas, como adicionar dias, semanas, meses, anos, etc. Além disso, ela também permite formatar datas para exibição em diferentes padrões, como o padrão ISO, o padrão americano, o padrão brasileiro, entre outros. Ao final desta aula, você será capaz de usar a biblioteca Date-fns com confiança para manipular datas no seu projeto.
 
 Arquivo date.ts

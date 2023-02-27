@@ -10,6 +10,7 @@ ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
 Nesta aula, vamos criar dois novos componentes na nossa arquitetura de aplicação, o LogController e o LogRepository, responsáveis por gerar logs de erros em nossa API.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 O LogController será uma classe extendida da nossa classe abstrata Controller, e será responsável por receber as informações de erro e enviá-las para o LogRepository para serem registradas.
 
@@ -19,7 +20,7 @@ Esses componentes serão importantes para garantir a qualidade e a segurança da
 
 Em resumo, a criação de um LogController e um LogRepository é uma boa prática para garantir a qualidade e a segurança da nossa API, e a utilização da classe abstrata Controller é uma forma de garantir a padronização e a facilidade na manutenção da nossa aplicação.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 ```typescript
 export interface LogRepository {
   logError(domain: string, stack: string): Promise<void>;

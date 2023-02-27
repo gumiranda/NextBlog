@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 ## Sobre o Fastify
 O Fastify é uma biblioteca de roteamento para Next.js que oferece uma alta performance, baixa latência e alta escalabilidade. Ele é uma opção popular para o desenvolvimento de APIs modernas, pois oferece recursos avançados, tais como suporte a plugins, facilidade de uso e uma arquitetura rápida e eficiente.
 

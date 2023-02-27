@@ -15,7 +15,7 @@ Nesta aula, você irá aprender a criar uma rota para o endpoint de atualizaçã
 
 Ao final desta aula, você será capaz de criar rotas completas para gerenciar o carregamento de conta em sua aplicação e testar as requisições usando uma ferramenta de teste de API, como o Postman ou Insomnia.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 const headersRefreshJsonSchema = {

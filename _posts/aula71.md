@@ -11,7 +11,7 @@ ogImage:
 ---
 Bem-vindo à aula de Criando o AddCategoryController! Neste curso, você aprenderá como construir uma funcionalidade importante para aplicações web: adicionar categorias a um sistema. Aprenderá a trabalhar com rotas, controllers, validações e interações com o banco de dados. Ao final desta aula, você terá desenvolvido habilidades fundamentais para criar aplicações web dinâmicas e escaláveis. Vamos começar!
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

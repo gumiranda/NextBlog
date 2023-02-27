@@ -12,7 +12,7 @@ ogImage:
 
 Bem-vindos à aula de Implementação de LogController e SignupController Factories! Neste módulo, vocês aprenderão como criar as fábricas desses controladores, que são responsáveis por gerenciar e validar as requisições de cadastro de usuários e login. Ao fim desta aula, vocês serão capazes de implementar controladores robustos e flexíveis para seu sistema, além de ter um melhor entendimento sobre a utilização de fábricas para facilitar a manutenção e evolução da aplicação. Vamos lá!
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 ```typescript
 import { Controller } from "@/application/infra/contracts";
 import { LogMongoRepository } from "@/application/infra/database/mongodb/repository";

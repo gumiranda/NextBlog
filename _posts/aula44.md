@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Nesta aula, vamos criar algumas funções utilitárias para ajudar na manipulação de consultas MongoDB. Essas funções serão úteis para transformar objetos de consulta em um formato que possa ser facilmente utilizado pelo MongoDB. Além disso, também vamos criar funções para trabalhar com projeções, ordenações, paginações e agregações. O objetivo é simplificar e padronizar a maneira como essas operações são realizadas no código da aplicação, de forma a torná-las mais claras e fáceis de serem lidas e mantidas.
 
 ```typescript

@@ -11,7 +11,7 @@ ogImage:
 ---
 Bem-vindos à aula de Controllers de User. Neste tópico, abordaremos como construir os controllers de User utilizando as operações de inserção, exclusão, atualização, carregamento e paginação dos usuários. Veremos como utilizar as Use Cases para manipular a camada de negócio, enquanto que os controllers ficarão responsáveis por lidar com a requisição HTTP e a resposta a ser retornada ao cliente. Também abordaremos sobre a criação de um padrão de construção de controllers, utilizando o padrão de projeto de fábricas, para a geração dinâmica de controllers em outros domínios da aplicação.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

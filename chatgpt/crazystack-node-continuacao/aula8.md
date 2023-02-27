@@ -11,7 +11,7 @@ ogImage:
 ---
 A aula "Criando useCase addCategory" é uma aula importante no desenvolvimento da aplicação, na qual será abordado a implementação do caso de uso de inserção de categoria. Nesta aula, será criada a classe "AddCategory" que representa a lógica de negócio para adicionar uma categoria ao sistema. Esta classe será responsável por validar os dados de entrada, executar as regras de negócio e comunicar-se com o repositório de categoria para persistir as informações. Além disso, será criado o teste de unidade para garantir o funcionamento correto desta funcionalidade. Esta aula é fundamental para entender como as operações de negócio são implementadas e como são realizados os testes para garantir a qualidade do software.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import { AddCategoryRepository } from "@/slices/category/repositories";

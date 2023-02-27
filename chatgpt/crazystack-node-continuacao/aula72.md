@@ -17,7 +17,7 @@ Você aprenderá a usar técnicas como injeção de dependência, criação de f
 
 Prepare-se para aprender sobre conceitos importantes em desenvolvimento de aplicações e construir controladores poderosos e flexíveis!
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

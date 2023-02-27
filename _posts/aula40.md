@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 A aula "Chain of Responsibility" no use case UpdateRequestById irá apresentar uma abordagem para lidar com várias validações que devem ser feitas antes de atualizar um agendamento. A ideia é utilizar o padrão de projeto Chain of Responsibility para criar uma cadeia de responsabilidades de validações, onde cada validação é representada por uma classe. Essas classes serão executadas sequencialmente, e caso uma validação falhe, a atualização do agendamento não será realizada. Dessa forma, é possível adicionar ou remover validações a qualquer momento sem afetar a funcionalidade do sistema.
 
 ```typescript

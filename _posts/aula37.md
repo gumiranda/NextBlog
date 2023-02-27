@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 A aula "UseCase ValidateAvailableTimes" é destinada a criar uma camada de validação para garantir que o horário selecionado pelo usuário esteja disponível para agendamento. Ela irá utilizar o UseCase "LoadAvailableTimes" criado na aula anterior e comparar o horário selecionado pelo usuário com o array de horários disponíveis retornados pelo "LoadAvailableTimes". Se o horário estiver disponível, a função retornará verdadeiro, caso contrário, retornará falso. Dessa forma, é possível garantir que o horário agendado seja válido e evitar problemas com horários duplicados ou já agendados.
 
 ```typescript

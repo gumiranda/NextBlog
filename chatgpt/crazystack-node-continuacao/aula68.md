@@ -11,7 +11,7 @@ ogImage:
 ---
 A aula de Validando Refresh Token com o LoadAccountController irá abordar uma importante funcionalidade para a segurança de nossa aplicação, a validação de tokens de refresh. Neste momento, discutiremos como utilizar o LoadAccountController para verificar se um token de refresh é válido e atualizá-lo, garantindo que nossos usuários tenham acesso às informações protegidas da aplicação. Veremos também como este controlador é importante para o funcionamento de outras partes da aplicação, como o acesso a informações sensíveis do usuário ou o gerenciamento de sessões. Aprenderemos a implementar esta funcionalidade e a integrá-la com outras partes da aplicação para criar um sistema seguro e confiável.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

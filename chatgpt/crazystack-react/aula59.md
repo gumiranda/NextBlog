@@ -19,7 +19,7 @@ Esses componentes serão importantes para garantir a qualidade e a segurança da
 
 Em resumo, a criação de um LogController e um LogRepository é uma boa prática para garantir a qualidade e a segurança da nossa API, e a utilização da classe abstrata Controller é uma forma de garantir a padronização e a facilidade na manutenção da nossa aplicação.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 ```typescript
 export interface LogRepository {
   logError(domain: string, stack: string): Promise<void>;

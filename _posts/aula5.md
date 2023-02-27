@@ -11,7 +11,8 @@ ogImage:
 ---
 A aula "Criando interface addCategoryRepository" vai mostrar como criar uma interface que será usada para definir os métodos que devem ser implementados por uma classe de repositório de categoria. Uma interface é um contrato que especifica a assinatura dos métodos que precisam ser implementados, sem especificar sua implementação. Isso permite que classes diferentes possam ser usadas como repositórios de categoria, desde que implementem os métodos especificados na interface. Com essa abstração, é possível substituir ou adicionar novos repositórios de categoria sem precisar alterar a camada de serviço ou a camada de apresentação da aplicação.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 
 ```typescript
 import { CategoryData } from "@/slices/category/entities";

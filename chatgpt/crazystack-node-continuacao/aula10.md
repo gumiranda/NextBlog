@@ -17,7 +17,7 @@ O tipo "QueryOptions" é usado para especificar essas opções adicionais, inclu
 
 Ao final da aula, teremos um tipo genérico "Query" que será útil para representar todas as consultas da aplicação e facilitar a manutenção do código.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 export type Query = {

@@ -11,6 +11,8 @@ ogImage:
 --- 
 Nesta aula, você aprenderá como criar um endpoint de login para a sua aplicação usando o Fastify. O objetivo é fornecer aos usuários a capacidade de fazer login na sua aplicação e obter um token de acesso válido para acessar outros recursos da API.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Para isso, você utilizará o conceito de controller e algumas boas práticas de programação, como validação de dados de entrada, tratamento de erros e geração de tokens. Além disso, você implementará o uso de camadas de abstração, que permitirão a separação das responsabilidades e uma melhor organização do código.
 
 Ao final da aula, você terá uma compreensão clara de como implementar um endpoint de login usando o Fastify e terá a base necessária para criar outros endpoints para a sua aplicação.

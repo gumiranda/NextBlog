@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br)
+
 
 Nesta aula, você vai criar a primeira classe que representará a categoria de serviços da API. A classe de categoria é uma parte fundamental do modelo de dados da sua aplicação e será usada em vários lugares ao longo do desenvolvimento.
 

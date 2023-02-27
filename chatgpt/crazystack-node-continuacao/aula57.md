@@ -11,7 +11,7 @@ ogImage:
 ---
 A aula "Explorando novos Plugins e Hooks no Fastify" tem como objetivo apresentar e explorar os recursos avançados do framework Fastify. Serão abordados tópicos como plugins e hooks, que permitem ampliar a funcionalidade do Fastify e adaptá-lo a diferentes necessidades de projeto. Além disso, serão apresentados exemplos práticos de como utilizar esses recursos em sua API. Ao final da aula, os participantes terão uma compreensão mais profunda do Fastify e sua capacidade de personalização, tornando-se aptos a utilizar esses recursos de maneira eficaz em seus projetos.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
     const client = await MongoHelper.connect(env.mongoUri);

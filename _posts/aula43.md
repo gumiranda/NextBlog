@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 A aula de Repository genérico trata sobre a criação de uma classe abstrata "Repository" que é utilizada como base para a criação de repositórios de dados. Esta classe define os métodos básicos que um repositório deve ter, como:
 
 1. Adicionar um item

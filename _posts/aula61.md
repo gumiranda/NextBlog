@@ -11,7 +11,7 @@ ogImage:
 ---
 Nesta aula, vamos aprender sobre o Padrão Composite para Validações e como criar as Factories para os Use Cases de contas de usuário. O Padrão Composite é uma estrutura de design que permite que vários objetos sejam tratados como um único objeto. Isso é útil quando temos várias validações que precisam ser realizadas e precisamos garantir que todas sejam atendidas antes de continuarmos. Além disso, as Factories de Use Cases de contas de usuários são importantes porque nos permitem criar instâncias dos Use Cases de forma fácil e consistente em todo o aplicativo.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import { InvalidParamError } from "@/application/errors";

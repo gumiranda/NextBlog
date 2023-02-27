@@ -11,7 +11,7 @@ ogImage:
 ---
 Bem vindos à aula sobre o endpoint de SignUp nas rotas do Fastify. Neste módulo, aprenderemos como criar o endpoint de registro de usuários em nossa API. Discutiremos como configurar as rotas no Fastify e como ligá-las ao controlador de registro de usuários. Além disso, mostraremos como lidar com erros e fornecer uma resposta apropriada para o cliente. Ao final desta aula, você terá uma compreensão clara de como implementar o endpoint de registro de usuários em sua API com Fastify.
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import { requestContext } from "@fastify/request-context";

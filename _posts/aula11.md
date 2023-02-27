@@ -11,6 +11,8 @@ ogImage:
 ---
 Nesta aula, nós vamos criar o contrato para o repositório "loadCategoryRepository". O contrato é uma interface que define a estrutura dos métodos que o repositório deve implementar. Isso é importante porque garante que a camada de persistência (banco de dados, por exemplo) e a camada de negócio (use cases) estejam sincronizadas, evitando erros e problemas de implementação.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 O contrato "loadCategoryRepository" será usado para carregar uma categoria específica a partir do banco de dados. Ele deve ter um método que aceite um identificador de categoria e retorne as informações da categoria. A estrutura do contrato seria algo como:
 
 ```typescript

@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 Middleware é uma camada intermediária que permite a manipulação de requisições e respostas HTTP antes que cheguem ao seu destino final. Em uma aplicação web, o middleware é usado para adicionar recursos comuns a todas as requisições, como autenticação, validação de dados, tratamento de erros, entre outros.
 
 Na aula de criação de Middleware de autenticação, você aprenderá a criar uma camada de segurança para sua aplicação, garantindo que somente usuários autenticados tenham acesso a determinadas rotas. Para isso, será implementado um middleware que verificará a presença de um token de autenticação na requisição HTTP, e caso ele não exista, retornará uma resposta de erro.

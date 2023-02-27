@@ -9,7 +9,7 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 Bem-vindo à aula de Teste de Integração do Endpoint de Cadastro! Neste curso, você aprenderá a escrever testes de integração para o endpoint de cadastro de usuários. Testes de integração são essenciais para garantir que sua aplicação funcione corretamente em todos os níveis, desde o nível da camada de banco de dados até a camada de interface do usuário. Aprenderemos a usar ferramentas como Jest e Fastify inject para criar testes que cobrirão todos os cenários importantes do endpoint de cadastro, incluindo sucesso e falhas de validação. Então, pegue sua caixa de ferramentas de teste e vamos começar!
 
 ```typescript

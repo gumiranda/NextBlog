@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Nesta aula, você aprenderá a criar o caso de uso "LoadAverageRatingResult", que será responsável por calcular a avaliação média de um determinado serviço. Isso será feito a partir de avaliações registradas por usuários na plataforma. O resultado será representado por uma estrutura de dados que inclui a avaliação média e o número de avaliações registradas. Esse caso de uso será usado para exibir informações sobre a avaliação de um serviço para os usuários e ajudar na tomada de decisão de agendamento.
 
 ```typescript

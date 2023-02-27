@@ -11,7 +11,7 @@ ogImage:
 ---
 Bem-vindos à aula sobre o endpoint que retorna o usuário proprietário do refresh token. Neste tutorial, aprenderemos como criar uma rota na nossa API que irá permitir a renovação de um token de acesso a partir de um token de renovação válido. É uma funcionalidade importante para garantir a segurança e a privacidade dos dados do usuário, uma vez que o token de renovação é enviado em uma requisição separada da autenticação inicial. Além disso, também veremos como validar as requisições a este endpoint para garantir que apenas usuários autorizados possam renovar seus tokens. Então, fiquem ligados e preparem-se para aprender mais sobre o desenvolvimento de aplicações seguras e escaláveis!
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 ```typescript
 import {
   Authentication,

@@ -11,7 +11,7 @@ ogImage:
 ---
 Nesta aula, você aprenderá sobre o Update e Delete Category Controller. Estes controladores são responsáveis por atualizar e remover categoria(s) na base de dados. Vamos discutir como eles funcionam e como são integrados com as camadas de negócio e infraestrutura da aplicação. Além disso, você verá como criar controladores seguros e eficientes para garantir que as atualizações e exclusões de categoria sejam realizadas corretamente. Esta é uma parte fundamental da construção de uma aplicação de gerenciamento de categorias, então fique atento!
 
-Este artigo servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar.
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
 
 ```typescript
 import {

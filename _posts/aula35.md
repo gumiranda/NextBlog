@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Nesta aula, você aprenderá sobre o contrato de repositório "LoadAvailableTimesRepository". Este contrato representa a interface que deve ser implementada para fornecer a funcionalidade de carregar horários disponíveis. É uma camada intermediária entre a camada de serviço e a camada de armazenamento de dados, que define a funcionalidade que deve ser fornecida pelo repositório de dados para a camada de serviço. A implementação desse contrato fornecerá a abstração necessária para a camada de serviço para acessar os dados de horários disponíveis de maneira genérica e sem se preocupar com a fonte de dados específica.
 
 ```typescript

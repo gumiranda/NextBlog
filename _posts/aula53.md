@@ -11,6 +11,8 @@ ogImage:
 ---
 Nessa aula, veremos como listar a média de avaliações em nosso repositório de resultados de avaliações. Isso será realizado por meio de uma consulta MongoDB agregada que calculará a média das notas de avaliação de um profissional específico. Além disso, também veremos como utilizar o QueryBuilder para construir essa consulta agregada de forma clara e legível. No final, teremos uma função que retornará a média das avaliações de um profissional de acordo com os critérios especificados pelo usuário.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 ```typescript
   async loadAverageRatingResult(query: Query): Promise<RatingResultAverage | null> {
     if (!query?.fields) {

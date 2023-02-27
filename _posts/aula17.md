@@ -11,6 +11,8 @@ ogImage:
 ---
 Nesta aula, vamos criar o contrato para o repositório que será responsável por atualizar categorias em nossa aplicação. O contrato é uma interface que define as assinaturas de métodos que devem ser implementados pelo repositório concreto. Ele serve como um acordo entre o repositório concreto e o uso caso para garantir que ambos estejam trabalhando com as mesmas expectativas.
 
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 A interface updateCategoryRepository será responsável por definir o método update, que deverá receber uma categoria e suas novas informações para realizar a atualização. A implementação desse método será feita no repositório concreto, que será criado posteriormente.
 
 Criar um contrato é uma boa prática para manter a boa organização do código e facilitar a manutenção do sistema. Além disso, permite a reutilização do código, pois o uso caso pode trabalhar com diferentes implementações do repositório, desde que sigam o contrato definido.

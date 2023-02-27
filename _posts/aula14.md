@@ -9,6 +9,8 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+Este é um material auxiliar do bootcamp CrazyStack Node.js do DevDoido. Ele servirá como uma espécie de documentação de alguns códigos vistos durante as aulas apenas como material complementar, garanta já sua vaga no bootcamp [clicando AQUI!](https://crazystack.com.br).
+
 Nesta aula, vamos criar o use case "loadCategoryByPage". Este use case tem como objetivo carregar as categorias de uma página específica, com base nas opções de consulta fornecidas. Para isso, precisamos criar um contrato "loadCategoryByPageRepository", que define as operações necessárias para carregar as categorias. Em aulas posteriores do curso, implementaremos essas operações em nossa camada de repositório, usando a base de dados que escolhemos. Por fim, criaremos o use case "loadCategoryByPage", que utilizará o contrato para obter as categorias da página solicitada e fornecerá os resultados ao chamador. Este use case é importante porque permite paginação dos dados, o que é importante para melhorar a performance da aplicação quando há muitos dados a serem exibidos.
 
 ```typescript
