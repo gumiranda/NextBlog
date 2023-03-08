@@ -1,5 +1,5 @@
 ---
-title: 'Chain of responsibility no usecase UpdateRequestById no CrazyStack Node.js'
+title: 'Chain of responsibility no UseCase UpdateRequestById no CrazyStack Node.js'
 excerpt: 'Nesse post explicarei alguns códigos da aula.'
 coverImage: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 date: '2022-06-22T05:35:07.322Z'

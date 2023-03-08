@@ -15,6 +15,24 @@ Este curso é voltado para aqueles que desejam se aprofundar no desenvolvimento 
 
 Você irá aprender desde o básico, como criar sua primeira aplicação com Next.js, até técnicas avançadas de desenvolvimento, como integração com APIs externas, gerenciamento de estado com React Query, validação de formulários com React Hook Form e Yup, e muito mais.
 
+Por que usar o Next.js?
+-----------------------
+
+Existem várias razões pelas quais você deve considerar o uso do Next.js em seu projeto. Algumas delas incluem:
+
+*   **Desenvolvimento rápido**: O Next.js vem com muitos recursos prontos para uso, o que significa que você pode começar a desenvolver seu aplicativo rapidamente sem precisar configurar tudo sozinho.
+    
+*   **SEO amigável**: O Next.js é projetado para ser amigável ao SEO. Isso significa que seu aplicativo será facilmente rastreado pelos mecanismos de busca, o que é importante se você deseja que seu site seja facilmente encontrado pelos usuários.
+    
+*   **Performance**: O Next.js foi projetado para ser escalável e de alta performance. Ele faz uso de técnicas como SSR (Server-Side Rendering) e code splitting, o que significa que seu aplicativo será rápido e eficiente.
+    
+*   **Static Exporting**: O Next.js permite exportar seu aplicativo como arquivos estáticos. Isso significa que seu aplicativo pode ser hospedado em qualquer lugar, incluindo CDNs e serviços de armazenamento de arquivos como o GitHub Pages.
+    
+*   **Fácil de usar**: O Next.js é fácil de usar, mesmo para iniciantes. Ele vem com documentação detalhada e uma comunidade ativa que pode ajudá-lo a resolver qualquer problema que possa ter.
+
+Qual a abordagem do curso?
+--------------------------
+
 O curso é baseado em projetos práticos, o que significa que você irá construir aplicações reais ao longo das aulas, ao invés de apenas ver exemplos teóricos. Desta forma, você poderá colocar em prática os conhecimentos adquiridos e aperfeiçoar suas habilidades de desenvolvimento.
 
 Não perca mais tempo e vamos iniciar essa jornada de aprendizado, aprimorando suas habilidades de desenvolvimento e construindo aplicações incríveis com Next.js!
@@ -54,4 +72,5 @@ Dentro da função `it`, o componente `Home` é renderizado usando a função `r
 Este é um exemplo básico de como escrever testes unitários usando a React Testing Library. No futuro, você pode adicionar mais testes para verificar outras partes do componente e garantir que ele esteja funcionando corretamente.
 
 Bem, é isso pessoal. Nesta aula, aprendemos como criar um projeto Next.js, instalar o ESLint e o Prettier, e criar o primeiro teste unitário usando a React Testing Library. Na próxima aula, vamos aprender sobre rotas no Next.js. Até a próxima!
+ 
  

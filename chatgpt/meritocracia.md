@@ -8,7 +8,7 @@ A meritocracia sugere que todos nós partimos do mesmo lugar, o que é uma grand
 
 A meritocracia também sugere que o sucesso é apenas uma questão de trabalho duro e dedicação, o que é uma visão simplista da realidade. Há muitos outros fatores envolvidos, como sorte, conexões, recursos e apoio, que são determinantes para o sucesso.
 
-Em resumo, a ideia da meritocracia é uma ilusão que não reflete a complexa realidade da vida. Não podemos controlar tudo em nossas vidas, e não partimos todos do mesmo lugar. É hora de abandonarmos essa falsa noção de meritocracia e reconhecer as desigualdades e as diferenças que existem no mundo.
+A ideia da meritocracia é uma ilusão que não reflete a complexa realidade da vida. Não podemos controlar tudo em nossas vidas, e não partimos todos do mesmo lugar. É hora de abandonarmos essa falsa noção de meritocracia e reconhecer as desigualdades e as diferenças que existem no mundo.
 
 A série da Netflix "3%" ilustra perfeitamente a falácia da meritocracia. Na série, apenas 3% da população é selecionada para viver em uma utopia, enquanto o resto vive em condições precárias. No entanto, mesmo dentre os 3%, a vida não é igual para todos. A seleção é baseada em testes rigorosos e avaliações objetivas, mas ainda há aqueles que possuem vantagens e desvantagens em relação aos outros, tornando a meritocracia uma farsa.
 
@@ -22,11 +22,7 @@ A jornada rumo ao sucesso é longa e desafiadora, e há dias em que a falta de m
 
 Além disso, ao sacrificarmos nossas desculpas, estamos abrindo mão dos prazeres imediatos e escolhendo trabalhar com algo em que acreditamos. Isso nos dá a oportunidade de experimentar uma profunda satisfação e realização, que supera qualquer gratificação instantânea.
 
-Em resumo, sacrificar nossas desculpas é uma escolha importante para alcançarmos sucesso e felicidade. Quando nos comprometemos a trabalhar duro e a enfrentar os desafios, estamos construindo uma vida mais realizadora e plena, cheia de significado e propósito.
-
-Desculpar-se é tão fácil quanto comer um balde inteiro de sorvete! Mas sacrificar essas desculpas é uma tarefa para guerreiros verdadeiros. Quando você define seus objetivos e trabalha para alcançá-los, você se torna uma pessoa proativa, que não tem medo de desafios e obstáculos. É claro que há dias em que a motivação é baixa e o desconforto é alto, mas esses são os dias mais importantes para o seu crescimento. Quando você mostra a si mesmo que é capaz de lidar com o trabalho, mesmo quando não está animado, você está criando um hábito de perseverança e resiliência.
-
-Sacrificar suas desculpas também significa abdicar de prazeres imediatos e escolher trabalhar em algo em que você acredita. E a sensação de realização e felicidade que você sentirá será ainda melhor do que qualquer gratificação instantânea. Então, é hora de se desculpar com seus desculpas e começar a trabalhar em direção ao sucesso e à felicidade verdadeiros!
+Afinal, sacrificar nossas desculpas é uma escolha importante para alcançarmos sucesso e felicidade. Quando nos comprometemos a trabalhar duro e a enfrentar os desafios, estamos construindo uma vida mais realizadora e plena, cheia de significado e propósito.
 
 Não seria ótimo se pudéssemos apertar um botão e, de repente, estarmos cheios de energia e motivação para enfrentar qualquer desafio? Infelizmente, não é bem assim que funciona na vida. Mas isso é uma coisa boa, porque significa que podemos nos mostrar para nós mesmos que somos capazes de superar a preguiça e manter o controle, mesmo quando não estamos animados.
 

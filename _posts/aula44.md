@@ -1,5 +1,5 @@
 ---
-title: 'Utils MongoDB no CrazyStack Node.js'
+title: 'Funções utilitárias para MongoDB no CrazyStack Node.js'
 excerpt: 'Nesse post explicarei alguns códigos da aula.'
 coverImage: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 date: '2022-06-24T05:35:07.322Z'

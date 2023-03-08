@@ -1,5 +1,5 @@
 ---
-title: 'Listagem de usuários usando GeoSpatial Queries com Mongo Db no CrazyStack Node.js'
+title: 'Listagem de usuários usando GeoSpatial Queries com MongoDB no CrazyStack Node.js'
 excerpt: 'Nesse post explicarei alguns códigos da aula.'
 coverImage: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 date: '2022-06-26T05:35:07.322Z'
