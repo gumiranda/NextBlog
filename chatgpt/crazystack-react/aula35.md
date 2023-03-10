@@ -9,6 +9,13 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
+https://chat.openai.com/chat/b19d74d5-3f36-43d5-b665-205d7c5a09db
+introduza detalhadamente e de forma didática a aula " " que possui o código
+
+explique detalhadamente e de forma didática o código a seguir:
+
+```tsx
+```
 
 ```typescript
  

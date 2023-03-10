@@ -10,7 +10,7 @@ ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
 
-Configuração do Projeto como PWA usando next-pwa
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
 
 1.  Instalar o pacote next-pwa
 

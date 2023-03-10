@@ -12,6 +12,8 @@ ogImage:
 
 A aula de "Sidebar" irá ensinar como criar uma barra lateral (ou sidebar) personalizada no painel de administração de um sistema de agendamentos online.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 A barra lateral é uma parte importante do painel de administração, pois fornece acesso rápido a várias seções e funcionalidades da aplicação. É uma maneira eficiente de navegar no sistema e ajuda a melhorar a experiência do usuário.
 
 Durante a aula, os alunos irão aprender a utilizar o framework Next.js e a biblioteca React para criar a barra lateral. Eles irão aprender a dividir a página em dois componentes principais: a barra lateral e o conteúdo principal da página. A barra lateral será fixa na tela e exibirá uma lista de links para as diferentes seções do painel de administração. O conteúdo principal será atualizado dinamicamente ao clicar em cada link da barra lateral.

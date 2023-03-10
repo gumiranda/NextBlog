@@ -11,6 +11,8 @@ ogImage:
 ---
 Na aula "Navbar no painel admin", vamos aprender como criar uma barra de navegação (ou navbar) para o painel administrativo de um sistema web. A navbar é um elemento muito importante em qualquer sistema web, pois permite que os usuários possam navegar pelas diferentes páginas e funcionalidades do sistema de forma intuitiva e eficiente.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 Para essa aula, vamos utilizar o framework Chakra UI para construir a nossa navbar. O Chakra UI é um framework de design de componentes para React, que oferece uma série de componentes personalizáveis e fáceis de usar, o que o torna uma ótima escolha para a criação de interfaces de usuário.
 
 Durante a aula, vamos criar uma navbar com alguns links para as principais seções do nosso sistema de agendamentos online. Também vamos usar o conceito de rotas do Next.js para tornar os links da navbar funcionais, ou seja, ao clicar em um link da navbar, o usuário será direcionado para a página correspondente.

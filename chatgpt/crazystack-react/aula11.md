@@ -11,6 +11,8 @@ ogImage:
 ---
 Nesta aula, você aprenderá a criar modais genéricos de sucesso e erro na sua aplicação Next.js. Estes modais são uma forma importante de dar feedback ao usuário sobre ações que ele realizou na sua aplicação. Ao invés de criar modais específicos para cada ação, criaremos modais genéricos que poderão ser reutilizados em diferentes pontos da aplicação.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 Para isso, utilizaremos o pacote "chakra-ui" para estilizar nossos modais de maneira rápida e fácil. Além disso, também usaremos o gerenciador de estado "react-query" para lidar com a exibição dos modais na aplicação.
 
 Nesta aula, você aprenderá como criar os componentes BoxSuccess e BoxError, que serão nossos componentes de feedback genéricos.  

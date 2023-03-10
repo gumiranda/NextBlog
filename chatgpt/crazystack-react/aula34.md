@@ -10,8 +10,11 @@ ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
 
-```typescript
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 introduza detalhadamente e de forma didática a aula " "
+
+introduza detalhadamente e de forma didática a aula "" que possui o código
 
 explique detalhadamente e de forma didática o código a seguir:
 ```tsx

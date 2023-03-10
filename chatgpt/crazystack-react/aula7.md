@@ -11,6 +11,8 @@ ogImage:
 ---
 A aula "Criando form genérico usando atomic design" irá ensinar como criar um formulário genérico que pode ser utilizado em diferentes partes da aplicação, baseado no conceito de atomic design.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 O objetivo é mostrar como criar componentes reutilizáveis de forma organizada e padronizada. A aula irá explicar como utilizar os conceitos de atomic design na criação de formulários, desde os átomos (componentes menores, como campos de formulários), moléculas (componentes intermediários, como grupos de campos), até os organismos (componentes complexos, como formulários completos).
 
 A aula irá abordar também o uso de validações de formulários e como implementá-las de forma eficiente. Ao final da aula, os alunos terão aprendido a criar formulários genéricos e reutilizáveis com base no conceito de atomic design.

@@ -11,6 +11,8 @@ ogImage:
 ---
 Nessa aula, você aprenderá a criar um componente de modal genérico utilizando a biblioteca Chakra UI. O objetivo é ter um componente reutilizável que possa ser usado em vários lugares da aplicação, sem precisar escrever o código do modal toda vez que precisarmos dele.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 O componente de modal consistirá em uma janela flutuante que será exibida em cima do conteúdo da aplicação, ocupando toda a tela e escurecendo o fundo. O usuário poderá interagir com o conteúdo do modal e fechá-lo clicando em um botão ou clicando fora da janela.
 
 Para criar esse componente, você precisará importar os componentes `Modal`, `ModalOverlay`, `ModalContent`, `ModalHeader`, `ModalFooter` e `ModalBody` da biblioteca Chakra UI. Além disso, você precisará utilizar os hooks `useState` e `useRef` do React para controlar a exibição do modal e a referência do elemento do modal, respectivamente.

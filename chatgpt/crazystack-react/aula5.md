@@ -13,6 +13,8 @@ ogImage:
 
 Nessa aula, vamos aprender sobre a lib @tanstack/react-query, que é uma ferramenta poderosa para o gerenciamento de estados em aplicações React. Vamos começar explicando o que é uma biblioteca de gerenciamento de estados e porque é importante ter essa ferramenta em nossa stack de desenvolvimento.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 Vamos conhecer os principais conceitos da lib @tanstack/react-query, como fetching, caching, polling, etc. Além disso, vamos aprender como essa biblioteca ajuda a evitar problemas comuns quando lidamos com requisições assíncronas, como por exemplo, a exibição de mensagens de erro para o usuário.
 
 Ao final desse tópico, você deverá ter uma noção clara do que é a lib @tanstack/react-query e como ela pode ser útil em seu projeto React.

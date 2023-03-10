@@ -11,6 +11,8 @@ ogImage:
 ---
 Nesta aula, vamos criar uma tela de login utilizando o método de design atomic e a biblioteca Chakra UI. Começaremos revisando o que é o design atomic e sua importância para a construção de interfaces de usuário consistentes e de fácil manutenção. Em seguida, vamos criar os componentes atômicos necessários para a nossa tela de login, como o input, o botão e o formulário.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 Para criar esses componentes, utilizaremos as propriedades e componentes oferecidos pela Chakra UI, que é uma biblioteca de componentes UI React construída com base no design system da figma. A Chakra UI oferece uma ampla gama de componentes prontos para uso, além de fornecer opções de personalização para que você possa adaptar a aparência dos componentes às suas necessidades.
 
 Depois de criarmos os componentes atômicos, vamos utilizá-los para montar a nossa tela de login. Nesta etapa, vamos prestar atenção à consistência da aparência e interação dos componentes, além de garantir que eles sejam fáceis de usar e entender para o usuário. Além disso, vamos adicionar a funcionalidade de autenticação à nossa tela de login, utilizando a hook useState do React para gerenciar o estado do formulário.

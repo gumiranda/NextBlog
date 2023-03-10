@@ -11,6 +11,8 @@ ogImage:
 ---
 Nesta aula, você aprenderá como carregar os dados de um usuário logado a partir de um cookie usando a biblioteca "nookies".
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 A ideia é salvar o estado de autenticação do usuário no cookie ao fazer o login, e carregá-lo na próxima vez que o usuário acessar o site. Isso é importante para que o usuário não precise fazer login novamente toda vez que recarregar a página.
 
 A biblioteca "nookies" é uma solução fácil de usar para gerenciar cookies em aplicações Next.js. Ela fornece uma maneira simples de ler e escrever cookies em sua aplicação, além de permitir que você configure a validade de um cookie e outras opções importantes.

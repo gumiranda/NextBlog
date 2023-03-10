@@ -12,7 +12,7 @@ ogImage:
 ## A Introdução ao Chakra UI
 
 O Chakra UI é um conjunto de componentes React que fornecem estilos baseados em padrões de design, acessibilidade e suporte a idiomas. É uma biblioteca de componentes altamente personalizável e fácil de usar que ajuda a agilizar o desenvolvimento de interfaces do usuário com design atraente e acessível.
-
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
 ## Instalação
 
 Para instalar o Chakra UI, você precisa primeiro ter o Node.js e o npm instalados em sua máquina. Depois disso, você pode instalar o Chakra UI com o seguinte comando no terminal:

@@ -9,7 +9,12 @@ author:
 ogImage:
   url: 'https://avatars.githubusercontent.com/u/13774579?v=4'
 ---
-Nesta aula, vamos aprender como criar componentes dinâmicos e seus testes unitários com Chakra UI e Plop.js. Aqui está o roteiro da aula:
+
+Nesta aula, vamos aprender como criar componentes dinâmicos e seus testes unitários com Chakra UI e Plop.js.
+
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
+Aqui está o roteiro da aula:
 
 1.  Instalação de dependências:
 

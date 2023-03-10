@@ -11,6 +11,8 @@ ogImage:
 ---
 Nesta aula, você irá aprender a construir uma feature completa de login, incluindo validação de formulários com Yup e gerenciamento de estado com React Hook Form. O objetivo é construir uma interface de login reutilizável e fácil de usar com validações de formulários eficientes e gerenciamento de estado simplificado.
 
+O vídeo dessa aula será publicada em breve no bootcamp CrazyStack, se você ainda não garantiu sua vaga clique [aqui](https://crazystack.com.br)
+
 Antes de começarmos, é importante ter uma compreensão básica de hooks e Yup. Se você ainda não tem essa compreensão, recomendo fazer uma pesquisa básica sobre esses conceitos antes de prosseguir.
 
 Começaremos importando as dependências necessárias e criando um schema de validação com Yup. O schema define as regras de validação que serão aplicadas aos dados do formulário antes de enviá-los para o servidor. Em seguida, utilizaremos o React Hook Form para gerenciar o estado do formulário e registrar os campos de entrada.
